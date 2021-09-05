@@ -1,5 +1,6 @@
 const webPages = new Set([
     // Sidebar from HTMLElement page
+    "HTMLElement",
     "BeforeUnloadEvent",
     "DOMStringMap",
     "ErrorEvent",
