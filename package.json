@@ -20,5 +20,12 @@
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gerrit0/typedoc-plugin-mdn-links.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Gerrit0/typedoc-plugin-mdn-links/issues"
   }
 }
