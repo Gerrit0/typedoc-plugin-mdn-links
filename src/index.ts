@@ -1,4 +1,5 @@
 import { Application } from "typedoc";
+import { resolveCanvasName } from "./canvas";
 import { resolveCssName } from "./css";
 import { resolveDomName } from "./dom";
 import { resolveGlobalName } from "./globalObjects";
@@ -12,6 +13,7 @@ export function load(app: Application) {
             resolveGlobalName(name) ??
             resolveDomName(name) ??
             resolveCssName(name) ??
+            resolveCanvasName(name) ??
             resolveWebAudioName(name);
 
         if (!result && !failed.has(name)) {
