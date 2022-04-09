@@ -1,7 +1,9 @@
 import { Application } from "typedoc";
+import { resolveCanvasName } from "./canvas";
 import { resolveCssName } from "./css";
 import { resolveDomName } from "./dom";
 import { resolveGlobalName } from "./globalObjects";
+import { resolveWebAudioName } from "./webaudio";
 
 export function load(app: Application) {
     const failed = new Set<string>();
@@ -10,7 +12,9 @@ export function load(app: Application) {
         const result =
             resolveGlobalName(name) ??
             resolveDomName(name) ??
-            resolveCssName(name);
+            resolveCssName(name) ??
+            resolveCanvasName(name) ??
+            resolveWebAudioName(name);
 
         if (!result && !failed.has(name)) {
             failed.add(name);
