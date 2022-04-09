@@ -18,8 +18,8 @@
     "typedoc": "0.22.x"
   },
   "scripts": {
-    "build": "tsc",
-    "prepublishOnly": "yarn build"
+    "lint": "prettier --check .",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
