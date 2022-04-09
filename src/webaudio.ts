@@ -35,7 +35,7 @@ const audioPages = new Set([
     "PannerNode",
     "PeriodicWave",
     "WaveShaperNode",
-    "StereoPannerNode"
+    "StereoPannerNode",
 ]);
 
 export function resolveWebAudioName(name: string) {
