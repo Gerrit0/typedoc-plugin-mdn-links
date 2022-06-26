@@ -34,4 +34,7 @@ jobs:
                   NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
             - name: Publish
               if: steps.check.outputs.changed == 'true'
-              run: npm publish --non-interactive
+              run: |
+                  npm publish --non-interactive
+                  git tag v$(jq .version package.json -r)
+                  git push --tags

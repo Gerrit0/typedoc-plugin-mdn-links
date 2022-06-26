@@ -8,6 +8,11 @@ Supports TypeDoc 0.22.x.
 
 ## Changelog
 
+### v2.0.0 (2022-06-26)
+
+-   Support TypeDoc 0.23
+-   Drop support for Node 12
+
 ### v1.0.6 (2022-04-09)
 
 -   Added support for WebAudio and Canvas APIs (@johh)
