@@ -8,6 +8,10 @@ Supports TypeDoc 0.22.x.
 
 ## Changelog
 
+### v2.0.1 (2022-12-16)
+
+-   Add many missing links
+
 ### v2.0.0 (2022-06-26)
 
 -   Support TypeDoc 0.23
