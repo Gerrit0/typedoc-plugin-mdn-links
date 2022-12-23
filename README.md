@@ -8,9 +8,13 @@ Supports TypeDoc 0.22.x.
 
 ## Changelog
 
+### v2.0.2 (2022-12-22)
+
+-   Add missing `AsyncGenerator` and `AsyncGeneratorFunction` pages (@achingbrain)
+
 ### v2.0.1 (2022-12-16)
 
--   Add many missing links
+-   Add many missing links (@achingbrain)
 
 ### v2.0.0 (2022-06-26)
 
