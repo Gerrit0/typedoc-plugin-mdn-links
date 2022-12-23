@@ -78,8 +78,9 @@ const knownGlobalObjects = new Set([
     "Generator",
     "GeneratorFunction",
     "AsyncFunction",
-    // "AsyncGenerator", // No file on MDN yet
-    // "AsyncGeneratorFunction", // No file on MDN yet
+    "AsyncGenerator",
+    "AsyncGeneratorFunction",
+    // "IteratorResult", No file on MDN yet https://github.com/mdn/content/issues/23131
 
     // Reflection
     "Reflect",
