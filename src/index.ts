@@ -8,7 +8,12 @@ import { resolveWebAudioName } from "./webaudio";
 export function load(app: Application) {
     const failed = new Set<string>();
 
-    app.renderer.addUnknownSymbolResolver("typescript", (name) => {
+    app.converter.addUnknownSymbolResolver((declaration) => {
+        if (declaration.moduleSource !== "typescript") return;
+
+        const name = declaration.symbolReference?.path?.[0].path;
+        if (!name) return;
+
         const result =
             resolveGlobalName(name) ??
             resolveDomName(name) ??
