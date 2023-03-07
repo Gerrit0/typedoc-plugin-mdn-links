@@ -5,7 +5,7 @@
   "license": "MIT",
   "devDependencies": {
     "prettier": "^2.7.1",
-    "typedoc": "^0.23.1",
+    "typedoc": "^0.23.26",
     "typescript": "^4.7.4"
   },
   "keywords": [
@@ -15,7 +15,7 @@
     "dist"
   ],
   "peerDependencies": {
-    "typedoc": "0.22.x || 0.23.x"
+    "typedoc": ">= 0.22.14 || >= 0.23.26 || 0.24.x"
   },
   "scripts": {
     "lint": "prettier --check .",
