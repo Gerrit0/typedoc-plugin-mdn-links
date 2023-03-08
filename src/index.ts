@@ -11,7 +11,9 @@ export function load(app: Application) {
     app.converter.addUnknownSymbolResolver((declaration) => {
         if (declaration.moduleSource !== "typescript") return;
 
-        const name = declaration.symbolReference?.path?.[0].path;
+        const name = declaration.symbolReference?.path
+            ?.map((path) => path.path)
+            .join(".");
         if (!name) return;
 
         const result =
