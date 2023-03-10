@@ -8,7 +8,7 @@ Supports TypeDoc 0.23.x and 0.24.x
 
 ## Changelog
 
-### Unreleased
+### v3.0.1 (2023-03-09)
 
 -   Add support for `{@link !NaN}` to link to global symbols, #4
 -   Fix links to Intl/WebAssembly namespace members
