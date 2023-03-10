@@ -92,22 +92,22 @@ const knownGlobalObjects = new Set([
 
 const knownScopedGlobalObjects = {
     // Internationalization
-    Collator: "Intl/Collator",
-    DateTimeFormat: "Intl/DateTimeFormat",
-    ListFormat: "Intl/ListFormat",
-    NumberFormat: "Intl/NumberFormat",
-    PluralRules: "Intl/PluralRules",
-    RelativeTimeFormat: "Intl/RelativeTimeFormat",
-    Locale: "Intl/Locale",
+    "Intl.Collator": "Intl/Collator",
+    "Intl.DateTimeFormat": "Intl/DateTimeFormat",
+    "Intl.ListFormat": "Intl/ListFormat",
+    "Intl.NumberFormat": "Intl/NumberFormat",
+    "Intl.PluralRules": "Intl/PluralRules",
+    "Intl.RelativeTimeFormat": "Intl/RelativeTimeFormat",
+    "Intl.Locale": "Intl/Locale",
 
     // WebAssembly
-    Module: "WebAssembly/Module",
-    Instance: "WebAssembly/Instance",
-    Memory: "WebAssembly/Memory",
-    Table: "WebAssembly/Table",
-    CompileError: "WebAssembly/CompileError",
-    LinkError: "WebAssembly/LinkError",
-    RuntimeError: "WebAssembly/RuntimeError",
+    "WebAssembly.Module": "WebAssembly/Module",
+    "WebAssembly.Instance": "WebAssembly/Instance",
+    "WebAssembly.Memory": "WebAssembly/Memory",
+    "WebAssembly.Table": "WebAssembly/Table",
+    "WebAssembly.CompileError": "WebAssembly/CompileError",
+    "WebAssembly.LinkError": "WebAssembly/LinkError",
+    "WebAssembly.RuntimeError": "WebAssembly/RuntimeError",
 };
 
 export function resolveGlobalName(name: string) {

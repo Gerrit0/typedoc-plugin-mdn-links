@@ -1,10 +1,12 @@
 {
     "compilerOptions": {
         "target": "es2020",
-        "module": "Node16",
+        "module": "CommonJS",
         "strict": true,
         "isolatedModules": true,
-        "outDir": "dist"
+        "esModuleInterop": true,
+        "outDir": "dist",
+        "types": []
     },
     "include": ["."]
 }

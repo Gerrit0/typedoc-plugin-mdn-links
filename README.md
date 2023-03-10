@@ -8,6 +8,12 @@ Supports TypeDoc 0.23.x and 0.24.x
 
 ## Changelog
 
+### Unreleased
+
+-   Add support for `{@link !NaN}` to link to global symbols, #4
+-   Fix links to Intl/WebAssembly namespace members
+-   In TypeDoc versions 0.23.26 and later will now use the symbol name as the default link test
+
 ### v3.0.0 (2023-03-09)
 
 -   Add support for TypeDoc 0.24 (@ocavue)
