@@ -18,6 +18,7 @@
     "dist/dom.js",
     "dist/globalObjects.js",
     "dist/index.js",
+    "dist/typescript.js",
     "dist/webaudio.js"
   ],
   "peerDependencies": {
