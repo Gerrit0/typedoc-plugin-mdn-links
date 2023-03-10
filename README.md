@@ -4,9 +4,14 @@ Adds support for linking references to global types like `HTMLElement`, `WebAsse
 
 This is probably missing links! If you set `--logLevel Verbose`, it will print out when failing to resolve a symbol to a page on MDN. Pull requests to fix failed resolution are welcome!
 
-Supports TypeDoc 0.22.x.
+Supports TypeDoc 0.23.x and 0.24.x
 
 ## Changelog
+
+### v3.0.0 (2023-03-09)
+
+-   Add support for TypeDoc 0.24 (@ocavue)
+-   Drop support for TypeDoc 0.22
 
 ### v2.0.2 (2022-12-22)
 
