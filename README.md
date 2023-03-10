@@ -17,6 +17,10 @@ Supports TypeDoc 0.23.x and 0.24.x
 -   Add support for resolving TypeScript utility types (`Partial`, `Omit`, etc.) to links on the TypeScript website.
     This can be turned off with the new `resolveUtilityTypes` option.
 
+### v3.0.2 (2023-03-10)
+
+-   Fixed invalid published package (@WikiRik)
+
 ### v3.0.1 (2023-03-09)
 
 -   Add support for `{@link !NaN}` to link to global symbols, #4
