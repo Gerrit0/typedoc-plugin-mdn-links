@@ -12,15 +12,13 @@ import { load } from "../index";
 
 let project: ProjectReflection;
 
-beforeAll(() => {
-    const app = new Application();
-    app.options.addReader(new TSConfigReader());
-    app.bootstrap({
+beforeAll(async () => {
+    const app = await Application.bootstrap({
         entryPoints: ["src/testdata/links.ts"],
     });
     load(app);
 
-    project = app.convert()!;
+    project = (await app.convert())!;
     expect(project).toBeDefined();
 });
 

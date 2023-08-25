@@ -4,13 +4,17 @@ Adds support for linking references to global types like `HTMLElement`, `WebAsse
 
 This is probably missing links! If you set `--logLevel Verbose`, it will print out when failing to resolve a symbol to a page on MDN. Pull requests to fix failed resolution are welcome!
 
-Supports TypeDoc 0.23.x and 0.24.x
+Supports TypeDoc 0.23.x, 0.24.x and 0.25.x
 
 | Option              | Default | Description                                                                                |
 | ------------------- | ------- | ------------------------------------------------------------------------------------------ |
 | resolveUtilityTypes | `true`  | Resolve links to `Partial`, `Omit`, etc. to their documentation on the TypeScript website. |
 
 ## Changelog
+
+### v3.1.0 (2023-08-25)
+
+- Added support for TypeDoc 0.25.x.
 
 ### v3.0.2 (2023-03-09)
 
