@@ -65,7 +65,7 @@ export function load(app: Application) {
             if (!result && !failed.has(name)) {
                 failed.add(name);
                 app.logger.verbose(
-                    `[typedoc-plugin-mdn-links]: Failed to resolve type: ${name}`
+                    `[typedoc-plugin-mdn-links]: Failed to resolve type: ${name}`,
                 );
             }
 

@@ -30,7 +30,7 @@ test("Handles canvas links", () => {
 
     const ref = type as ReferenceType;
     expect(ref.externalUrl).toBe(
-        "https://developer.mozilla.org/en-US/docs/Web/API/WebGLRenderingContext"
+        "https://developer.mozilla.org/en-US/docs/Web/API/WebGLRenderingContext",
     );
 });
 
@@ -42,7 +42,7 @@ test("Handles css links", () => {
 
     const ref = type as ReferenceType;
     expect(ref.externalUrl).toBe(
-        "https://developer.mozilla.org/en-US/docs/Web/API/AnimationEvent"
+        "https://developer.mozilla.org/en-US/docs/Web/API/AnimationEvent",
     );
 });
 
@@ -54,7 +54,7 @@ test("Handles dom links", () => {
 
     const ref = type as ReferenceType;
     expect(ref.externalUrl).toBe(
-        "https://developer.mozilla.org/en-US/docs/Web/API/AbortController"
+        "https://developer.mozilla.org/en-US/docs/Web/API/AbortController",
     );
 });
 
@@ -66,7 +66,7 @@ test("Handles globalObject links", () => {
 
     const ref = type as QueryType;
     expect(ref.queryType.externalUrl).toBe(
-        "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity"
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
     );
 });
 
@@ -78,7 +78,7 @@ test("Handles scoped globalObject links", () => {
 
     const ref = type as QueryType;
     expect(ref.queryType.externalUrl).toBe(
-        "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat"
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat",
     );
 });
 
@@ -90,7 +90,7 @@ test("Handles web audio links", () => {
 
     const ref = type as ReferenceType;
     expect(ref.externalUrl).toBe(
-        "https://developer.mozilla.org/en-US/docs/Web/API/AudioContext"
+        "https://developer.mozilla.org/en-US/docs/Web/API/AudioContext",
     );
 });
 
@@ -98,7 +98,7 @@ test("Handles comment links", () => {
     const refl = project.getChildByName("comment");
     expect(refl).toBeInstanceOf(DeclarationReflection);
     const tags = refl?.comment?.summary.filter(
-        (f) => f.kind === "inline-tag"
+        (f) => f.kind === "inline-tag",
     ) as InlineTagDisplayPart[];
 
     expect(tags).toEqual([
