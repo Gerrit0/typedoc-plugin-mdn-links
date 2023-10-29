@@ -4,6 +4,7 @@
   "main": "dist/index.js",
   "license": "MIT",
   "devDependencies": {
+    "fast-xml-parser": "^4.3.2",
     "prettier": "^3.0.2",
     "typedoc": "^0.25.0",
     "typescript": "^5.2.2",
@@ -27,6 +28,7 @@
   "scripts": {
     "lint": "prettier --check .",
     "build": "tsc",
+    "generateSitemap": "node ./scripts/generateSitemap.js",
     "test": "vitest run"
   },
   "repository": {
@@ -35,5 +37,8 @@
   },
   "bugs": {
     "url": "https://github.com/Gerrit0/typedoc-plugin-mdn-links/issues"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
   }
 }
