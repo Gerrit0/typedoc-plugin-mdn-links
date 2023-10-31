@@ -11,7 +11,6 @@ import { resolveGlobalName } from "./globalObjects";
 import { resolveTsType } from "./typescript";
 import { resolveWebApiPath } from "./webApi";
 import { resolveWebAudioName } from "./webaudio";
-import packageInfo from "../package.json";
 
 const version = Application.VERSION.split(/[\.-]/);
 const supportsObjectReturn = +version[1] > 23 || +version[2] >= 26;
@@ -104,7 +103,7 @@ export function load(app: Application) {
                 "If this is a valid module source, please add it to the --additionalModuleSources option.",
             );
             app.logger.info(
-                `If you think this module source should be supported by default, please open an issue at ${packageInfo.bugs.url}.`,
+                `If you think this module source should be supported by default, please open an issue at https://github.com/Gerrit0/typedoc-plugin-mdn-links/issues`,
             );
         }
     });
