@@ -4,6 +4,7 @@
   "main": "dist/index.js",
   "license": "MIT",
   "devDependencies": {
+    "@webgpu/types": "^0.1.38",
     "fast-xml-parser": "^4.3.2",
     "prettier": "^3.0.2",
     "typedoc": "^0.25.0",
@@ -20,6 +21,8 @@
     "dist/globalObjects.js",
     "dist/index.js",
     "dist/typescript.js",
+    "dist/webApi.js",
+    "dist/webApiIndex.js",
     "dist/webaudio.js"
   ],
   "peerDependencies": {
@@ -28,7 +31,7 @@
   "scripts": {
     "lint": "prettier --check .",
     "build": "tsc",
-    "generateSitemap": "node ./scripts/generateSitemap.js",
+    "generateWebApiIndex": "node ./scripts/generateWebApiIndex.js",
     "test": "vitest run"
   },
   "repository": {

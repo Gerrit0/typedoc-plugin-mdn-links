@@ -9,6 +9,7 @@ import { resolveCssName } from "./css";
 import { resolveDomName } from "./dom";
 import { resolveGlobalName } from "./globalObjects";
 import { resolveTsType } from "./typescript";
+import { resolveWebApiPath } from "./webApi";
 import { resolveWebAudioName } from "./webaudio";
 
 const version = Application.VERSION.split(/[\.-]/);
@@ -36,6 +37,7 @@ export function load(app: Application) {
         resolveCssName,
         resolveCanvasName,
         resolveWebAudioName,
+        resolveWebApiPath,
     ];
     function resolveName(name: string) {
         for (const res of resolvers) {
@@ -53,6 +55,7 @@ export function load(app: Application) {
     app.converter.addUnknownSymbolResolver((declaration) => {
         if (
             declaration.moduleSource === "typescript" ||
+            declaration.moduleSource === "@webgpu/types" ||
             (!declaration.moduleSource &&
                 declaration.resolutionStart === "global")
         ) {

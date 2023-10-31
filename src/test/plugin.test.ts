@@ -128,3 +128,25 @@ test("Handles comment links", () => {
         },
     ]);
 });
+
+test("Handles otherwise unknown links", () => {
+    const refl = project.getChildByName("WGpuDevice");
+    expect(refl).toBeInstanceOf(DeclarationReflection);
+    const type = (refl as DeclarationReflection).type;
+    expect(type).toBeInstanceOf(ReferenceType);
+
+    const ref = type as ReferenceType;
+    expect(ref.externalUrl).toBe(
+        "https://developer.mozilla.org/en-US/docs/Web/API/GPUDevice",
+    );
+});
+
+test("Does not handle non-existent links", () => {
+    const refl = project.getChildByName("NotOnMdn");
+    expect(refl).toBeInstanceOf(DeclarationReflection);
+    const type = (refl as DeclarationReflection).type;
+    expect(type).toBeInstanceOf(ReferenceType);
+
+    const ref = type as ReferenceType;
+    expect(ref.externalUrl).toBeUndefined();
+});

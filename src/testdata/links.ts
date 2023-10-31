@@ -1,3 +1,4 @@
+/// <reference types="@webgpu/types" />
 export type GLContext = WebGLRenderingContext;
 
 export type AE = AnimationEvent;
@@ -8,6 +9,10 @@ export type Inf = typeof Infinity;
 export type DTF = typeof Intl.DateTimeFormat;
 
 export type AContext = AudioContext;
+
+type NotOnMdnImpl = "NotOnMdn";
+export type NotOnMdn = NotOnMdnImpl;
+export type WGpuDevice = GPUDevice;
 
 /**
  * Links:

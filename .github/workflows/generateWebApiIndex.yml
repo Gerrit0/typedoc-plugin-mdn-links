@@ -1,0 +1,34 @@
+name: Generate Web API Index
+
+on:
+    # Weekly on Sunday at 00:00 UTC
+    schedule:
+        - cron: "0 0 * * 0"
+
+    # Or execute manually from UI
+    workflow_dispatch:
+
+jobs:
+    generate-web-api-index:
+        name: Generate Web API Index
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v3
+            - name: Setup Node
+              uses: actions/setup-node@v2
+              with:
+                  node-version: "16"
+            - name: Install
+              run: npm install
+            - name: Execute Generation Script
+              run: |
+                  npm run generate-web-api-index
+                  npm exec prettier -- --write ./src/webApiIndex.ts
+            - name: Commit and push changes
+              run: |
+                  git config --local user.email "github-actions@github.com"
+                  git config --local user.name "github-actions"
+                  git add ./src/webApiIndex.ts
+                  git commit -m "[github-actions] Update Web API Index"
+                  git push
