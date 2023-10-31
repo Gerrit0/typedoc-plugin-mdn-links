@@ -6379,5 +6379,5 @@ export const webApiIndex: string[] = [
     "https://developer.mozilla.org/en-US/docs/Web/API/XSLTProcessor/transformToFragment",
     "https://developer.mozilla.org/en-US/docs/Web/API/XSLTProcessor/XSLTProcessor",
     "https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Using_the_Document_Object_Model/Example",
-    "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/registerProtocolHandler/Web-based_protocol_handlers"
+    "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/registerProtocolHandler/Web-based_protocol_handlers",
 ];
