@@ -47,9 +47,6 @@ async function getUrls() {
 }
 
 getUrls().then((data) => {
-    data.forEach((item) => {
-        console.log(item.replace(webAPIUrl, ""));
-    });
     const path = resolve(__dirname, "../src/webApiIndex.ts");
     const source = `export const webApiIndex: string[] = ${JSON.stringify(
         data,
