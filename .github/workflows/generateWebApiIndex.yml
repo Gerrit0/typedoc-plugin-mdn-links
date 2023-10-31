@@ -23,7 +23,7 @@ jobs:
               run: npm install
             - name: Execute Generation Script
               run: |
-                  npm run generate-web-api-index
+                  npm run generateWebApiIndex
                   npm exec prettier -- --write ./src/webApiIndex.ts
             - name: Commit and push changes
               run: |
