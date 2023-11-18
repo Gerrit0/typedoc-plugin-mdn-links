@@ -22,6 +22,7 @@ Supports TypeDoc 0.23.x, 0.24.x and 0.25.x
 ### v3.1.1 (2023-11-18)
 
 -   Updated MDN API index
+-   Fixed links to types defined in `@types/web`, #13
 
 ### v3.1.0 (2023-08-25)
 
