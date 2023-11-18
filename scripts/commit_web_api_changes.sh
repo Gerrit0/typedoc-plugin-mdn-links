@@ -2,7 +2,7 @@
 
 set -e
 
-if git diff --exit-code data/web-api.json >/dev/null; then
+if ! git diff --exit-code data/web-api.json >/dev/null; then
     echo "Web API index changed, building new release"
     version=$(npm version patch --git-tag-version=false)
 
