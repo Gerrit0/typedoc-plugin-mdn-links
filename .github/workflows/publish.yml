@@ -3,6 +3,10 @@ on:
     push:
         branches:
             - main
+    workflow_run:
+        workflows: ["Generate Web API Index"]
+        types:
+            - completed
 jobs:
     npm-publish:
         name: npm-publish
