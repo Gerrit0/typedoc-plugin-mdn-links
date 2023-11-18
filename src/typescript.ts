@@ -1,3 +1,5 @@
+import { ComponentPath } from "typedoc";
+
 const utilityTypes = new Map([
     ["Awaited", "awaitedtype"],
     ["Partial", "partialtype"],
@@ -25,7 +27,12 @@ const templateLiteralTypes = new Map([
     ["Uncapitalize", "uncapitalizestringtype"],
 ]);
 
-export function resolveTsType(name: string) {
+export function resolveTsType(names: ComponentPath[]) {
+    if (names.length !== 1) {
+        return;
+    }
+    const name = names[0].path;
+
     const utilHash = utilityTypes.get(name);
     if (utilHash) {
         return `https://www.typescriptlang.org/docs/handbook/utility-types.html#${utilHash}`;

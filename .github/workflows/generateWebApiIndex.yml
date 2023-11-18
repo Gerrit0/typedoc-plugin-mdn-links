@@ -20,15 +20,14 @@ jobs:
               with:
                   node-version: "16"
             - name: Install
-              run: npm install
+              run: npm install --no-package-lock
             - name: Execute Generation Script
               run: |
                   npm run generateWebApiIndex
-                  npm exec prettier -- --write ./src/webApiIndex.ts
             - name: Commit and push changes
               run: |
                   git config --local user.email "github-actions@github.com"
                   git config --local user.name "github-actions"
-                  git add ./src/webApiIndex.ts
+                  git add ./data/web-api.json
                   git commit -m "[github-actions] Update Web API Index"
                   git push

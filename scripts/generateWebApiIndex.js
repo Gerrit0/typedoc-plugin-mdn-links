@@ -1,58 +1,61 @@
-const { XMLParser } = require("fast-xml-parser");
-const { get } = require("axios");
+const bcd = require("@mdn/browser-compat-data");
 const { writeFileSync } = require("fs");
-const { resolve } = require("path");
 
-const webAPIUrl = "https://developer.mozilla.org/en-US/docs/Web/API";
-const sitemapUrl =
-    "https://developer.mozilla.org/sitemaps/en-us/sitemap.xml.gz";
+/** @typedef {import("../src/webApi").WebApiData} WebApiData */
 
-// this is certainly not exhaustive, yet
-const subdirsToFilter = [
-    "/WebRTC_API/Build_a_phone_with_peerjs",
-    "/WebGL_API/By_example",
-    "/HTML_DOM_API/Microtask_guide",
-    "/Canvas_API/Tutorial",
-    "/WebGL_API/Tutorial",
-];
+/** @type {Record<string, WebApiData | string>} */
+const results = {};
 
-async function getSitemap() {
-    const { data } = await get(sitemapUrl, { responseType: "text" });
-    const parser = new XMLParser();
-    const sitemap = parser.parse(data);
-    return sitemap;
-}
+/**
+ * @param {Record<string, WebApiData | string>} outResults
+ * @param {string} key
+ * @param {import("@mdn/browser-compat-data").Identifier} data
+ */
+function addResults(outResults, key, data) {
+    // _event pages reference events emitted by an object, not a real property.
+    // Would be nice to link to them somehow, but it's misleading to allow {@link foo.test_event}
+    // since there isn't actually a property called that...
+    if (key.endsWith("_event")) return;
 
-async function getUrls() {
-    const sitemap = await getSitemap();
-    const rawUrls = sitemap.urlset.url
-        .map((url) => url.loc)
-        .filter((url) => url.startsWith(webAPIUrl) && url !== webAPIUrl);
+    // No MDN page = no link
+    if (!data.__compat?.mdn_url) return;
 
-    let validUrls = [];
-    for (const url of rawUrls) {
-        const [_, subdir] = url.split(webAPIUrl);
+    /** @type {WebApiData} */
+    const result = {
+        url: data.__compat.mdn_url,
+        inst: {},
+        stat: {},
+    };
 
-        if (
-            subdir &&
-            !subdirsToFilter.some((sdir) =>
-                subdir.toLowerCase().startsWith(sdir.toLowerCase()),
-            )
-        ) {
-            validUrls.push(url);
+    for (const key in data) {
+        if (key !== "__compat") {
+            addResults(
+                key.endsWith("_static") ? result.stat : result.inst,
+                key.replace(/_static$/, ""),
+                data[key],
+            );
         }
     }
 
-    return validUrls;
+    if (!Object.keys(result.inst).length) {
+        delete result.inst;
+    }
+    if (!Object.keys(result.stat).length) {
+        delete result.stat;
+    }
+
+    if (!result.inst && !result.stat) {
+        outResults[key] = data.__compat.mdn_url;
+    } else {
+        outResults[key] = result;
+    }
 }
 
-getUrls().then((data) => {
-    const path = resolve(__dirname, "../src/webApiIndex.ts");
-    const source = `export const webApiIndex: string[] = ${JSON.stringify(
-        data,
-        null,
-        4,
-    )};`;
+for (const key in bcd.api) {
+    addResults(results, key, bcd.api[key]);
+}
+for (const key in bcd.javascript.builtins) {
+    addResults(results, key, bcd.javascript.builtins[key]);
+}
 
-    writeFileSync(path, source);
-});
+writeFileSync("data/web-api.json", JSON.stringify(results, null, "\t"));

@@ -5,20 +5,18 @@ import {
     ProjectReflection,
     QueryType,
     ReferenceType,
-    TSConfigReader,
 } from "typedoc";
 import { test, expect, beforeAll, describe } from "vitest";
-import { load } from "../index";
-
-let project: ProjectReflection;
+import { load } from "../index.js";
 
 describe("Statically defined names", () => {
+    let project: ProjectReflection;
+
     beforeAll(async () => {
         const app = await Application.bootstrap({
             entryPoints: ["src/testdata/links.ts"],
         });
         load(app);
-
         project = (await app.convert())!;
         expect(project).toBeDefined();
     });
@@ -31,7 +29,7 @@ describe("Statically defined names", () => {
 
         const ref = type as ReferenceType;
         expect(ref.externalUrl).toBe(
-            "https://developer.mozilla.org/en-US/docs/Web/API/WebGLRenderingContext",
+            "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext",
         );
     });
 
@@ -43,7 +41,7 @@ describe("Statically defined names", () => {
 
         const ref = type as ReferenceType;
         expect(ref.externalUrl).toBe(
-            "https://developer.mozilla.org/en-US/docs/Web/API/AnimationEvent",
+            "https://developer.mozilla.org/docs/Web/API/AnimationEvent",
         );
     });
 
@@ -55,7 +53,7 @@ describe("Statically defined names", () => {
 
         const ref = type as ReferenceType;
         expect(ref.externalUrl).toBe(
-            "https://developer.mozilla.org/en-US/docs/Web/API/AbortController",
+            "https://developer.mozilla.org/docs/Web/API/AbortController",
         );
     });
 
@@ -67,7 +65,7 @@ describe("Statically defined names", () => {
 
         const ref = type as QueryType;
         expect(ref.queryType.externalUrl).toBe(
-            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+            "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
         );
     });
 
@@ -79,7 +77,7 @@ describe("Statically defined names", () => {
 
         const ref = type as QueryType;
         expect(ref.queryType.externalUrl).toBe(
-            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat",
+            "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat",
         );
     });
 
@@ -91,59 +89,56 @@ describe("Statically defined names", () => {
 
         const ref = type as ReferenceType;
         expect(ref.externalUrl).toBe(
-            "https://developer.mozilla.org/en-US/docs/Web/API/AudioContext",
+            "https://developer.mozilla.org/docs/Web/API/AudioContext",
         );
     });
 
     test("Handles comment links", () => {
         const refl = project.getChildByName("comment");
         expect(refl).toBeInstanceOf(DeclarationReflection);
-        const tags = refl?.comment?.summary.filter(
-            (f) => f.kind === "inline-tag",
-        ) as InlineTagDisplayPart[];
+        const tags = (
+            refl?.comment?.summary.filter(
+                (f) => f.kind === "inline-tag",
+            ) as InlineTagDisplayPart[]
+        ).map((part) => ({ target: part.target, text: part.text }));
 
         expect(tags).toEqual([
             {
-                kind: "inline-tag",
-                tag: "@link",
-                target: "https://developer.mozilla.org/en-US/docs/Web/API/WebGLRenderingContext",
+                target: "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext",
                 text: "WebGLRenderingContext",
             },
             {
-                kind: "inline-tag",
-                tag: "@link",
-                target: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+                target: "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/NaN",
                 text: "NaN",
             },
             {
-                kind: "inline-tag",
-                tag: "@link",
-                target: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat",
+                target: "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat",
                 text: "Intl.DateTimeFormat",
             },
             {
-                kind: "inline-tag",
-                tag: "@link",
-                target: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat",
+                target: "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat",
                 text: "custom",
+            },
+            {
+                target: "https://developer.mozilla.org/docs/Web/API/AbortSignal/abort_static",
+                text: "AbortSignal.abort",
+            },
+            {
+                target: "https://developer.mozilla.org/docs/Web/API/Response/json_static",
+                text: "Response.json",
+            },
+            {
+                target: "https://developer.mozilla.org/docs/Web/API/Response/json",
+                text: "Response#json",
+            },
+            {
+                target: undefined,
+                text: "!AbortSignal.abort_static",
             },
         ]);
     });
-});
 
-describe("Fallback to webApi index", () => {
-    beforeAll(async () => {
-        const app = await Application.bootstrap({
-            entryPoints: ["src/testdata/links.ts"],
-        });
-        load(app);
-        app.options.setValue("additionalModuleSources", ["@webgpu/types"]);
-
-        project = (await app.convert())!;
-        expect(project).toBeDefined();
-    });
-
-    test("Handles otherwise unknown links", () => {
+    test("Handles types from @webgpu/types", () => {
         const refl = project.getChildByName("WGpuDevice");
         expect(refl).toBeInstanceOf(DeclarationReflection);
         const type = (refl as DeclarationReflection).type;
@@ -151,7 +146,7 @@ describe("Fallback to webApi index", () => {
 
         const ref = type as ReferenceType;
         expect(ref.externalUrl).toBe(
-            "https://developer.mozilla.org/en-US/docs/Web/API/GPUDevice",
+            "https://developer.mozilla.org/docs/Web/API/GPUDevice",
         );
     });
 

@@ -20,5 +20,13 @@ export type WGpuDevice = GPUDevice;
  * - {@link !NaN}
  * - {@link !Intl.DateTimeFormat}
  * - {@link !Intl.DateTimeFormat | custom}
+ * Shows up as `{ AbortSignal: { abort_static: {} }}` in compat data
+ * - {@link !AbortSignal.abort}
+ * Response has both a static and an instance method named `json`
+ * - {@link !Response.json} - static
+ * - {@link !Response#json} - instance
+ * Should not link an improper use of a name containing _static,
+ * even though that's what comes from browser-compat-data
+ * - {@link !AbortSignal.abort_static}
  */
 export const comment = true;
