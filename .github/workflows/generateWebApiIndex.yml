@@ -16,7 +16,7 @@ jobs:
             - name: Checkout repository
               uses: actions/checkout@v3
             - name: Setup Node
-              uses: actions/setup-node@v2
+              uses: actions/setup-node@v3
               with:
                   node-version: "16"
             - name: Install
@@ -28,6 +28,4 @@ jobs:
               run: |
                   git config --local user.email "github-actions@github.com"
                   git config --local user.name "github-actions"
-                  git add ./data/web-api.json
-                  git commit -m "[github-actions] Update Web API Index"
-                  git push
+                  ./scripts/commit_web_api_changes.sh
