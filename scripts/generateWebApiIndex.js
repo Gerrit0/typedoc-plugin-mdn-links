@@ -1,5 +1,6 @@
 const bcd = require("@mdn/browser-compat-data");
 const { writeFileSync } = require("fs");
+const { join } = require("path");
 
 /** @typedef {import("../src/webApi").WebApiData} WebApiData */
 
@@ -58,4 +59,8 @@ for (const key in bcd.javascript.builtins) {
     addResults(results, key, bcd.javascript.builtins[key]);
 }
 
-writeFileSync("data/web-api.json", JSON.stringify(results, null, "\t"));
+console.log("There are", Object.keys(results).length, "root entries.");
+writeFileSync(
+    join(__dirname, "../data/web-api.json"),
+    JSON.stringify(results, null, "\t"),
+);
