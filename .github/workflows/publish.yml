@@ -18,7 +18,7 @@ jobs:
             - id: check
               uses: EndBug/version-check@1d7d917a07973cd80343b97a30ab1feca68dd4c6
               with:
-                  static-checking: true
+                  static-checking: remoteIsNew
             - name: Set up Node
               if: steps.check.outputs.changed == 'true'
               uses: actions/setup-node@v3
