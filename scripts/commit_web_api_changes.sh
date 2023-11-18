@@ -1,6 +1,9 @@
 #!/bin/bash
 
+set -e
+
 if git diff --exit-code data/web-api.json >/dev/null; then
+    echo "Web API index changed, building new release"
     version=$(npm version patch --git-tag-version=false)
 
 extra=$"\
@@ -25,4 +28,6 @@ extra=$"\
     git add README.md ./package.json ./package-lock.json ./data/web-api.json
     git commit -m "[github-actions] Update Web API Index";
     git push
+else
+    echo "No web API changes"
 fi
