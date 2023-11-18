@@ -4,22 +4,20 @@
   "main": "dist/index.js",
   "license": "MIT",
   "devDependencies": {
-    "prettier": "^3.0.2",
-    "typedoc": "^0.25.0",
+    "@webgpu/types": "^0.1.39",
+    "prettier": "^3.1.0",
+    "typedoc": "^0.25.3",
     "typescript": "^5.2.2",
-    "vitest": "^0.34.3"
+    "vitest": "^0.34.6",
+    "@mdn/browser-compat-data": "5.x.x"
   },
   "keywords": [
     "typedoc-plugin"
   ],
   "files": [
-    "dist/canvas.js",
-    "dist/css.js",
-    "dist/dom.js",
-    "dist/globalObjects.js",
     "dist/index.js",
     "dist/typescript.js",
-    "dist/webaudio.js"
+    "dist/webApi.js"
   ],
   "peerDependencies": {
     "typedoc": ">= 0.23.14 || 0.24.x || 0.25.x"
@@ -27,6 +25,7 @@
   "scripts": {
     "lint": "prettier --check .",
     "build": "tsc",
+    "generateWebApiIndex": "node ./scripts/generateWebApiIndex.js",
     "test": "vitest run"
   },
   "repository": {

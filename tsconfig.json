@@ -1,12 +1,18 @@
 {
     "compilerOptions": {
         "target": "es2020",
+        // Would be really nice to be able to use NodeNext
+        // Blocked on https://github.com/mdn/browser-compat-data/pull/21270
+        // "module": "NodeNext",
         "module": "CommonJS",
         "strict": true,
         "isolatedModules": true,
         "esModuleInterop": true,
+        "resolveJsonModule": true,
         "outDir": "dist",
-        "types": []
+        "types": [],
+        // Stuck with this due to not having NodeNext
+        "skipLibCheck": true
     },
     "include": ["."]
 }

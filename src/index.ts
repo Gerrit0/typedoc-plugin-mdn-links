@@ -1,15 +1,6 @@
-import {
-    Application,
-    Converter,
-    ExternalResolveResult,
-    ParameterType,
-} from "typedoc";
-import { resolveCanvasName } from "./canvas";
-import { resolveCssName } from "./css";
-import { resolveDomName } from "./dom";
-import { resolveGlobalName } from "./globalObjects";
+import { Application, ComponentPath, Converter, ParameterType } from "typedoc";
 import { resolveTsType } from "./typescript";
-import { resolveWebAudioName } from "./webaudio";
+import { resolveWebApiPath } from "./webApi";
 
 const version = Application.VERSION.split(/[\.-]/);
 const supportsObjectReturn = +version[1] > 23 || +version[2] >= 26;
@@ -17,8 +8,11 @@ const supportsObjectReturn = +version[1] > 23 || +version[2] >= 26;
 declare module "typedoc" {
     export interface TypeDocOptionMap {
         resolveUtilityTypes: boolean;
+        additionalModuleSources: string[];
     }
 }
+
+const defaultModuleSources = ["typescript", "@types/web", "@webgpu/types"];
 
 export function load(app: Application) {
     const failed = new Set<string>();
@@ -30,14 +24,15 @@ export function load(app: Application) {
         type: ParameterType.Boolean,
     });
 
-    const resolvers = [
-        resolveGlobalName,
-        resolveDomName,
-        resolveCssName,
-        resolveCanvasName,
-        resolveWebAudioName,
-    ];
-    function resolveName(name: string) {
+    app.options.addDeclaration({
+        name: "additionalModuleSources",
+        help: "[typedoc-plugin-mdn-links]: Additional module sources to resolve.",
+        type: ParameterType.Array,
+        defaultValue: [],
+    });
+
+    const resolvers = [resolveWebApiPath];
+    function resolveName(name: ComponentPath[]) {
         for (const res of resolvers) {
             const result = res(name);
             if (result) return result;
@@ -51,32 +46,46 @@ export function load(app: Application) {
     });
 
     app.converter.addUnknownSymbolResolver((declaration) => {
-        if (
-            declaration.moduleSource === "typescript" ||
-            (!declaration.moduleSource &&
-                declaration.resolutionStart === "global")
-        ) {
-            const name = declaration.symbolReference?.path
-                ?.map((path) => path.path)
-                .join(".");
-            if (!name) return;
-            const result = resolveName(name);
+        const validSources = [
+            ...app.options.getValue("additionalModuleSources"),
+            ...defaultModuleSources,
+        ];
+        const moduleSource = declaration.moduleSource;
 
-            if (!result && !failed.has(name)) {
-                failed.add(name);
+        if (
+            (moduleSource && validSources.includes(moduleSource)) ||
+            (!moduleSource && declaration.resolutionStart === "global")
+        ) {
+            const names = declaration.symbolReference?.path;
+            if (!names) return;
+            const dottedName = stringifyPath(names);
+            const result = resolveName(names);
+
+            if (!result && !failed.has(dottedName)) {
+                failed.add(dottedName);
                 app.logger.verbose(
-                    `[typedoc-plugin-mdn-links]: Failed to resolve type: ${name}`,
+                    `[typedoc-plugin-mdn-links]: Failed to resolve type: ${dottedName}`,
                 );
             }
 
             if (supportsObjectReturn && result) {
                 return {
                     target: result,
-                    caption: name,
+                    caption: dottedName,
                 };
             }
 
             return result;
         }
     });
+}
+
+function stringifyPath(path: ComponentPath[]) {
+    let result = path[0].path;
+
+    for (const part of path.slice(1)) {
+        result += part.navigation + part.path;
+    }
+
+    return result;
 }
