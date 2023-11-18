@@ -1,6 +1,6 @@
 {
   "name": "typedoc-plugin-mdn-links",
-  "version": "3.1.2",
+  "version": "3.1.3",
   "main": "dist/index.js",
   "license": "MIT",
   "devDependencies": {
@@ -17,7 +17,8 @@
   "files": [
     "dist/index.js",
     "dist/typescript.js",
-    "dist/webApi.js"
+    "dist/webApi.js",
+    "data/web-api.json"
   ],
   "peerDependencies": {
     "typedoc": ">= 0.23.14 || 0.24.x || 0.25.x"
