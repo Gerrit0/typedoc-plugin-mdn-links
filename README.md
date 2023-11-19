@@ -15,6 +15,10 @@ Supports TypeDoc 0.23.x, 0.24.x and 0.25.x
 
 ## Changelog
 
+### v3.1.4 (2023-11-19)
+
+-   Updated MDN API index
+
 ### v3.1.3 (2023-11-18)
 
 -   Fixed broken publish due to missing data folder, #14.

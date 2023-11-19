@@ -1414,6 +1414,22 @@
 			"offset": "https://developer.mozilla.org/docs/Web/API/ConstantSourceNode/offset"
 		}
 	},
+	"ContactAddress": {
+		"url": "https://developer.mozilla.org/docs/Web/API/ContactAddress",
+		"inst": {
+			"addressLine": "https://developer.mozilla.org/docs/Web/API/ContactAddress/addressLine",
+			"city": "https://developer.mozilla.org/docs/Web/API/ContactAddress/city",
+			"country": "https://developer.mozilla.org/docs/Web/API/ContactAddress/country",
+			"dependentLocality": "https://developer.mozilla.org/docs/Web/API/ContactAddress/dependentLocality",
+			"organization": "https://developer.mozilla.org/docs/Web/API/ContactAddress/organization",
+			"phone": "https://developer.mozilla.org/docs/Web/API/ContactAddress/phone",
+			"postalCode": "https://developer.mozilla.org/docs/Web/API/ContactAddress/postalCode",
+			"recipient": "https://developer.mozilla.org/docs/Web/API/ContactAddress/recipient",
+			"region": "https://developer.mozilla.org/docs/Web/API/ContactAddress/region",
+			"sortingCode": "https://developer.mozilla.org/docs/Web/API/ContactAddress/sortingCode",
+			"toJSON": "https://developer.mozilla.org/docs/Web/API/ContactAddress/toJSON"
+		}
+	},
 	"ContactsManager": {
 		"url": "https://developer.mozilla.org/docs/Web/API/ContactsManager",
 		"inst": {
@@ -3744,6 +3760,7 @@
 			"selectedIndex": "https://developer.mozilla.org/docs/Web/API/HTMLSelectElement/selectedIndex",
 			"selectedOptions": "https://developer.mozilla.org/docs/Web/API/HTMLSelectElement/selectedOptions",
 			"setCustomValidity": "https://developer.mozilla.org/docs/Web/API/HTMLSelectElement/setCustomValidity",
+			"showPicker": "https://developer.mozilla.org/docs/Web/API/HTMLSelectElement/showPicker",
 			"size": "https://developer.mozilla.org/docs/Web/API/HTMLSelectElement/size",
 			"type": "https://developer.mozilla.org/docs/Web/API/HTMLSelectElement/type",
 			"validationMessage": "https://developer.mozilla.org/docs/Web/API/HTMLSelectElement/validationMessage",
@@ -6996,6 +7013,7 @@
 		"inst": {
 			"clients": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/clients",
 			"registration": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/registration",
+			"serviceWorker": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/serviceWorker",
 			"skipWaiting": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/skipWaiting"
 		}
 	},
