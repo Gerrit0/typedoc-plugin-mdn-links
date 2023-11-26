@@ -1551,6 +1551,20 @@
 			"initCustomEvent": "https://developer.mozilla.org/docs/Web/API/CustomEvent/initCustomEvent"
 		}
 	},
+	"CustomStateSet": {
+		"url": "https://developer.mozilla.org/docs/Web/API/CustomStateSet",
+		"inst": {
+			"add": "https://developer.mozilla.org/docs/Web/API/CustomStateSet/add",
+			"clear": "https://developer.mozilla.org/docs/Web/API/CustomStateSet/clear",
+			"delete": "https://developer.mozilla.org/docs/Web/API/CustomStateSet/delete",
+			"entries": "https://developer.mozilla.org/docs/Web/API/CustomStateSet/entries",
+			"forEach": "https://developer.mozilla.org/docs/Web/API/CustomStateSet/forEach",
+			"has": "https://developer.mozilla.org/docs/Web/API/CustomStateSet/has",
+			"keys": "https://developer.mozilla.org/docs/Web/API/CustomStateSet/keys",
+			"size": "https://developer.mozilla.org/docs/Web/API/CustomStateSet/size",
+			"values": "https://developer.mozilla.org/docs/Web/API/CustomStateSet/values"
+		}
+	},
 	"DOMError": {
 		"url": "https://developer.mozilla.org/docs/Web/API/DOMError",
 		"inst": {
@@ -7417,6 +7431,9 @@
 		"url": "https://developer.mozilla.org/docs/Web/API/TaskSignal",
 		"inst": {
 			"priority": "https://developer.mozilla.org/docs/Web/API/TaskSignal/priority"
+		},
+		"stat": {
+			"any": "https://developer.mozilla.org/docs/Web/API/TaskSignal/any_static"
 		}
 	},
 	"Text": {
@@ -9801,7 +9818,6 @@
 	"Intl": {
 		"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl",
 		"inst": {
-			"@@toStringTag": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/@@toStringTag",
 			"Collator": {
 				"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Collator",
 				"inst": {
@@ -9962,7 +9978,6 @@
 		"inst": {
 			"@@iterator": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/@@iterator",
 			"@@species": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/@@species",
-			"@@toStringTag": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/@@toStringTag",
 			"Map": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/Map",
 			"clear": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/clear",
 			"delete": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/delete",
@@ -10199,6 +10214,7 @@
 			"isDisjointFrom": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/isDisjointFrom",
 			"isSubsetOf": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/isSubsetOf",
 			"isSupersetOf": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/isSupersetOf",
+			"keys": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/keys",
 			"size": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/size",
 			"symmetricDifference": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/symmetricDifference",
 			"union": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/union",
