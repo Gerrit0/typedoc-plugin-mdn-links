@@ -8767,8 +8767,6 @@
 			"originAgentCluster": "https://developer.mozilla.org/docs/Web/API/Window/originAgentCluster",
 			"outerHeight": "https://developer.mozilla.org/docs/Web/API/Window/outerHeight",
 			"outerWidth": "https://developer.mozilla.org/docs/Web/API/Window/outerWidth",
-			"pageXOffset": "https://developer.mozilla.org/docs/Web/API/Window/pageXOffset",
-			"pageYOffset": "https://developer.mozilla.org/docs/Web/API/Window/pageYOffset",
 			"parent": "https://developer.mozilla.org/docs/Web/API/Window/parent",
 			"personalbar": "https://developer.mozilla.org/docs/Web/API/Window/personalbar",
 			"postMessage": "https://developer.mozilla.org/docs/Web/API/Window/postMessage",
@@ -8893,6 +8891,7 @@
 			"appName": "https://developer.mozilla.org/docs/Web/API/WorkerNavigator/appName",
 			"appVersion": "https://developer.mozilla.org/docs/Web/API/WorkerNavigator/appVersion",
 			"connection": "https://developer.mozilla.org/docs/Web/API/WorkerNavigator/connection",
+			"deviceMemory": "https://developer.mozilla.org/docs/Web/API/WorkerNavigator/deviceMemory",
 			"globalPrivacyControl": "https://developer.mozilla.org/docs/Web/API/WorkerNavigator/globalPrivacyControl",
 			"gpu": "https://developer.mozilla.org/docs/Web/API/WorkerNavigator/gpu",
 			"hardwareConcurrency": "https://developer.mozilla.org/docs/Web/API/Navigator/hardwareConcurrency",
@@ -10122,7 +10121,8 @@
 			"race": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/race",
 			"reject": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/reject",
 			"resolve": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/resolve",
-			"then": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/then"
+			"then": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/then",
+			"withResolvers": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/withResolvers"
 		}
 	},
 	"Proxy": {
