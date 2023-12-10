@@ -2404,6 +2404,20 @@
 			"provider": "https://developer.mozilla.org/docs/Web/API/FederatedCredential/provider"
 		}
 	},
+	"Fence": {
+		"url": "https://developer.mozilla.org/docs/Web/API/Fence",
+		"inst": {
+			"getNestedConfigs": "https://developer.mozilla.org/docs/Web/API/Fence/getNestedConfigs",
+			"reportEvent": "https://developer.mozilla.org/docs/Web/API/Fence/reportEvent",
+			"setReportEventDataForAutomaticBeacons": "https://developer.mozilla.org/docs/Web/API/Fence/setReportEventDataForAutomaticBeacons"
+		}
+	},
+	"FencedFrameConfig": {
+		"url": "https://developer.mozilla.org/docs/Web/API/FencedFrameConfig",
+		"inst": {
+			"setSharedStorageContext": "https://developer.mozilla.org/docs/Web/API/FencedFrameConfig/setSharedStorageContext"
+		}
+	},
 	"FetchEvent": {
 		"url": "https://developer.mozilla.org/docs/Web/API/FetchEvent",
 		"inst": {
@@ -3334,6 +3348,15 @@
 		}
 	},
 	"HTMLEmbedElement": "https://developer.mozilla.org/docs/Web/API/HTMLEmbedElement",
+	"HTMLFencedFrameElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/HTMLFencedFrameElement",
+		"inst": {
+			"allow": "https://developer.mozilla.org/docs/Web/API/HTMLFencedFrameElement/allow",
+			"config": "https://developer.mozilla.org/docs/Web/API/HTMLFencedFrameElement/config",
+			"height": "https://developer.mozilla.org/docs/Web/API/HTMLFencedFrameElement/height",
+			"width": "https://developer.mozilla.org/docs/Web/API/HTMLFencedFrameElement/width"
+		}
+	},
 	"HTMLFieldSetElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLFieldSetElement",
 		"inst": {
@@ -5113,6 +5136,7 @@
 			"contacts": "https://developer.mozilla.org/docs/Web/API/Navigator/contacts",
 			"cookieEnabled": "https://developer.mozilla.org/docs/Web/API/Navigator/cookieEnabled",
 			"credentials": "https://developer.mozilla.org/docs/Web/API/Navigator/credentials",
+			"deprecatedReplaceInURN": "https://developer.mozilla.org/docs/Web/API/Navigator/deprecatedReplaceInURN",
 			"deviceMemory": "https://developer.mozilla.org/docs/Web/API/Navigator/deviceMemory",
 			"doNotTrack": "https://developer.mozilla.org/docs/Web/API/Navigator/doNotTrack",
 			"geolocation": "https://developer.mozilla.org/docs/Web/API/Navigator/geolocation",
@@ -5524,7 +5548,12 @@
 	"PaymentRequest": {
 		"url": "https://developer.mozilla.org/docs/Web/API/PaymentRequest",
 		"inst": {
-			"PaymentRequest": "https://developer.mozilla.org/docs/Web/API/PaymentRequest/PaymentRequest",
+			"PaymentRequest": {
+				"url": "https://developer.mozilla.org/docs/Web/API/PaymentRequest/PaymentRequest",
+				"inst": {
+					"secure_payment_confirmation_method": "https://developer.mozilla.org/docs/Web/API/Payment_Request_API/Concepts#secure-payment-confirmation"
+				}
+			},
 			"abort": "https://developer.mozilla.org/docs/Web/API/PaymentRequest/abort",
 			"canMakePayment": "https://developer.mozilla.org/docs/Web/API/PaymentRequest/canMakePayment",
 			"id": "https://developer.mozilla.org/docs/Web/API/PaymentRequest/id",
@@ -6846,8 +6875,7 @@
 		"inst": {
 			"Sanitizer": "https://developer.mozilla.org/docs/Web/API/Sanitizer/Sanitizer",
 			"getConfiguration": "https://developer.mozilla.org/docs/Web/API/Sanitizer/getConfiguration",
-			"sanitize": "https://developer.mozilla.org/docs/Web/API/Sanitizer/sanitize",
-			"sanitizeFor": "https://developer.mozilla.org/docs/Web/API/Sanitizer/sanitizeFor"
+			"sanitize": "https://developer.mozilla.org/docs/Web/API/Sanitizer/sanitize"
 		}
 	},
 	"Scheduler": {
@@ -8735,6 +8763,7 @@
 			"dump": "https://developer.mozilla.org/docs/Web/API/Window/dump",
 			"event": "https://developer.mozilla.org/docs/Web/API/Window/event",
 			"external": "https://developer.mozilla.org/docs/Web/API/Window/external",
+			"fence": "https://developer.mozilla.org/docs/Web/API/Window/fence",
 			"find": "https://developer.mozilla.org/docs/Web/API/Window/find",
 			"focus": "https://developer.mozilla.org/docs/Web/API/Window/focus",
 			"frameElement": "https://developer.mozilla.org/docs/Web/API/Window/frameElement",
