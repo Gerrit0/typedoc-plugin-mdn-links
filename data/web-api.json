@@ -1793,9 +1793,11 @@
 	"DedicatedWorkerGlobalScope": {
 		"url": "https://developer.mozilla.org/docs/Web/API/DedicatedWorkerGlobalScope",
 		"inst": {
+			"cancelAnimationFrame": "https://developer.mozilla.org/docs/Web/API/DedicatedWorkerGlobalScope/cancelAnimationFrame",
 			"close": "https://developer.mozilla.org/docs/Web/API/DedicatedWorkerGlobalScope/close",
 			"name": "https://developer.mozilla.org/docs/Web/API/DedicatedWorkerGlobalScope/name",
-			"postMessage": "https://developer.mozilla.org/docs/Web/API/DedicatedWorkerGlobalScope/postMessage"
+			"postMessage": "https://developer.mozilla.org/docs/Web/API/DedicatedWorkerGlobalScope/postMessage",
+			"requestAnimationFrame": "https://developer.mozilla.org/docs/Web/API/DedicatedWorkerGlobalScope/requestAnimationFrame"
 		}
 	},
 	"DelayNode": {
@@ -3601,6 +3603,7 @@
 			"preload": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/preload",
 			"preservesPitch": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/preservesPitch",
 			"readyState": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/readyState",
+			"remote": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/remote",
 			"seekToNextFrame": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/seekToNextFrame",
 			"seekable": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/seekable",
 			"seeking": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/seeking",
