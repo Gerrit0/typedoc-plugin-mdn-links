@@ -1969,6 +1969,7 @@
 			"releaseEvents": "https://developer.mozilla.org/docs/Web/API/Document/releaseEvents",
 			"replaceChildren": "https://developer.mozilla.org/docs/Web/API/Document/replaceChildren",
 			"requestStorageAccess": "https://developer.mozilla.org/docs/Web/API/Document/requestStorageAccess",
+			"requestStorageAccessFor": "https://developer.mozilla.org/docs/Web/API/Document/requestStorageAccessFor",
 			"rootElement": "https://developer.mozilla.org/docs/Web/API/Document/rootElement",
 			"scripts": "https://developer.mozilla.org/docs/Web/API/Document/scripts",
 			"scrollingElement": "https://developer.mozilla.org/docs/Web/API/Document/scrollingElement",
@@ -4358,6 +4359,7 @@
 			"code": "https://developer.mozilla.org/docs/Web/API/KeyboardEvent/code",
 			"ctrlKey": "https://developer.mozilla.org/docs/Web/API/KeyboardEvent/ctrlKey",
 			"getModifierState": "https://developer.mozilla.org/docs/Web/API/KeyboardEvent/getModifierState",
+			"initKeyboardEvent": "https://developer.mozilla.org/docs/Web/API/KeyboardEvent/initKeyboardEvent",
 			"isComposing": "https://developer.mozilla.org/docs/Web/API/KeyboardEvent/isComposing",
 			"key": "https://developer.mozilla.org/docs/Web/API/KeyboardEvent/key",
 			"keyCode": "https://developer.mozilla.org/docs/Web/API/KeyboardEvent/keyCode",
@@ -4689,6 +4691,8 @@
 			"metadata": "https://developer.mozilla.org/docs/Web/API/MediaSession/metadata",
 			"playbackState": "https://developer.mozilla.org/docs/Web/API/MediaSession/playbackState",
 			"setActionHandler": "https://developer.mozilla.org/docs/Web/API/MediaSession/setActionHandler",
+			"setCameraActive": "https://developer.mozilla.org/docs/Web/API/MediaSession/setCameraActive",
+			"setMicrophoneActive": "https://developer.mozilla.org/docs/Web/API/MediaSession/setMicrophoneActive",
 			"setPositionState": "https://developer.mozilla.org/docs/Web/API/MediaSession/setPositionState"
 		}
 	},
