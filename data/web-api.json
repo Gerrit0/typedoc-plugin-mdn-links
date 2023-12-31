@@ -1536,6 +1536,7 @@
 	"CustomElementRegistry": {
 		"url": "https://developer.mozilla.org/docs/Web/API/CustomElementRegistry",
 		"inst": {
+			"builtin_element_support": "https://developer.mozilla.org/docs/Web/API/CustomElementRegistry/define#defining_a_customized_built-in_element",
 			"define": "https://developer.mozilla.org/docs/Web/API/CustomElementRegistry/define",
 			"get": "https://developer.mozilla.org/docs/Web/API/CustomElementRegistry/get",
 			"getName": "https://developer.mozilla.org/docs/Web/API/CustomElementRegistry/getName",
@@ -4663,6 +4664,7 @@
 		"url": "https://developer.mozilla.org/docs/Web/API/MediaRecorder",
 		"inst": {
 			"MediaRecorder": "https://developer.mozilla.org/docs/Web/API/MediaRecorder/MediaRecorder",
+			"audioBitrateMode": "https://developer.mozilla.org/docs/Web/API/MediaRecorder/audioBitrateMode",
 			"audioBitsPerSecond": "https://developer.mozilla.org/docs/Web/API/MediaRecorder/audioBitsPerSecond",
 			"mimeType": "https://developer.mozilla.org/docs/Web/API/MediaRecorder/mimeType",
 			"pause": "https://developer.mozilla.org/docs/Web/API/MediaRecorder/pause",
@@ -5870,7 +5872,10 @@
 		"url": "https://developer.mozilla.org/docs/Web/API/PointerEvent",
 		"inst": {
 			"PointerEvent": "https://developer.mozilla.org/docs/Web/API/PointerEvent/PointerEvent",
+			"altitudeAngle": "https://developer.mozilla.org/docs/Web/API/PointerEvent/altitudeAngle",
+			"azimuthAngle": "https://developer.mozilla.org/docs/Web/API/PointerEvent/azimuthAngle",
 			"getCoalescedEvents": "https://developer.mozilla.org/docs/Web/API/PointerEvent/getCoalescedEvents",
+			"getPredictedEvents": "https://developer.mozilla.org/docs/Web/API/PointerEvent/getPredictedEvents",
 			"height": "https://developer.mozilla.org/docs/Web/API/PointerEvent/height",
 			"isPrimary": "https://developer.mozilla.org/docs/Web/API/PointerEvent/isPrimary",
 			"pointerId": "https://developer.mozilla.org/docs/Web/API/PointerEvent/pointerId",
@@ -6325,12 +6330,6 @@
 		},
 		"stat": {
 			"getCapabilities": "https://developer.mozilla.org/docs/Web/API/RTCRtpSender/getCapabilities_static"
-		}
-	},
-	"RTCRtpSynchronizationSource": {
-		"url": "https://developer.mozilla.org/docs/Web/API/RTCRtpSynchronizationSource",
-		"inst": {
-			"voiceActivityFlag": "https://developer.mozilla.org/docs/Web/API/RTCRtpSynchronizationSource/voiceActivityFlag"
 		}
 	},
 	"RTCRtpTransceiver": {
@@ -8953,6 +8952,7 @@
 			"addModule": "https://developer.mozilla.org/docs/Web/API/Worklet/addModule"
 		}
 	},
+	"WorkletGlobalScope": "https://developer.mozilla.org/docs/Web/API/WorkletGlobalScope",
 	"WorkletSharedStorage": {
 		"url": "https://developer.mozilla.org/docs/Web/API/WorkletSharedStorage",
 		"inst": {
