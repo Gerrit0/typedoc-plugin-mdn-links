@@ -2135,6 +2135,7 @@
 			"attachShadow": "https://developer.mozilla.org/docs/Web/API/Element/attachShadow",
 			"attributes": "https://developer.mozilla.org/docs/Web/API/Element/attributes",
 			"before": "https://developer.mozilla.org/docs/Web/API/Element/before",
+			"checkVisibility": "https://developer.mozilla.org/docs/Web/API/Element/checkVisibility",
 			"childElementCount": "https://developer.mozilla.org/docs/Web/API/Element/childElementCount",
 			"children": "https://developer.mozilla.org/docs/Web/API/Element/children",
 			"classList": "https://developer.mozilla.org/docs/Web/API/Element/classList",
@@ -3502,6 +3503,7 @@
 		"inst": {
 			"autocomplete": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/autocomplete",
 			"checkValidity": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/checkValidity",
+			"disabled": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/disabled",
 			"files": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/files",
 			"formAction": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/formAction",
 			"formEnctype": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/formEnctype",
@@ -3550,6 +3552,7 @@
 			"as": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/as",
 			"crossOrigin": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/crossOrigin",
 			"fetchPriority": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/fetchPriority",
+			"href": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/href",
 			"referrerPolicy": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/referrerPolicy",
 			"rel": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/rel",
 			"relList": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/relList",
@@ -4276,6 +4279,20 @@
 			"selectedTrack": "https://developer.mozilla.org/docs/Web/API/ImageTrackList/selectedTrack"
 		}
 	},
+	"Ink": {
+		"url": "https://developer.mozilla.org/docs/Web/API/Ink",
+		"inst": {
+			"requestPresenter": "https://developer.mozilla.org/docs/Web/API/Ink/requestPresenter"
+		}
+	},
+	"InkPresenter": {
+		"url": "https://developer.mozilla.org/docs/Web/API/InkPresenter",
+		"inst": {
+			"expectedImprovement": "https://developer.mozilla.org/docs/Web/API/InkPresenter/expectedImprovement",
+			"presentationArea": "https://developer.mozilla.org/docs/Web/API/InkPresenter/presentationArea",
+			"updateInkTrailStartPoint": "https://developer.mozilla.org/docs/Web/API/InkPresenter/updateInkTrailStartPoint"
+		}
+	},
 	"InputDeviceCapabilities": {
 		"url": "https://developer.mozilla.org/docs/Web/API/InputDeviceCapabilities",
 		"inst": {
@@ -4405,6 +4422,19 @@
 			"size": "https://developer.mozilla.org/docs/Web/API/LargestContentfulPaint/size",
 			"toJSON": "https://developer.mozilla.org/docs/Web/API/LargestContentfulPaint/toJSON",
 			"url": "https://developer.mozilla.org/docs/Web/API/LargestContentfulPaint/url"
+		}
+	},
+	"LaunchParams": {
+		"url": "https://developer.mozilla.org/docs/Web/API/LaunchParams",
+		"inst": {
+			"files": "https://developer.mozilla.org/docs/Web/API/LaunchParams/files",
+			"targetURL": "https://developer.mozilla.org/docs/Web/API/LaunchParams/targetURL"
+		}
+	},
+	"LaunchQueue": {
+		"url": "https://developer.mozilla.org/docs/Web/API/LaunchQueue",
+		"inst": {
+			"setConsumer": "https://developer.mozilla.org/docs/Web/API/LaunchQueue/setConsumer"
 		}
 	},
 	"LayoutShift": {
@@ -9518,6 +9548,7 @@
 	"setInterval": "https://developer.mozilla.org/docs/Web/API/setInterval",
 	"setTimeout": "https://developer.mozilla.org/docs/Web/API/setTimeout",
 	"structuredClone": "https://developer.mozilla.org/docs/Web/API/structuredClone",
+	"trustedTypes": "https://developer.mozilla.org/docs/Web/API/trustedTypes",
 	"AggregateError": {
 		"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/AggregateError",
 		"inst": {
