@@ -3321,6 +3321,7 @@
 			"accessKey": "https://developer.mozilla.org/docs/Web/API/HTMLElement/accessKey",
 			"accessKeyLabel": "https://developer.mozilla.org/docs/Web/API/HTMLElement/accessKeyLabel",
 			"attachInternals": "https://developer.mozilla.org/docs/Web/API/HTMLElement/attachInternals",
+			"autofocus": "https://developer.mozilla.org/docs/Web/API/HTMLElement/autofocus",
 			"blur": "https://developer.mozilla.org/docs/Web/API/HTMLElement/blur",
 			"click": "https://developer.mozilla.org/docs/Web/API/HTMLElement/click",
 			"contentEditable": "https://developer.mozilla.org/docs/Web/API/HTMLElement/contentEditable",
@@ -3349,7 +3350,9 @@
 			"style": "https://developer.mozilla.org/docs/Web/API/HTMLElement/style",
 			"tabIndex": "https://developer.mozilla.org/docs/Web/API/HTMLElement/tabIndex",
 			"title": "https://developer.mozilla.org/docs/Web/API/HTMLElement/title",
-			"togglePopover": "https://developer.mozilla.org/docs/Web/API/HTMLElement/togglePopover"
+			"togglePopover": "https://developer.mozilla.org/docs/Web/API/HTMLElement/togglePopover",
+			"translate": "https://developer.mozilla.org/docs/Web/API/HTMLElement/translate",
+			"virtualKeyboardPolicy": "https://developer.mozilla.org/docs/Web/API/HTMLElement/virtualKeyboardPolicy"
 		}
 	},
 	"HTMLEmbedElement": "https://developer.mozilla.org/docs/Web/API/HTMLEmbedElement",
@@ -3553,6 +3556,7 @@
 			"crossOrigin": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/crossOrigin",
 			"fetchPriority": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/fetchPriority",
 			"href": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/href",
+			"hreflang": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/hreflang",
 			"referrerPolicy": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/referrerPolicy",
 			"rel": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/rel",
 			"relList": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/relList",
@@ -3778,6 +3782,7 @@
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLScriptElement",
 		"inst": {
 			"attributionSrc": "https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/attributionSrc",
+			"crossOrigin": "https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/crossOrigin",
 			"referrerPolicy": "https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/referrerPolicy"
 		},
 		"stat": {
@@ -4023,6 +4028,38 @@
 			"keys": "https://developer.mozilla.org/docs/Web/API/Headers/keys",
 			"set": "https://developer.mozilla.org/docs/Web/API/Headers/set",
 			"values": "https://developer.mozilla.org/docs/Web/API/Headers/values"
+		}
+	},
+	"Highlight": {
+		"url": "https://developer.mozilla.org/docs/Web/API/Highlight",
+		"inst": {
+			"Highlight": "https://developer.mozilla.org/docs/Web/API/Highlight/Highlight",
+			"add": "https://developer.mozilla.org/docs/Web/API/Highlight/add",
+			"clear": "https://developer.mozilla.org/docs/Web/API/Highlight/clear",
+			"delete": "https://developer.mozilla.org/docs/Web/API/Highlight/delete",
+			"entries": "https://developer.mozilla.org/docs/Web/API/Highlight/entries",
+			"forEach": "https://developer.mozilla.org/docs/Web/API/Highlight/forEach",
+			"has": "https://developer.mozilla.org/docs/Web/API/Highlight/has",
+			"keys": "https://developer.mozilla.org/docs/Web/API/Highlight/keys",
+			"priority": "https://developer.mozilla.org/docs/Web/API/Highlight/priority",
+			"size": "https://developer.mozilla.org/docs/Web/API/Highlight/size",
+			"type": "https://developer.mozilla.org/docs/Web/API/Highlight/type",
+			"values": "https://developer.mozilla.org/docs/Web/API/Highlight/values"
+		}
+	},
+	"HighlightRegistry": {
+		"url": "https://developer.mozilla.org/docs/Web/API/HighlightRegistry",
+		"inst": {
+			"clear": "https://developer.mozilla.org/docs/Web/API/HighlightRegistry/clear",
+			"delete": "https://developer.mozilla.org/docs/Web/API/HighlightRegistry/delete",
+			"entries": "https://developer.mozilla.org/docs/Web/API/HighlightRegistry/entries",
+			"forEach": "https://developer.mozilla.org/docs/Web/API/HighlightRegistry/forEach",
+			"get": "https://developer.mozilla.org/docs/Web/API/HighlightRegistry/get",
+			"has": "https://developer.mozilla.org/docs/Web/API/HighlightRegistry/has",
+			"keys": "https://developer.mozilla.org/docs/Web/API/HighlightRegistry/keys",
+			"set": "https://developer.mozilla.org/docs/Web/API/HighlightRegistry/set",
+			"size": "https://developer.mozilla.org/docs/Web/API/HighlightRegistry/size",
+			"values": "https://developer.mozilla.org/docs/Web/API/HighlightRegistry/values"
 		}
 	},
 	"History": {
