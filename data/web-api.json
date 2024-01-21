@@ -1313,6 +1313,14 @@
 			"ChannelSplitterNode": "https://developer.mozilla.org/docs/Web/API/ChannelSplitterNode/ChannelSplitterNode"
 		}
 	},
+	"CharacterBoundsUpdateEvent": {
+		"url": "https://developer.mozilla.org/docs/Web/API/CharacterBoundsUpdateEvent",
+		"inst": {
+			"CharacterBoundsUpdateEvent": "https://developer.mozilla.org/docs/Web/API/CharacterBoundsUpdateEvent/CharacterBoundsUpdateEvent",
+			"rangeEnd": "https://developer.mozilla.org/docs/Web/API/CharacterBoundsUpdateEvent/rangeEnd",
+			"rangeStart": "https://developer.mozilla.org/docs/Web/API/CharacterBoundsUpdateEvent/rangeStart"
+		}
+	},
 	"CharacterData": {
 		"url": "https://developer.mozilla.org/docs/Web/API/CharacterData",
 		"inst": {
@@ -2080,6 +2088,23 @@
 	"EXT_texture_compression_rgtc": "https://developer.mozilla.org/docs/Web/API/EXT_texture_compression_rgtc",
 	"EXT_texture_filter_anisotropic": "https://developer.mozilla.org/docs/Web/API/EXT_texture_filter_anisotropic",
 	"EXT_texture_norm16": "https://developer.mozilla.org/docs/Web/API/EXT_texture_norm16",
+	"EditContext": {
+		"url": "https://developer.mozilla.org/docs/Web/API/EditContext",
+		"inst": {
+			"EditContext": "https://developer.mozilla.org/docs/Web/API/EditContext/EditContext",
+			"attachedElements": "https://developer.mozilla.org/docs/Web/API/EditContext/attachedElements",
+			"characterBounds": "https://developer.mozilla.org/docs/Web/API/EditContext/characterBounds",
+			"characterBoundsRangeStart": "https://developer.mozilla.org/docs/Web/API/EditContext/characterBoundsRangeStart",
+			"selectionEnd": "https://developer.mozilla.org/docs/Web/API/EditContext/selectionEnd",
+			"selectionStart": "https://developer.mozilla.org/docs/Web/API/EditContext/selectionStart",
+			"text": "https://developer.mozilla.org/docs/Web/API/EditContext/text",
+			"updateCharacterBounds": "https://developer.mozilla.org/docs/Web/API/EditContext/updateCharacterBounds",
+			"updateControlBounds": "https://developer.mozilla.org/docs/Web/API/EditContext/updateControlBounds",
+			"updateSelection": "https://developer.mozilla.org/docs/Web/API/EditContext/updateSelection",
+			"updateSelectionBounds": "https://developer.mozilla.org/docs/Web/API/EditContext/updateSelectionBounds",
+			"updateText": "https://developer.mozilla.org/docs/Web/API/EditContext/updateText"
+		}
+	},
 	"Element": {
 		"url": "https://developer.mozilla.org/docs/Web/API/Element",
 		"inst": {
@@ -2444,7 +2469,6 @@
 			"lastModified": "https://developer.mozilla.org/docs/Web/API/File/lastModified",
 			"lastModifiedDate": "https://developer.mozilla.org/docs/Web/API/File/lastModifiedDate",
 			"name": "https://developer.mozilla.org/docs/Web/API/File/name",
-			"type": "https://developer.mozilla.org/docs/Web/API/File/type",
 			"webkitRelativePath": "https://developer.mozilla.org/docs/Web/API/File/webkitRelativePath"
 		}
 	},
@@ -3328,6 +3352,7 @@
 			"dataset": "https://developer.mozilla.org/docs/Web/API/HTMLElement/dataset",
 			"dir": "https://developer.mozilla.org/docs/Web/API/HTMLElement/dir",
 			"draggable": "https://developer.mozilla.org/docs/Web/API/HTMLElement/draggable",
+			"editContext": "https://developer.mozilla.org/docs/Web/API/HTMLElement/editContext",
 			"enterKeyHint": "https://developer.mozilla.org/docs/Web/API/HTMLElement/enterKeyHint",
 			"focus": "https://developer.mozilla.org/docs/Web/API/HTMLElement/focus",
 			"hidden": "https://developer.mozilla.org/docs/Web/API/HTMLElement/hidden",
@@ -3991,6 +4016,7 @@
 	"HTMLVideoElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLVideoElement",
 		"inst": {
+			"cancelVideoFrameCallback": "https://developer.mozilla.org/docs/Web/API/HTMLVideoElement/cancelVideoFrameCallback",
 			"disablePictureInPicture": "https://developer.mozilla.org/docs/Web/API/HTMLVideoElement/disablePictureInPicture",
 			"getVideoPlaybackQuality": "https://developer.mozilla.org/docs/Web/API/HTMLVideoElement/getVideoPlaybackQuality",
 			"height": "https://developer.mozilla.org/docs/Web/API/HTMLVideoElement/height",
@@ -4002,6 +4028,7 @@
 			"mozPresentedFrames": "https://developer.mozilla.org/docs/Web/API/HTMLVideoElement/mozPresentedFrames",
 			"poster": "https://developer.mozilla.org/docs/Web/API/HTMLVideoElement/poster",
 			"requestPictureInPicture": "https://developer.mozilla.org/docs/Web/API/HTMLVideoElement/requestPictureInPicture",
+			"requestVideoFrameCallback": "https://developer.mozilla.org/docs/Web/API/HTMLVideoElement/requestVideoFrameCallback",
 			"videoHeight": "https://developer.mozilla.org/docs/Web/API/HTMLVideoElement/videoHeight",
 			"videoWidth": "https://developer.mozilla.org/docs/Web/API/HTMLVideoElement/videoWidth",
 			"width": "https://developer.mozilla.org/docs/Web/API/HTMLVideoElement/width"
@@ -7585,6 +7612,23 @@
 			"writable": "https://developer.mozilla.org/docs/Web/API/TextEncoderStream/writable"
 		}
 	},
+	"TextFormat": {
+		"url": "https://developer.mozilla.org/docs/Web/API/TextFormat",
+		"inst": {
+			"TextFormat": "https://developer.mozilla.org/docs/Web/API/TextFormat/TextFormat",
+			"rangeEnd": "https://developer.mozilla.org/docs/Web/API/TextFormat/rangeEnd",
+			"rangeStart": "https://developer.mozilla.org/docs/Web/API/TextFormat/rangeStart",
+			"underlineStyle": "https://developer.mozilla.org/docs/Web/API/TextFormat/underlineStyle",
+			"underlineThickness": "https://developer.mozilla.org/docs/Web/API/TextFormat/underlineThickness"
+		}
+	},
+	"TextFormatUpdateEvent": {
+		"url": "https://developer.mozilla.org/docs/Web/API/TextFormatUpdateEvent",
+		"inst": {
+			"TextFormatUpdateEvent": "https://developer.mozilla.org/docs/Web/API/TextFormatUpdateEvent/TextFormatUpdateEvent",
+			"getTextFormats": "https://developer.mozilla.org/docs/Web/API/TextFormatUpdateEvent/getTextFormats"
+		}
+	},
 	"TextMetrics": {
 		"url": "https://developer.mozilla.org/docs/Web/API/TextMetrics",
 		"inst": {
@@ -7640,6 +7684,17 @@
 		"inst": {
 			"getTrackById": "https://developer.mozilla.org/docs/Web/API/TextTrackList/getTrackById",
 			"length": "https://developer.mozilla.org/docs/Web/API/TextTrackList/length"
+		}
+	},
+	"TextUpdateEvent": {
+		"url": "https://developer.mozilla.org/docs/Web/API/TextUpdateEvent",
+		"inst": {
+			"TextUpdateEvent": "https://developer.mozilla.org/docs/Web/API/TextUpdateEvent/TextUpdateEvent",
+			"selectionEnd": "https://developer.mozilla.org/docs/Web/API/TextUpdateEvent/selectionEnd",
+			"selectionStart": "https://developer.mozilla.org/docs/Web/API/TextUpdateEvent/selectionStart",
+			"text": "https://developer.mozilla.org/docs/Web/API/TextUpdateEvent/text",
+			"updateRangeEnd": "https://developer.mozilla.org/docs/Web/API/TextUpdateEvent/updateRangeEnd",
+			"updateRangeStart": "https://developer.mozilla.org/docs/Web/API/TextUpdateEvent/updateRangeStart"
 		}
 	},
 	"TimeRanges": {
