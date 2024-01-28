@@ -3184,6 +3184,7 @@
 			"origin": "https://developer.mozilla.org/docs/Web/API/HTMLAnchorElement/origin",
 			"password": "https://developer.mozilla.org/docs/Web/API/HTMLAnchorElement/password",
 			"pathname": "https://developer.mozilla.org/docs/Web/API/HTMLAnchorElement/pathname",
+			"ping": "https://developer.mozilla.org/docs/Web/API/HTMLAnchorElement/ping",
 			"port": "https://developer.mozilla.org/docs/Web/API/HTMLAnchorElement/port",
 			"protocol": "https://developer.mozilla.org/docs/Web/API/HTMLAnchorElement/protocol",
 			"referrerPolicy": "https://developer.mozilla.org/docs/Web/API/HTMLAnchorElement/referrerPolicy",
@@ -3213,6 +3214,7 @@
 			"origin": "https://developer.mozilla.org/docs/Web/API/HTMLAreaElement/origin",
 			"password": "https://developer.mozilla.org/docs/Web/API/HTMLAreaElement/password",
 			"pathname": "https://developer.mozilla.org/docs/Web/API/HTMLAreaElement/pathname",
+			"ping": "https://developer.mozilla.org/docs/Web/API/HTMLAreaElement/ping",
 			"port": "https://developer.mozilla.org/docs/Web/API/HTMLAreaElement/port",
 			"protocol": "https://developer.mozilla.org/docs/Web/API/HTMLAreaElement/protocol",
 			"referrerPolicy": "https://developer.mozilla.org/docs/Web/API/HTMLAreaElement/referrerPolicy",
@@ -3380,7 +3382,13 @@
 			"virtualKeyboardPolicy": "https://developer.mozilla.org/docs/Web/API/HTMLElement/virtualKeyboardPolicy"
 		}
 	},
-	"HTMLEmbedElement": "https://developer.mozilla.org/docs/Web/API/HTMLEmbedElement",
+	"HTMLEmbedElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/HTMLEmbedElement",
+		"inst": {
+			"height": "https://developer.mozilla.org/docs/Web/API/HTMLEmbedElement/height",
+			"width": "https://developer.mozilla.org/docs/Web/API/HTMLEmbedElement/width"
+		}
+	},
 	"HTMLFencedFrameElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLFencedFrameElement",
 		"inst": {
@@ -4246,12 +4254,14 @@
 	"IdentityCredential": {
 		"url": "https://developer.mozilla.org/docs/Web/API/IdentityCredential",
 		"inst": {
+			"isAutoSelected": "https://developer.mozilla.org/docs/Web/API/IdentityCredential/isAutoSelected",
 			"token": "https://developer.mozilla.org/docs/Web/API/IdentityCredential/token"
 		}
 	},
 	"IdentityProvider": {
 		"url": "https://developer.mozilla.org/docs/Web/API/IdentityProvider",
 		"stat": {
+			"close": "https://developer.mozilla.org/docs/Web/API/IdentityProvider/close_static",
 			"getUserInfo": "https://developer.mozilla.org/docs/Web/API/IdentityProvider/getUserInfo_static"
 		}
 	},
@@ -5259,6 +5269,7 @@
 			"language": "https://developer.mozilla.org/docs/Web/API/Navigator/language",
 			"languages": "https://developer.mozilla.org/docs/Web/API/Navigator/languages",
 			"locks": "https://developer.mozilla.org/docs/Web/API/Navigator/locks",
+			"login": "https://developer.mozilla.org/docs/Web/API/Navigator/login",
 			"maxTouchPoints": "https://developer.mozilla.org/docs/Web/API/Navigator/maxTouchPoints",
 			"mediaCapabilities": "https://developer.mozilla.org/docs/Web/API/Navigator/mediaCapabilities",
 			"mediaDevices": "https://developer.mozilla.org/docs/Web/API/Navigator/mediaDevices",
@@ -5297,6 +5308,12 @@
 			"webdriver": "https://developer.mozilla.org/docs/Web/API/Navigator/webdriver",
 			"windowControlsOverlay": "https://developer.mozilla.org/docs/Web/API/Navigator/windowControlsOverlay",
 			"xr": "https://developer.mozilla.org/docs/Web/API/Navigator/xr"
+		}
+	},
+	"NavigatorLogin": {
+		"url": "https://developer.mozilla.org/docs/Web/API/NavigatorLogin",
+		"inst": {
+			"setStatus": "https://developer.mozilla.org/docs/Web/API/NavigatorLogin/setStatus"
 		}
 	},
 	"NavigatorUAData": {
@@ -7154,6 +7171,7 @@
 		"url": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope",
 		"inst": {
 			"clients": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/clients",
+			"cookieStore": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/cookieStore",
 			"registration": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/registration",
 			"serviceWorker": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/serviceWorker",
 			"skipWaiting": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/skipWaiting"
@@ -7164,6 +7182,7 @@
 		"inst": {
 			"active": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerRegistration/active",
 			"backgroundFetch": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerRegistration/backgroundFetch",
+			"cookies": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerRegistration/cookies",
 			"getNotifications": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerRegistration/getNotifications",
 			"index": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerRegistration/index",
 			"installing": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerRegistration/installing",
@@ -7185,6 +7204,7 @@
 		"inst": {
 			"activeElement": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/activeElement",
 			"adoptedStyleSheets": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/adoptedStyleSheets",
+			"clonable": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/clonable",
 			"delegatesFocus": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/delegatesFocus",
 			"elementFromPoint": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/elementFromPoint",
 			"elementsFromPoint": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/elementsFromPoint",
@@ -8883,6 +8903,7 @@
 			"close": "https://developer.mozilla.org/docs/Web/API/Window/close",
 			"closed": "https://developer.mozilla.org/docs/Web/API/Window/closed",
 			"confirm": "https://developer.mozilla.org/docs/Web/API/Window/confirm",
+			"cookieStore": "https://developer.mozilla.org/docs/Web/API/Window/cookieStore",
 			"credentialless": "https://developer.mozilla.org/docs/Web/API/Window/credentialless",
 			"customElements": "https://developer.mozilla.org/docs/Web/API/Window/customElements",
 			"devicePixelRatio": "https://developer.mozilla.org/docs/Web/API/Window/devicePixelRatio",
