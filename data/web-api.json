@@ -100,7 +100,7 @@
 			"playState": "https://developer.mozilla.org/docs/Web/API/Animation/playState",
 			"playbackRate": "https://developer.mozilla.org/docs/Web/API/Animation/playbackRate",
 			"ready": "https://developer.mozilla.org/docs/Web/API/Animation/ready",
-			"remove_filling_animation": "https://developer.mozilla.org/docs/Web/API/Animation#Automatically_removing_filling_animations",
+			"remove_filling_animation": "https://developer.mozilla.org/docs/web/api/web_animations_api/using_the_web_animations_api#automatically_removing_filling_animations",
 			"replaceState": "https://developer.mozilla.org/docs/Web/API/Animation/replaceState",
 			"reverse": "https://developer.mozilla.org/docs/Web/API/Animation/reverse",
 			"startTime": "https://developer.mozilla.org/docs/Web/API/Animation/startTime",
@@ -3481,14 +3481,17 @@
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement",
 		"inst": {
 			"align": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/align",
+			"allowFullscreen": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/allowFullscreen",
 			"allowPaymentRequest": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/allowPaymentRequest",
 			"browsingTopics": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/browsingTopics",
 			"contentDocument": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/contentDocument",
 			"contentWindow": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/contentWindow",
+			"credentialless": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/credentialless",
 			"csp": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/csp",
 			"featurePolicy": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/featurePolicy",
 			"frameBorder": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/frameBorder",
 			"height": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/height",
+			"loading": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/loading",
 			"longDesc": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/longDesc",
 			"marginHeight": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/marginHeight",
 			"marginWidth": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/marginWidth",
@@ -3665,7 +3668,16 @@
 			"compact": "https://developer.mozilla.org/docs/Web/API/HTMLMenuElement/compact"
 		}
 	},
-	"HTMLMetaElement": "https://developer.mozilla.org/docs/Web/API/HTMLMetaElement",
+	"HTMLMetaElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/HTMLMetaElement",
+		"inst": {
+			"content": "https://developer.mozilla.org/docs/Web/API/HTMLMetaElement/content",
+			"httpEquiv": "https://developer.mozilla.org/docs/Web/API/HTMLMetaElement/httpEquiv",
+			"media": "https://developer.mozilla.org/docs/Web/API/HTMLMetaElement/media",
+			"name": "https://developer.mozilla.org/docs/Web/API/HTMLMetaElement/name",
+			"scheme": "https://developer.mozilla.org/docs/Web/API/HTMLMetaElement/scheme"
+		}
+	},
 	"HTMLMeterElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLMeterElement",
 		"inst": {
@@ -9154,10 +9166,10 @@
 			"responseType": {
 				"url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/responseType",
 				"inst": {
-					"arraybuffer": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/responseType#arraybuffer",
-					"blob": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/responseType#blob",
-					"document": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/responseType#document",
-					"json": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/responseType#json"
+					"arraybuffer_value": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/responseType#arraybuffer",
+					"blob_value": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/responseType#blob",
+					"document_value": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/responseType#document",
+					"json_value": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/responseType#json"
 				}
 			},
 			"responseURL": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/responseURL",
@@ -9165,11 +9177,11 @@
 			"send": {
 				"url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/send",
 				"inst": {
-					"ArrayBuffer": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/send#ArrayBuffer",
-					"ArrayBufferView": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/send#ArrayBufferView",
-					"Blob": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/send#Blob",
-					"FormData": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/send#FormData",
-					"URLSearchParams": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/send#URLSearchParams"
+					"body_ArrayBufferView_type": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/send#ArrayBufferView",
+					"body_ArrayBuffer_type": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/send#ArrayBuffer",
+					"body_Blob_type": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/send#Blob",
+					"body_FormData_type": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/send#FormData",
+					"body_URLSearchParams_type": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/send#URLSearchParams"
 				}
 			},
 			"setAttributionReporting": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/setAttributionReporting",

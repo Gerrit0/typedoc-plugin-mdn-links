@@ -15,6 +15,10 @@ Supports TypeDoc 0.23.x, 0.24.x and 0.25.x
 
 ## Changelog
 
+### v3.1.15 (2024-02-04)
+
+-   Updated MDN API index with @mdn/browser-compat-data version 5.5.9
+
 ### v3.1.14 (2024-01-28)
 
 -   Updated MDN API index with @mdn/browser-compat-data version 5.5.8
