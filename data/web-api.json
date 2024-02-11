@@ -3567,6 +3567,7 @@
 			"showPicker": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/showPicker",
 			"stepDown": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/stepDown",
 			"stepUp": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/stepUp",
+			"type": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/type",
 			"validationMessage": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/validationMessage",
 			"validity": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/validity",
 			"webkitEntries": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/webkitEntries",
@@ -3998,7 +3999,8 @@
 			"autocomplete": "https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/autocomplete",
 			"labels": "https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/labels",
 			"reportValidity": "https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/reportValidity",
-			"textLength": "https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/textLength"
+			"textLength": "https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/textLength",
+			"type": "https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/type"
 		}
 	},
 	"HTMLTimeElement": {
@@ -4199,7 +4201,6 @@
 			"upperBound": "https://developer.mozilla.org/docs/Web/API/IDBKeyRange/upperBound_static"
 		}
 	},
-	"IDBLocaleAwareKeyRange": "https://developer.mozilla.org/docs/Web/API/IDBLocaleAwareKeyRange",
 	"IDBObjectStore": {
 		"url": "https://developer.mozilla.org/docs/Web/API/IDBObjectStore",
 		"inst": {
@@ -7539,12 +7540,37 @@
 			},
 			"digest": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/digest",
 			"encrypt": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/encrypt",
-			"exportKey": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/exportKey",
-			"generateKey": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/generateKey",
-			"importKey": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/importKey",
-			"sign": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/sign",
+			"exportKey": {
+				"url": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/exportKey",
+				"inst": {
+					"ed25519": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/exportKey"
+				}
+			},
+			"generateKey": {
+				"url": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/generateKey",
+				"inst": {
+					"ed25519": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/generateKey"
+				}
+			},
+			"importKey": {
+				"url": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/importKey",
+				"inst": {
+					"ed25519": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/importKey"
+				}
+			},
+			"sign": {
+				"url": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/sign",
+				"inst": {
+					"ed25519": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/sign"
+				}
+			},
 			"unwrapKey": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/unwrapKey",
-			"verify": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/verify",
+			"verify": {
+				"url": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/verify",
+				"inst": {
+					"ed25519": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/verify"
+				}
+			},
 			"wrapKey": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/wrapKey"
 		}
 	},
