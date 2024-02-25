@@ -3542,6 +3542,7 @@
 		"inst": {
 			"autocomplete": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/autocomplete",
 			"checkValidity": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/checkValidity",
+			"defaultValue": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/defaultValue",
 			"disabled": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/disabled",
 			"files": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/files",
 			"formAction": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/formAction",
@@ -3552,6 +3553,10 @@
 			"height": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/height",
 			"labels": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/labels",
 			"list": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/list",
+			"max": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/max",
+			"maxLength": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/maxLength",
+			"min": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/min",
+			"minLength": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/minLength",
 			"multiple": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/multiple",
 			"pattern": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/pattern",
 			"placeholder": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/placeholder",
@@ -3561,6 +3566,8 @@
 			"required": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/required",
 			"select": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/select",
 			"selectionDirection": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/selectionDirection",
+			"selectionEnd": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/selectionEnd",
+			"selectionStart": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/selectionStart",
 			"setCustomValidity": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/setCustomValidity",
 			"setRangeText": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/setRangeText",
 			"setSelectionRange": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/setSelectionRange",
@@ -3570,6 +3577,7 @@
 			"type": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/type",
 			"validationMessage": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/validationMessage",
 			"validity": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/validity",
+			"value": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/value",
 			"webkitEntries": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/webkitEntries",
 			"webkitdirectory": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/webkitdirectory",
 			"width": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/width",
@@ -3877,11 +3885,13 @@
 	"HTMLSourceElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLSourceElement",
 		"inst": {
+			"height": "https://developer.mozilla.org/docs/Web/API/HTMLSourceElement/height",
 			"media": "https://developer.mozilla.org/docs/Web/API/HTMLSourceElement/media",
 			"sizes": "https://developer.mozilla.org/docs/Web/API/HTMLSourceElement/sizes",
 			"src": "https://developer.mozilla.org/docs/Web/API/HTMLSourceElement/src",
 			"srcset": "https://developer.mozilla.org/docs/Web/API/HTMLSourceElement/srcset",
-			"type": "https://developer.mozilla.org/docs/Web/API/HTMLSourceElement/type"
+			"type": "https://developer.mozilla.org/docs/Web/API/HTMLSourceElement/type",
+			"width": "https://developer.mozilla.org/docs/Web/API/HTMLSourceElement/width"
 		}
 	},
 	"HTMLSpanElement": "https://developer.mozilla.org/docs/Web/API/HTMLSpanElement",
