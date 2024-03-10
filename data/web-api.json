@@ -4456,6 +4456,13 @@
 			"toJSON": "https://developer.mozilla.org/docs/Web/API/InterventionReportBody/toJSON"
 		}
 	},
+	"InvokeEvent": {
+		"url": "https://developer.mozilla.org/docs/Web/API/InvokeEvent",
+		"inst": {
+			"action": "https://developer.mozilla.org/docs/Web/API/InvokeEvent/action",
+			"invoker": "https://developer.mozilla.org/docs/Web/API/InvokeEvent/invoker"
+		}
+	},
 	"KHR_parallel_shader_compile": "https://developer.mozilla.org/docs/Web/API/KHR_parallel_shader_compile",
 	"Keyboard": {
 		"url": "https://developer.mozilla.org/docs/Web/API/Keyboard",
