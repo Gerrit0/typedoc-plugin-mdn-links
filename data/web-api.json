@@ -5426,6 +5426,25 @@
 			"values": "https://developer.mozilla.org/docs/Web/API/NodeList/values"
 		}
 	},
+	"NotRestoredReasonDetails": {
+		"url": "https://developer.mozilla.org/docs/Web/API/NotRestoredReasonDetails",
+		"inst": {
+			"reason": "https://developer.mozilla.org/docs/Web/API/NotRestoredReasonDetails/reason",
+			"toJSON": "https://developer.mozilla.org/docs/Web/API/NotRestoredReasonDetails/toJSON"
+		}
+	},
+	"NotRestoredReasons": {
+		"url": "https://developer.mozilla.org/docs/Web/API/NotRestoredReasons",
+		"inst": {
+			"children": "https://developer.mozilla.org/docs/Web/API/NotRestoredReasons/children",
+			"id": "https://developer.mozilla.org/docs/Web/API/NotRestoredReasons/id",
+			"name": "https://developer.mozilla.org/docs/Web/API/NotRestoredReasons/name",
+			"reasons": "https://developer.mozilla.org/docs/Web/API/NotRestoredReasons/reasons",
+			"src": "https://developer.mozilla.org/docs/Web/API/NotRestoredReasons/src",
+			"toJSON": "https://developer.mozilla.org/docs/Web/API/NotRestoredReasons/toJSON",
+			"url": "https://developer.mozilla.org/docs/Web/API/NotRestoredReasons/url"
+		}
+	},
 	"Notification": {
 		"url": "https://developer.mozilla.org/docs/Web/API/Notification",
 		"inst": {
@@ -5847,6 +5866,7 @@
 			"domInteractive": "https://developer.mozilla.org/docs/Web/API/PerformanceNavigationTiming/domInteractive",
 			"loadEventEnd": "https://developer.mozilla.org/docs/Web/API/PerformanceNavigationTiming/loadEventEnd",
 			"loadEventStart": "https://developer.mozilla.org/docs/Web/API/PerformanceNavigationTiming/loadEventStart",
+			"notRestoredReasons": "https://developer.mozilla.org/docs/Web/API/PerformanceNavigationTiming/notRestoredReasons",
 			"redirectCount": "https://developer.mozilla.org/docs/Web/API/PerformanceNavigationTiming/redirectCount",
 			"toJSON": "https://developer.mozilla.org/docs/Web/API/PerformanceNavigationTiming/toJSON",
 			"type": "https://developer.mozilla.org/docs/Web/API/PerformanceNavigationTiming/type",
@@ -6304,11 +6324,13 @@
 			"protocol": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/protocol",
 			"relatedAddress": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/relatedAddress",
 			"relatedPort": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/relatedPort",
+			"relayProtocol": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidateStats/relayProtocol",
 			"sdpMLineIndex": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/sdpMLineIndex",
 			"sdpMid": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/sdpMid",
 			"tcpType": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/tcpType",
 			"toJSON": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/toJSON",
 			"type": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/type",
+			"url": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidateStats/url",
 			"usernameFragment": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/usernameFragment"
 		}
 	},
