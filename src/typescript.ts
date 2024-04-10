@@ -15,6 +15,7 @@ const utilityTypes = new Map([
     ["ConstructorParameters", "constructorparameterstype"],
     ["ReturnType", "returntypetype"],
     ["InstanceType", "instancetypetype"],
+    ["NoInfer", "noinfertype"],
     ["ThisParameterType", "thisparametertypetype"],
     ["OmitThisParameter", "omitthisparametertype"],
     ["ThisType", "thistypetype"],
