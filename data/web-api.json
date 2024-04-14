@@ -6546,8 +6546,12 @@
 				"url": "https://developer.mozilla.org/docs/Web/API/RTCStatsReport#media_source",
 				"inst": {
 					"audioLevel": "https://developer.mozilla.org/docs/Web/API/RTCAudioSourceStats/audioLevel",
+					"frames": "https://developer.mozilla.org/docs/Web/API/RTCVideoSourceStats/frames",
+					"framesPerSecond": "https://developer.mozilla.org/docs/Web/API/RTCVideoSourceStats/framesPerSecond",
+					"height": "https://developer.mozilla.org/docs/Web/API/RTCVideoSourceStats/height",
 					"totalAudioEnergy": "https://developer.mozilla.org/docs/Web/API/RTCAudioSourceStats/totalAudioEnergy",
-					"totalSamplesDuration": "https://developer.mozilla.org/docs/Web/API/RTCAudioSourceStats/totalSamplesDuration"
+					"totalSamplesDuration": "https://developer.mozilla.org/docs/Web/API/RTCAudioSourceStats/totalSamplesDuration",
+					"width": "https://developer.mozilla.org/docs/Web/API/RTCVideoSourceStats/width"
 				}
 			},
 			"type_outbound-rtp": "https://developer.mozilla.org/docs/Web/API/RTCStatsReport#outbound_rtp",
@@ -10224,8 +10228,10 @@
 	"JSON": {
 		"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON",
 		"inst": {
+			"isRawJSON": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON/isRawJSON",
 			"json_superset": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON#JavaScript_and_JSON_differences",
 			"parse": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse",
+			"rawJSON": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON/rawJSON",
 			"stringify": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify"
 		}
 	},

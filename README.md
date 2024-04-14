@@ -15,6 +15,10 @@ Supports TypeDoc 0.23.x, 0.24.x and 0.25.x
 
 ## Changelog
 
+### v3.1.21 (2024-04-14)
+
+-   Updated MDN API index with @mdn/browser-compat-data version 5.5.21
+
 ### v3.1.20 (2024-04-10)
 
 -   Added `NoInfer` link resolution for TypeScript utility types (@xuhdev)
