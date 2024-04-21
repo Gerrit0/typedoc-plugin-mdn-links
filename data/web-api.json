@@ -5828,6 +5828,17 @@
 			"toJSON": "https://developer.mozilla.org/docs/Web/API/PerformanceEventTiming/toJSON"
 		}
 	},
+	"PerformanceLongAnimationFrameTiming": {
+		"url": "https://developer.mozilla.org/docs/Web/API/PerformanceLongAnimationFrameTiming",
+		"inst": {
+			"blockingDuration": "https://developer.mozilla.org/docs/Web/API/PerformanceLongAnimationFrameTiming/blockingDuration",
+			"firstUIEventTimestamp": "https://developer.mozilla.org/docs/Web/API/PerformanceLongAnimationFrameTiming/firstUIEventTimestamp",
+			"renderStart": "https://developer.mozilla.org/docs/Web/API/PerformanceLongAnimationFrameTiming/renderStart",
+			"scripts": "https://developer.mozilla.org/docs/Web/API/PerformanceLongAnimationFrameTiming/scripts",
+			"styleAndLayoutStart": "https://developer.mozilla.org/docs/Web/API/PerformanceLongAnimationFrameTiming/styleAndLayoutStart",
+			"toJSON": "https://developer.mozilla.org/docs/Web/API/PerformanceLongAnimationFrameTiming/toJSON"
+		}
+	},
 	"PerformanceLongTaskTiming": {
 		"url": "https://developer.mozilla.org/docs/Web/API/PerformanceLongTaskTiming",
 		"inst": {
@@ -5921,6 +5932,21 @@
 			"toJSON": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/toJSON",
 			"transferSize": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/transferSize",
 			"workerStart": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/workerStart"
+		}
+	},
+	"PerformanceScriptTiming": {
+		"url": "https://developer.mozilla.org/docs/Web/API/PerformanceScriptTiming",
+		"inst": {
+			"executionStart": "https://developer.mozilla.org/docs/Web/API/PerformanceScriptTiming/executionStart",
+			"forcedStyleAndLayoutDuration": "https://developer.mozilla.org/docs/Web/API/PerformanceScriptTiming/forcedStyleAndLayoutDuration",
+			"invoker": "https://developer.mozilla.org/docs/Web/API/PerformanceScriptTiming/invoker",
+			"invokerType": "https://developer.mozilla.org/docs/Web/API/PerformanceScriptTiming/invokerType",
+			"pauseDuration": "https://developer.mozilla.org/docs/Web/API/PerformanceScriptTiming/pauseDuration",
+			"sourceCharPosition": "https://developer.mozilla.org/docs/Web/API/PerformanceScriptTiming/sourceCharPosition",
+			"sourceURL": "https://developer.mozilla.org/docs/Web/API/PerformanceScriptTiming/sourceURL",
+			"toJSON": "https://developer.mozilla.org/docs/Web/API/PerformanceScriptTiming/toJSON",
+			"window": "https://developer.mozilla.org/docs/Web/API/PerformanceScriptTiming/window",
+			"windowAttribution": "https://developer.mozilla.org/docs/Web/API/PerformanceScriptTiming/windowAttribution"
 		}
 	},
 	"PerformanceServerTiming": {
@@ -10230,7 +10256,12 @@
 		"inst": {
 			"isRawJSON": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON/isRawJSON",
 			"json_superset": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON#JavaScript_and_JSON_differences",
-			"parse": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse",
+			"parse": {
+				"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse",
+				"inst": {
+					"reviver_parameter_context_argument": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse#the_reviver_parameter"
+				}
+			},
 			"rawJSON": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON/rawJSON",
 			"stringify": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify"
 		}
