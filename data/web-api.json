@@ -940,6 +940,14 @@
 			"length": "https://developer.mozilla.org/docs/Web/API/CSSPerspective/length"
 		}
 	},
+	"CSSPositionTryDescriptors": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors",
+	"CSSPositionTryRule": {
+		"url": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryRule",
+		"inst": {
+			"name": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryRule/name",
+			"style": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryRule/style"
+		}
+	},
 	"CSSPositionValue": {
 		"url": "https://developer.mozilla.org/docs/Web/API/CSSPositionValue",
 		"inst": {
@@ -3346,6 +3354,7 @@
 		"inst": {
 			"accessKey": "https://developer.mozilla.org/docs/Web/API/HTMLElement/accessKey",
 			"accessKeyLabel": "https://developer.mozilla.org/docs/Web/API/HTMLElement/accessKeyLabel",
+			"anchorElement": "https://developer.mozilla.org/docs/Web/API/HTMLElement/anchorElement",
 			"attachInternals": "https://developer.mozilla.org/docs/Web/API/HTMLElement/attachInternals",
 			"autofocus": "https://developer.mozilla.org/docs/Web/API/HTMLElement/autofocus",
 			"blur": "https://developer.mozilla.org/docs/Web/API/HTMLElement/blur",
@@ -3497,6 +3506,7 @@
 			"marginWidth": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/marginWidth",
 			"name": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/name",
 			"referrerPolicy": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/referrerPolicy",
+			"sandbox": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/sandbox",
 			"scrolling": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/scrolling",
 			"src": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/src",
 			"srcdoc": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/srcdoc",
@@ -3606,7 +3616,8 @@
 			"rel": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/rel",
 			"relList": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/relList",
 			"sheet": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/sheet",
-			"sizes": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/sizes"
+			"sizes": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/sizes",
+			"type": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/type"
 		}
 	},
 	"HTMLMapElement": {
@@ -3837,7 +3848,11 @@
 		"inst": {
 			"attributionSrc": "https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/attributionSrc",
 			"crossOrigin": "https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/crossOrigin",
-			"referrerPolicy": "https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/referrerPolicy"
+			"fetchPriority": "https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/fetchPriority",
+			"noModule": "https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/noModule",
+			"referrerPolicy": "https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/referrerPolicy",
+			"text": "https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/text",
+			"type": "https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/type"
 		},
 		"stat": {
 			"supports": "https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/supports_static"
@@ -5943,6 +5958,7 @@
 			"invokerType": "https://developer.mozilla.org/docs/Web/API/PerformanceScriptTiming/invokerType",
 			"pauseDuration": "https://developer.mozilla.org/docs/Web/API/PerformanceScriptTiming/pauseDuration",
 			"sourceCharPosition": "https://developer.mozilla.org/docs/Web/API/PerformanceScriptTiming/sourceCharPosition",
+			"sourceFunctionName": "https://developer.mozilla.org/docs/Web/API/PerformanceScriptTiming/sourceFunctionName",
 			"sourceURL": "https://developer.mozilla.org/docs/Web/API/PerformanceScriptTiming/sourceURL",
 			"toJSON": "https://developer.mozilla.org/docs/Web/API/PerformanceScriptTiming/toJSON",
 			"window": "https://developer.mozilla.org/docs/Web/API/PerformanceScriptTiming/window",
