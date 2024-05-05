@@ -1953,6 +1953,7 @@
 			"getSelection": "https://developer.mozilla.org/docs/Web/API/Document/getSelection",
 			"hasFocus": "https://developer.mozilla.org/docs/Web/API/Document/hasFocus",
 			"hasStorageAccess": "https://developer.mozilla.org/docs/Web/API/Document/hasStorageAccess",
+			"hasUnpartitionedCookieAccess": "https://developer.mozilla.org/docs/Web/API/Document/hasUnpartitionedCookieAccess",
 			"head": "https://developer.mozilla.org/docs/Web/API/Document/head",
 			"hidden": "https://developer.mozilla.org/docs/Web/API/Document/hidden",
 			"images": "https://developer.mozilla.org/docs/Web/API/Document/images",
@@ -3846,11 +3847,14 @@
 	"HTMLScriptElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLScriptElement",
 		"inst": {
+			"async": "https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/async",
 			"attributionSrc": "https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/attributionSrc",
 			"crossOrigin": "https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/crossOrigin",
+			"defer": "https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/defer",
 			"fetchPriority": "https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/fetchPriority",
 			"noModule": "https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/noModule",
 			"referrerPolicy": "https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/referrerPolicy",
+			"src": "https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/src",
 			"text": "https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/text",
 			"type": "https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/type"
 		},
@@ -5230,6 +5234,14 @@
 			"updateCurrentEntry": "https://developer.mozilla.org/docs/Web/API/Navigation/updateCurrentEntry"
 		}
 	},
+	"NavigationActivation": {
+		"url": "https://developer.mozilla.org/docs/Web/API/NavigationActivation",
+		"inst": {
+			"entry": "https://developer.mozilla.org/docs/Web/API/NavigationActivation/entry",
+			"from": "https://developer.mozilla.org/docs/Web/API/NavigationActivation/from",
+			"navigationType": "https://developer.mozilla.org/docs/Web/API/NavigationActivation/navigationType"
+		}
+	},
 	"NavigationCurrentEntryChangeEvent": {
 		"url": "https://developer.mozilla.org/docs/Web/API/NavigationCurrentEntryChangeEvent/",
 		"inst": {
@@ -5592,6 +5604,21 @@
 		"inst": {
 			"OverconstrainedError": "https://developer.mozilla.org/docs/Web/API/OverconstrainedError/OverconstrainedError",
 			"constraint": "https://developer.mozilla.org/docs/Web/API/OverconstrainedError/constraint"
+		}
+	},
+	"PageRevealEvent": {
+		"url": "https://developer.mozilla.org/docs/Web/API/PageRevealEvent",
+		"inst": {
+			"PageRevealEvent": "https://developer.mozilla.org/docs/Web/API/PageRevealEvent/PageRevealEvent",
+			"viewTransition": "https://developer.mozilla.org/docs/Web/API/PageRevealEvent/viewTransition"
+		}
+	},
+	"PageSwapEvent": {
+		"url": "https://developer.mozilla.org/docs/Web/API/PageSwapEvent",
+		"inst": {
+			"PageSwapEvent": "https://developer.mozilla.org/docs/Web/API/PageSwapEvent/PageSwapEvent",
+			"activation": "https://developer.mozilla.org/docs/Web/API/PageSwapEvent/activation",
+			"viewTransition": "https://developer.mozilla.org/docs/Web/API/PageSwapEvent/viewTransition"
 		}
 	},
 	"PageTransitionEvent": {
@@ -6167,6 +6194,28 @@
 			"start": "https://developer.mozilla.org/docs/Web/API/PresentationRequest/start"
 		}
 	},
+	"PressureObserver": {
+		"url": "https://developer.mozilla.org/docs/Web/API/PressureObserver",
+		"inst": {
+			"PressureObserver": "https://developer.mozilla.org/docs/Web/API/PressureObserver/PressureObserver",
+			"disconnect": "https://developer.mozilla.org/docs/Web/API/PressureObserver/disconnect",
+			"observe": "https://developer.mozilla.org/docs/Web/API/PressureObserver/observe",
+			"takeRecords": "https://developer.mozilla.org/docs/Web/API/PressureObserver/takeRecords",
+			"unobserve": "https://developer.mozilla.org/docs/Web/API/PressureObserver/unobserve"
+		},
+		"stat": {
+			"knownSources": "https://developer.mozilla.org/docs/Web/API/PressureObserver/knownSources_static"
+		}
+	},
+	"PressureRecord": {
+		"url": "https://developer.mozilla.org/docs/Web/API/PressureRecord",
+		"inst": {
+			"source": "https://developer.mozilla.org/docs/Web/API/PressureRecord/source",
+			"state": "https://developer.mozilla.org/docs/Web/API/PressureRecord/state",
+			"time": "https://developer.mozilla.org/docs/Web/API/PressureRecord/time",
+			"toJSON": "https://developer.mozilla.org/docs/Web/API/PressureRecord/toJSON"
+		}
+	},
 	"ProcessingInstruction": {
 		"url": "https://developer.mozilla.org/docs/Web/API/ProcessingInstruction",
 		"inst": {
@@ -6366,13 +6415,11 @@
 			"protocol": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/protocol",
 			"relatedAddress": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/relatedAddress",
 			"relatedPort": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/relatedPort",
-			"relayProtocol": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidateStats/relayProtocol",
 			"sdpMLineIndex": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/sdpMLineIndex",
 			"sdpMid": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/sdpMid",
 			"tcpType": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/tcpType",
 			"toJSON": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/toJSON",
 			"type": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/type",
-			"url": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidateStats/url",
 			"usernameFragment": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/usernameFragment"
 		}
 	},
@@ -7537,6 +7584,22 @@
 			"length": "https://developer.mozilla.org/docs/Web/API/Storage/length",
 			"removeItem": "https://developer.mozilla.org/docs/Web/API/Storage/removeItem",
 			"setItem": "https://developer.mozilla.org/docs/Web/API/Storage/setItem"
+		}
+	},
+	"StorageAccessHandle": {
+		"url": "https://developer.mozilla.org/docs/Web/API/StorageAccessHandle",
+		"inst": {
+			"BroadcastChannel": "https://developer.mozilla.org/docs/Web/API/StorageAccessHandle/BroadcastChannel",
+			"SharedWorker": "https://developer.mozilla.org/docs/Web/API/StorageAccessHandle/SharedWorker",
+			"caches": "https://developer.mozilla.org/docs/Web/API/StorageAccessHandle/caches",
+			"createObjectURL": "https://developer.mozilla.org/docs/Web/API/StorageAccessHandle/createObjectURL",
+			"estimate": "https://developer.mozilla.org/docs/Web/API/StorageAccessHandle/estimate",
+			"getDirectory": "https://developer.mozilla.org/docs/Web/API/StorageAccessHandle/getDirectory",
+			"indexedDB": "https://developer.mozilla.org/docs/Web/API/StorageAccessHandle/indexedDB",
+			"localStorage": "https://developer.mozilla.org/docs/Web/API/StorageAccessHandle/localStorage",
+			"locks": "https://developer.mozilla.org/docs/Web/API/StorageAccessHandle/locks",
+			"revokeObjectURL": "https://developer.mozilla.org/docs/Web/API/StorageAccessHandle/revokeObjectURL",
+			"sessionStorage": "https://developer.mozilla.org/docs/Web/API/StorageAccessHandle/sessionStorage"
 		}
 	},
 	"StorageEvent": {
