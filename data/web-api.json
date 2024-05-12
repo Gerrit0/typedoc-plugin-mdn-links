@@ -2180,6 +2180,7 @@
 			"clientWidth": "https://developer.mozilla.org/docs/Web/API/Element/clientWidth",
 			"closest": "https://developer.mozilla.org/docs/Web/API/Element/closest",
 			"computedStyleMap": "https://developer.mozilla.org/docs/Web/API/Element/computedStyleMap",
+			"currentCSSZoom": "https://developer.mozilla.org/docs/Web/API/Element/currentCSSZoom",
 			"elementTiming": "https://developer.mozilla.org/docs/Web/API/Element/elementTiming",
 			"firstElementChild": "https://developer.mozilla.org/docs/Web/API/Element/firstElementChild",
 			"getAnimations": "https://developer.mozilla.org/docs/Web/API/Element/getAnimations",
@@ -3609,10 +3610,12 @@
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement",
 		"inst": {
 			"as": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/as",
+			"blocking": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/blocking",
 			"crossOrigin": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/crossOrigin",
 			"fetchPriority": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/fetchPriority",
 			"href": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/href",
 			"hreflang": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/hreflang",
+			"integrity": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/integrity",
 			"referrerPolicy": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/referrerPolicy",
 			"rel": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/rel",
 			"relList": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/relList",
@@ -3849,9 +3852,11 @@
 		"inst": {
 			"async": "https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/async",
 			"attributionSrc": "https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/attributionSrc",
+			"blocking": "https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/blocking",
 			"crossOrigin": "https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/crossOrigin",
 			"defer": "https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/defer",
 			"fetchPriority": "https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/fetchPriority",
+			"integrity": "https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/integrity",
 			"noModule": "https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/noModule",
 			"referrerPolicy": "https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/referrerPolicy",
 			"src": "https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/src",
@@ -3917,6 +3922,7 @@
 	"HTMLStyleElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLStyleElement",
 		"inst": {
+			"blocking": "https://developer.mozilla.org/docs/Web/API/HTMLStyleElement/blocking",
 			"disabled": "https://developer.mozilla.org/docs/Web/API/HTMLStyleElement/disabled",
 			"media": "https://developer.mozilla.org/docs/Web/API/HTMLStyleElement/media",
 			"sheet": "https://developer.mozilla.org/docs/Web/API/HTMLStyleElement/sheet",
@@ -4018,7 +4024,10 @@
 	"HTMLTemplateElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLTemplateElement",
 		"inst": {
-			"content": "https://developer.mozilla.org/docs/Web/API/HTMLTemplateElement/content"
+			"content": "https://developer.mozilla.org/docs/Web/API/HTMLTemplateElement/content",
+			"shadowRootClonable": "https://developer.mozilla.org/docs/Web/API/HTMLTemplateElement/shadowRootClonable",
+			"shadowRootDelegatesFocus": "https://developer.mozilla.org/docs/Web/API/HTMLTemplateElement/shadowRootDelegatesFocus",
+			"shadowRootMode": "https://developer.mozilla.org/docs/Web/API/HTMLTemplateElement/shadowRootMode"
 		}
 	},
 	"HTMLTextAreaElement": {
