@@ -537,7 +537,13 @@
 		"inst": {
 			"getAvailability": "https://developer.mozilla.org/docs/Web/API/Bluetooth/getAvailability",
 			"getDevices": "https://developer.mozilla.org/docs/Web/API/Bluetooth/getDevices",
-			"requestDevice": "https://developer.mozilla.org/docs/Web/API/Bluetooth/requestDevice"
+			"requestDevice": {
+				"url": "https://developer.mozilla.org/docs/Web/API/Bluetooth/requestDevice",
+				"inst": {
+					"options_exclusionFilters_parameter": "https://developer.mozilla.org/docs/Web/API/Bluetooth/requestDevice",
+					"options_filter_manufacturerData_parameter": "https://developer.mozilla.org/docs/Web/API/Bluetooth/requestDevice"
+				}
+			}
 		}
 	},
 	"BluetoothCharacteristicProperties": {
@@ -3358,6 +3364,7 @@
 			"accessKeyLabel": "https://developer.mozilla.org/docs/Web/API/HTMLElement/accessKeyLabel",
 			"anchorElement": "https://developer.mozilla.org/docs/Web/API/HTMLElement/anchorElement",
 			"attachInternals": "https://developer.mozilla.org/docs/Web/API/HTMLElement/attachInternals",
+			"attributeStyleMap": "https://developer.mozilla.org/docs/Web/API/HTMLElement/attributeStyleMap",
 			"autofocus": "https://developer.mozilla.org/docs/Web/API/HTMLElement/autofocus",
 			"blur": "https://developer.mozilla.org/docs/Web/API/HTMLElement/blur",
 			"click": "https://developer.mozilla.org/docs/Web/API/HTMLElement/click",
@@ -3492,6 +3499,7 @@
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement",
 		"inst": {
 			"align": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/align",
+			"allow": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/allow",
 			"allowFullscreen": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/allowFullscreen",
 			"allowPaymentRequest": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/allowPaymentRequest",
 			"browsingTopics": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/browsingTopics",
@@ -3612,6 +3620,7 @@
 			"as": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/as",
 			"blocking": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/blocking",
 			"crossOrigin": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/crossOrigin",
+			"disabled": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/disabled",
 			"fetchPriority": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/fetchPriority",
 			"href": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/href",
 			"hreflang": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/hreflang",
