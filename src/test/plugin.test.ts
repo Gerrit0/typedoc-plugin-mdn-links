@@ -93,6 +93,18 @@ describe("Statically defined names", () => {
         );
     });
 
+    test("Handles Iterable links", () => {
+        const refl = project.getChildByName("NumberIterable");
+        expect(refl).toBeInstanceOf(DeclarationReflection);
+        const type = (refl as DeclarationReflection).type;
+        expect(type).toBeInstanceOf(ReferenceType);
+
+        const ref = type as ReferenceType;
+        expect(ref.externalUrl).toBe(
+            "https://www.typescriptlang.org/docs/handbook/iterators-and-generators.html#iterable-interface",
+        );
+    });
+
     test("Handles comment links", () => {
         const refl = project.getChildByName("comment");
         expect(refl).toBeInstanceOf(DeclarationReflection);
@@ -134,6 +146,10 @@ describe("Statically defined names", () => {
             {
                 target: undefined,
                 text: "!AbortSignal.abort_static",
+            },
+            {
+                target: "https://www.typescriptlang.org/docs/handbook/iterators-and-generators.html#iterable-interface",
+                text: "Iterable",
             },
         ]);
     });
