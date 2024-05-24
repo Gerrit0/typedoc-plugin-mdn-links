@@ -28,6 +28,8 @@ const templateLiteralTypes = new Map([
     ["Uncapitalize", "uncapitalizestringtype"],
 ]);
 
+const iterableTypes = new Map([["Iterable", "iterable-interface"]]);
+
 export function resolveTsType(names: ComponentPath[]) {
     if (names.length !== 1) {
         return;
@@ -42,5 +44,10 @@ export function resolveTsType(names: ComponentPath[]) {
     const templateHash = templateLiteralTypes.get(name);
     if (templateHash) {
         return `https://www.typescriptlang.org/docs/handbook/2/template-literal-types.html#${templateHash}`;
+    }
+
+    const iterableHash = iterableTypes.get(name);
+    if (iterableHash) {
+        return `https://www.typescriptlang.org/docs/handbook/iterators-and-generators.html#${iterableHash}`;
     }
 }

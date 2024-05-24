@@ -14,6 +14,8 @@ type NotOnMdnImpl = "NotOnMdn";
 export type NotOnMdn = NotOnMdnImpl;
 export type WGpuDevice = GPUDevice;
 
+export type NumberIterable = Iterable<number>;
+
 /**
  * Links:
  * - {@link !WebGLRenderingContext}
@@ -28,5 +30,6 @@ export type WGpuDevice = GPUDevice;
  * Should not link an improper use of a name containing _static,
  * even though that's what comes from browser-compat-data
  * - {@link !AbortSignal.abort_static}
+ * - {@link !Iterable}
  */
 export const comment = true;
