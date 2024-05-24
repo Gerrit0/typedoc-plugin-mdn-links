@@ -9,7 +9,7 @@ if ! git diff --exit-code data/web-api.json >/dev/null; then
 
 extra=$"\
 \n\
-### $version ($(date '+%Y-%m-%d'))\n\
+## $version ($(date '+%Y-%m-%d'))\n\
 \n\
 -   Updated MDN API index with @mdn/browser-compat-data version $compat_version\n\
 "
@@ -19,14 +19,14 @@ extra=$"\
             printf(\"$extra\")
             modif = 0
         }
-        /^## Changelog/ && !modif {
+        /^# Changelog/ && !modif {
             modif = 1
         }
         {print}
-    " README.md > README2.md
-    mv README2.md README.md
+    " CHANGELOG.md > CHANGELOG2.md
+    mv CHANGELOG2.md CHANGELOG.md
 
-    git add README.md ./package.json ./package-lock.json ./data/web-api.json
+    git add CHANGELOG.md ./package.json ./package-lock.json ./data/web-api.json
     git commit -m "[github-actions] Update Web API Index";
     git push
 else
