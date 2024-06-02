@@ -1,5 +1,9 @@
 # Changelog
 
+## v3.1.28 (2024-06-02)
+
+-   Updated MDN API index with @mdn/browser-compat-data version 5.5.31
+
 ## v3.1.27 (2024-05-24)
 
 -   Added support for linking `Iterable` type references (@mariano-perez-rodriguez)

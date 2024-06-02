@@ -2172,7 +2172,14 @@
 			"ariaValueNow": "https://developer.mozilla.org/docs/Web/API/Element/ariaValueNow",
 			"ariaValueText": "https://developer.mozilla.org/docs/Web/API/Element/ariaValueText",
 			"assignedSlot": "https://developer.mozilla.org/docs/Web/API/Element/assignedSlot",
-			"attachShadow": "https://developer.mozilla.org/docs/Web/API/Element/attachShadow",
+			"attachShadow": {
+				"url": "https://developer.mozilla.org/docs/Web/API/Element/attachShadow",
+				"inst": {
+					"options_clonable_parameter": "https://developer.mozilla.org/docs/Web/API/Element/attachShadow#clonable",
+					"options_delegatesFocus_parameter": "https://developer.mozilla.org/docs/Web/API/Element/attachShadow#delegatesfocus",
+					"options_serializable_parameter": "https://developer.mozilla.org/docs/Web/API/Element/attachShadow#serializable"
+				}
+			},
 			"attributes": "https://developer.mozilla.org/docs/Web/API/Element/attributes",
 			"before": "https://developer.mozilla.org/docs/Web/API/Element/before",
 			"checkVisibility": "https://developer.mozilla.org/docs/Web/API/Element/checkVisibility",
@@ -3625,6 +3632,7 @@
 			"href": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/href",
 			"hreflang": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/hreflang",
 			"integrity": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/integrity",
+			"media": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/media",
 			"referrerPolicy": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/referrerPolicy",
 			"rel": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/rel",
 			"relList": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/relList",
@@ -4036,7 +4044,8 @@
 			"content": "https://developer.mozilla.org/docs/Web/API/HTMLTemplateElement/content",
 			"shadowRootClonable": "https://developer.mozilla.org/docs/Web/API/HTMLTemplateElement/shadowRootClonable",
 			"shadowRootDelegatesFocus": "https://developer.mozilla.org/docs/Web/API/HTMLTemplateElement/shadowRootDelegatesFocus",
-			"shadowRootMode": "https://developer.mozilla.org/docs/Web/API/HTMLTemplateElement/shadowRootMode"
+			"shadowRootMode": "https://developer.mozilla.org/docs/Web/API/HTMLTemplateElement/shadowRootMode",
+			"shadowRootSerializable": "https://developer.mozilla.org/docs/Web/API/HTMLTemplateElement/shadowRootSerializable"
 		}
 	},
 	"HTMLTextAreaElement": {
@@ -7261,6 +7270,7 @@
 			"extend": "https://developer.mozilla.org/docs/Web/API/Selection/extend",
 			"focusNode": "https://developer.mozilla.org/docs/Web/API/Selection/focusNode",
 			"focusOffset": "https://developer.mozilla.org/docs/Web/API/Selection/focusOffset",
+			"getComposedRanges": "https://developer.mozilla.org/docs/Web/API/Selection/getComposedRanges",
 			"getRangeAt": "https://developer.mozilla.org/docs/Web/API/Selection/getRangeAt",
 			"isCollapsed": "https://developer.mozilla.org/docs/Web/API/Selection/isCollapsed",
 			"modify": "https://developer.mozilla.org/docs/Web/API/Selection/modify",
@@ -10026,6 +10036,7 @@
 			"byteOffset": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/byteOffset",
 			"getBigInt64": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/getBigInt64",
 			"getBigUint64": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/getBigUint64",
+			"getFloat16": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/getFloat16",
 			"getFloat32": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/getFloat32",
 			"getFloat64": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/getFloat64",
 			"getInt16": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/getInt16",
@@ -10036,6 +10047,7 @@
 			"getUint8": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/getUint8",
 			"setBigInt64": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/setBigInt64",
 			"setBigUint64": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/setBigUint64",
+			"setFloat16": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/setFloat16",
 			"setFloat32": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/setFloat32",
 			"setFloat64": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/setFloat64",
 			"setInt16": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/setInt16",
@@ -10129,6 +10141,12 @@
 			"FinalizationRegistry": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/FinalizationRegistry/FinalizationRegistry",
 			"register": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/FinalizationRegistry/register",
 			"unregister": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/FinalizationRegistry/unregister"
+		}
+	},
+	"Float16Array": {
+		"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Float16Array",
+		"inst": {
+			"Float16Array": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Float16Array/Float16Array"
 		}
 	},
 	"Float32Array": {
@@ -10408,6 +10426,7 @@
 			"cosh": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/cosh",
 			"exp": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/exp",
 			"expm1": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/expm1",
+			"f16round": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/f16round",
 			"floor": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/floor",
 			"fround": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/fround",
 			"hypot": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/hypot",
