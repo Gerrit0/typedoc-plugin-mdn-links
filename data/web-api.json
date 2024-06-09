@@ -1375,7 +1375,12 @@
 	"Clipboard": {
 		"url": "https://developer.mozilla.org/docs/Web/API/Clipboard",
 		"inst": {
-			"read": "https://developer.mozilla.org/docs/Web/API/Clipboard/read",
+			"read": {
+				"url": "https://developer.mozilla.org/docs/Web/API/Clipboard/read",
+				"inst": {
+					"formats_unsanitized_parameter": "https://developer.mozilla.org/docs/Web/API/Clipboard/read#unsanitized"
+				}
+			},
 			"readText": "https://developer.mozilla.org/docs/Web/API/Clipboard/readText",
 			"write": "https://developer.mozilla.org/docs/Web/API/Clipboard/write",
 			"writeText": "https://developer.mozilla.org/docs/Web/API/Clipboard/writeText"
@@ -3372,6 +3377,7 @@
 			"anchorElement": "https://developer.mozilla.org/docs/Web/API/HTMLElement/anchorElement",
 			"attachInternals": "https://developer.mozilla.org/docs/Web/API/HTMLElement/attachInternals",
 			"attributeStyleMap": "https://developer.mozilla.org/docs/Web/API/HTMLElement/attributeStyleMap",
+			"autocapitalize": "https://developer.mozilla.org/docs/Web/API/HTMLElement/autocapitalize",
 			"autofocus": "https://developer.mozilla.org/docs/Web/API/HTMLElement/autofocus",
 			"blur": "https://developer.mozilla.org/docs/Web/API/HTMLElement/blur",
 			"click": "https://developer.mozilla.org/docs/Web/API/HTMLElement/click",
@@ -3411,6 +3417,7 @@
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLEmbedElement",
 		"inst": {
 			"height": "https://developer.mozilla.org/docs/Web/API/HTMLEmbedElement/height",
+			"src": "https://developer.mozilla.org/docs/Web/API/HTMLEmbedElement/src",
 			"width": "https://developer.mozilla.org/docs/Web/API/HTMLEmbedElement/width"
 		}
 	},
@@ -4938,7 +4945,30 @@
 	"MediaStreamTrack": {
 		"url": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack",
 		"inst": {
-			"applyConstraints": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/applyConstraints",
+			"applyConstraints": {
+				"url": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/applyConstraints",
+				"inst": {
+					"aspectRatio_constraint": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/aspectRatio",
+					"autoGainControl_constraint": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/autoGainControl",
+					"channelCount_constraint": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/channelCount",
+					"deviceId_constraint": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/deviceId",
+					"displaySurface_constraint": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/displaySurface",
+					"echoCancellation_constraint": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/echoCancellation",
+					"facingMode_constraint": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/facingMode",
+					"frameRate_constraint": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/frameRate",
+					"groupId_constraint": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/groupId",
+					"height_constraint": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/height",
+					"latency_constraint": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/latency",
+					"logicalSurface_constraint": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/logicalSurface",
+					"noiseSuppression_constraint": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/noiseSuppression",
+					"resizeMode_constraint": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/resizeMode",
+					"sampleRate_constraint": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/sampleRate",
+					"sampleSize_constraint": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/sampleSize",
+					"suppressLocalAudioPlayback_constraint": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/suppressLocalAudioPlayback",
+					"volume_constraint": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/volume",
+					"width_constraint": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/width"
+				}
+			},
 			"clone": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/clone",
 			"contentHint": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/contentHint",
 			"enabled": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/enabled",
@@ -4978,79 +5008,6 @@
 		"inst": {
 			"MediaStreamTrackProcessor": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrackProcessor/MediaStreamTrackProcessor",
 			"readable": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrackProcessor/readable"
-		}
-	},
-	"MediaTrackConstraints": {
-		"url": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints",
-		"inst": {
-			"aspectRatio": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/aspectRatio",
-			"autoGainControl": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/autoGainControl",
-			"channelCount": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/channelCount",
-			"deviceId": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/deviceId",
-			"displaySurface": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/displaySurface",
-			"echoCancellation": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/echoCancellation",
-			"facingMode": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/facingMode",
-			"frameRate": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/frameRate",
-			"groupId": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/groupId",
-			"height": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/height",
-			"latency": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/latency",
-			"logicalSurface": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/logicalSurface",
-			"noiseSuppression": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/noiseSuppression",
-			"resizeMode": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/resizeMode",
-			"sampleRate": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/sampleRate",
-			"sampleSize": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/sampleSize",
-			"suppressLocalAudioPlayback": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/suppressLocalAudioPlayback",
-			"volume": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/volume",
-			"width": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/width"
-		}
-	},
-	"MediaTrackSettings": {
-		"url": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings",
-		"inst": {
-			"aspectRatio": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/aspectRatio",
-			"autoGainControl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/autoGainControl",
-			"channelCount": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/channelCount",
-			"cursor": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/cursor",
-			"deviceId": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/deviceId",
-			"displaySurface": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/displaySurface",
-			"echoCancellation": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/echoCancellation",
-			"facingMode": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/facingMode",
-			"frameRate": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/frameRate",
-			"groupId": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/groupId",
-			"height": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/height",
-			"latency": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/latency",
-			"logicalSurface": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/logicalSurface",
-			"noiseSuppression": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/noiseSuppression",
-			"resizeMode": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/resizeMode",
-			"sampleRate": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/sampleRate",
-			"sampleSize": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/sampleSize",
-			"suppressLocalAudioPlayback": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/suppressLocalAudioPlayback",
-			"volume": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/volume",
-			"width": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/width"
-		}
-	},
-	"MediaTrackSupportedConstraints": {
-		"url": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints",
-		"inst": {
-			"aspectRatio": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/aspectRatio",
-			"autoGainControl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/autoGainControl",
-			"channelCount": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/channelCount",
-			"deviceId": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/deviceId",
-			"displaySurface": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/displaySurface",
-			"echoCancellation": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/echoCancellation",
-			"facingMode": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/facingMode",
-			"frameRate": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/frameRate",
-			"groupId": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/groupId",
-			"height": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/height",
-			"latency": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/latency",
-			"logicalSurface": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/logicalSurface",
-			"noiseSuppression": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/noiseSuppression",
-			"resizeMode": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/resizeMode",
-			"sampleRate": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/sampleRate",
-			"sampleSize": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/sampleSize",
-			"suppressLocalAudioPlayback": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/suppressLocalAudioPlayback",
-			"volume": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/volume",
-			"width": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/width"
 		}
 	},
 	"MerchantValidationEvent": {
