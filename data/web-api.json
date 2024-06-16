@@ -8068,6 +8068,7 @@
 		"stat": {
 			"canParse": "https://developer.mozilla.org/docs/Web/API/URL/canParse_static",
 			"createObjectURL": "https://developer.mozilla.org/docs/Web/API/URL/createObjectURL_static",
+			"parse": "https://developer.mozilla.org/docs/Web/API/URL/parse_static",
 			"revokeObjectURL": "https://developer.mozilla.org/docs/Web/API/URL/revokeObjectURL_static"
 		}
 	},
@@ -8652,6 +8653,7 @@
 			"drawElements": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/drawElements",
 			"drawElementsInstanced": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/drawElementsInstanced",
 			"drawRangeElements": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/drawRangeElements",
+			"drawingBufferColorSpace": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/drawingBufferColorSpace",
 			"drawingBufferHeight": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/drawingBufferHeight",
 			"drawingBufferWidth": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/drawingBufferWidth",
 			"enable": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/enable",
@@ -8821,6 +8823,7 @@
 		}
 	},
 	"WebGLFramebuffer": "https://developer.mozilla.org/docs/Web/API/WebGLFramebuffer",
+	"WebGLObject": "https://developer.mozilla.org/docs/Web/API/WebGLObject",
 	"WebGLProgram": "https://developer.mozilla.org/docs/Web/API/WebGLProgram",
 	"WebGLQuery": "https://developer.mozilla.org/docs/Web/API/WebGLQuery",
 	"WebGLRenderbuffer": "https://developer.mozilla.org/docs/Web/API/WebGLRenderbuffer",
