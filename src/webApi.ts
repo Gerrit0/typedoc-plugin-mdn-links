@@ -2,11 +2,12 @@ import { ComponentPath } from "typedoc";
 
 export interface WebApiData {
     url: string;
-    inst?: Record<string, WebApiData>;
-    stat?: Record<string, WebApiData>;
+    inst?: Record<string, WebApiData | string>;
+    stat?: Record<string, WebApiData | string>;
 }
 
-const webApi = require("../data/web-api.json") as Record<string, WebApiData>;
+import _webApi from "#data";
+const webApi = _webApi as Record<string, WebApiData | string>;
 
 function resolvePath(
     root: Record<string, WebApiData | string> | undefined,

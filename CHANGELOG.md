@@ -1,5 +1,9 @@
 # Changelog
 
+## v3.2.0 (2025-06-22)
+
+-   Support TypeDoc 0.26
+
 ## v3.1.30 (2024-06-16)
 
 -   Updated MDN API index with @mdn/browser-compat-data version 5.5.33

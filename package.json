@@ -1,14 +1,14 @@
 {
   "name": "typedoc-plugin-mdn-links",
-  "version": "3.1.30",
+  "version": "3.2.0",
   "main": "dist/index.js",
   "license": "MIT",
   "devDependencies": {
-    "@webgpu/types": "^0.1.39",
-    "prettier": "^3.1.0",
-    "typedoc": "^0.25.3",
-    "typescript": "^5.2.2",
-    "vitest": "^0.34.6",
+    "@webgpu/types": "^0.1.43",
+    "prettier": "^3.3.2",
+    "typedoc": "^0.26.0",
+    "typescript": "^5.5.2",
+    "vitest": "^1.6.0",
     "@mdn/browser-compat-data": "5.x.x"
   },
   "keywords": [
@@ -20,8 +20,11 @@
     "dist/webApi.js",
     "data/web-api.json"
   ],
+  "imports": {
+    "#data": "./data/web-api.json"
+  },
   "peerDependencies": {
-    "typedoc": ">= 0.23.14 || 0.24.x || 0.25.x"
+    "typedoc": ">= 0.23.14 || 0.24.x || 0.25.x || 0.26.x"
   },
   "scripts": {
     "lint": "prettier --check .",
