@@ -517,6 +517,7 @@
 		"inst": {
 			"Blob": "https://developer.mozilla.org/docs/Web/API/Blob/Blob",
 			"arrayBuffer": "https://developer.mozilla.org/docs/Web/API/Blob/arrayBuffer",
+			"bytes": "https://developer.mozilla.org/docs/Web/API/Blob/bytes",
 			"size": "https://developer.mozilla.org/docs/Web/API/Blob/size",
 			"slice": "https://developer.mozilla.org/docs/Web/API/Blob/slice",
 			"stream": "https://developer.mozilla.org/docs/Web/API/Blob/stream",
@@ -4058,7 +4059,6 @@
 	"HTMLTextAreaElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement",
 		"inst": {
-			"autocapitalize": "https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/autocapitalize",
 			"autocomplete": "https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/autocomplete",
 			"labels": "https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/labels",
 			"reportValidity": "https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/reportValidity",
@@ -4706,7 +4706,12 @@
 			"z": "https://developer.mozilla.org/docs/Web/API/Magnetometer/z"
 		}
 	},
-	"MathMLElement": "https://developer.mozilla.org/docs/Web/API/MathMLElement",
+	"MathMLElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/MathMLElement",
+		"inst": {
+			"attributeStyleMap": "https://developer.mozilla.org/docs/Web/API/MathMLElement/attributeStyleMap"
+		}
+	},
 	"MediaCapabilities": {
 		"url": "https://developer.mozilla.org/docs/Web/API/MediaCapabilities",
 		"inst": {
@@ -6266,6 +6271,7 @@
 		"inst": {
 			"arrayBuffer": "https://developer.mozilla.org/docs/Web/API/PushMessageData/arrayBuffer",
 			"blob": "https://developer.mozilla.org/docs/Web/API/PushMessageData/blob",
+			"bytes": "https://developer.mozilla.org/docs/Web/API/PushMessageData/bytes",
 			"json": "https://developer.mozilla.org/docs/Web/API/PushMessageData/json",
 			"text": "https://developer.mozilla.org/docs/Web/API/PushMessageData/text"
 		}
@@ -6807,6 +6813,7 @@
 			"blob": "https://developer.mozilla.org/docs/Web/API/Request/blob",
 			"body": "https://developer.mozilla.org/docs/Web/API/Request/body",
 			"bodyUsed": "https://developer.mozilla.org/docs/Web/API/Request/bodyUsed",
+			"bytes": "https://developer.mozilla.org/docs/Web/API/Request/bytes",
 			"cache": "https://developer.mozilla.org/docs/Web/API/Request/cache",
 			"clone": "https://developer.mozilla.org/docs/Web/API/Request/clone",
 			"credentials": "https://developer.mozilla.org/docs/Web/API/Request/credentials",
@@ -6859,6 +6866,7 @@
 			"blob": "https://developer.mozilla.org/docs/Web/API/Response/blob",
 			"body": "https://developer.mozilla.org/docs/Web/API/Response/body",
 			"bodyUsed": "https://developer.mozilla.org/docs/Web/API/Response/bodyUsed",
+			"bytes": "https://developer.mozilla.org/docs/Web/API/Response/bytes",
 			"clone": "https://developer.mozilla.org/docs/Web/API/Response/clone",
 			"formData": "https://developer.mozilla.org/docs/Web/API/Response/formData",
 			"headers": "https://developer.mozilla.org/docs/Web/API/Response/headers",
@@ -6934,6 +6942,7 @@
 	"SVGElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/SVGElement",
 		"inst": {
+			"attributeStyleMap": "https://developer.mozilla.org/docs/Web/API/SVGElement/attributeStyleMap",
 			"dataset": "https://developer.mozilla.org/docs/Web/API/SVGElement/dataset",
 			"style": "https://developer.mozilla.org/docs/Web/API/SVGElement/style"
 		}
