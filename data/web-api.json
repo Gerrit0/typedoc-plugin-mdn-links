@@ -1328,6 +1328,14 @@
 			"ChannelSplitterNode": "https://developer.mozilla.org/docs/Web/API/ChannelSplitterNode/ChannelSplitterNode"
 		}
 	},
+	"ChapterInformation": {
+		"url": "https://developer.mozilla.org/docs/Web/API/ChapterInformation",
+		"inst": {
+			"artwork": "https://developer.mozilla.org/docs/Web/API/ChapterInformation/artwork",
+			"startTime": "https://developer.mozilla.org/docs/Web/API/ChapterInformation/startTime",
+			"title": "https://developer.mozilla.org/docs/Web/API/ChapterInformation/title"
+		}
+	},
 	"CharacterBoundsUpdateEvent": {
 		"url": "https://developer.mozilla.org/docs/Web/API/CharacterBoundsUpdateEvent",
 		"inst": {
@@ -4832,6 +4840,7 @@
 			"album": "https://developer.mozilla.org/docs/Web/API/MediaMetadata/album",
 			"artist": "https://developer.mozilla.org/docs/Web/API/MediaMetadata/artist",
 			"artwork": "https://developer.mozilla.org/docs/Web/API/MediaMetadata/artwork",
+			"chapterInfo": "https://developer.mozilla.org/docs/Web/API/MediaMetadata/chapterInfo",
 			"title": "https://developer.mozilla.org/docs/Web/API/MediaMetadata/title"
 		}
 	},
@@ -5097,7 +5106,6 @@
 			"offsetY": "https://developer.mozilla.org/docs/Web/API/MouseEvent/offsetY",
 			"pageX": "https://developer.mozilla.org/docs/Web/API/MouseEvent/pageX",
 			"pageY": "https://developer.mozilla.org/docs/Web/API/MouseEvent/pageY",
-			"region": "https://developer.mozilla.org/docs/Web/API/MouseEvent/region",
 			"relatedTarget": "https://developer.mozilla.org/docs/Web/API/MouseEvent/relatedTarget",
 			"screenX": "https://developer.mozilla.org/docs/Web/API/MouseEvent/screenX",
 			"screenY": "https://developer.mozilla.org/docs/Web/API/MouseEvent/screenY",
