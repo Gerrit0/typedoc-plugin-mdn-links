@@ -509,6 +509,7 @@
 		"inst": {
 			"Blob": "https://developer.mozilla.org/docs/Web/API/Blob/Blob",
 			"arrayBuffer": "https://developer.mozilla.org/docs/Web/API/Blob/arrayBuffer",
+			"bytes": "https://developer.mozilla.org/docs/Web/API/Blob/bytes",
 			"size": "https://developer.mozilla.org/docs/Web/API/Blob/size",
 			"slice": "https://developer.mozilla.org/docs/Web/API/Blob/slice",
 			"stream": "https://developer.mozilla.org/docs/Web/API/Blob/stream",
@@ -916,6 +917,14 @@
 		"inst": {
 			"CSSPerspective": "https://developer.mozilla.org/docs/Web/API/CSSPerspective/CSSPerspective",
 			"length": "https://developer.mozilla.org/docs/Web/API/CSSPerspective/length"
+		}
+	},
+	"CSSPositionTryDescriptors": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors",
+	"CSSPositionTryRule": {
+		"url": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryRule",
+		"inst": {
+			"name": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryRule/name",
+			"style": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryRule/style"
 		}
 	},
 	"CSSPositionValue": {
@@ -1379,6 +1388,15 @@
 			"wasClean": "https://developer.mozilla.org/docs/Web/API/CloseEvent/wasClean"
 		}
 	},
+	"CloseWatcher": {
+		"url": "https://developer.mozilla.org/docs/Web/API/CloseWatcher",
+		"inst": {
+			"CloseWatcher": "https://developer.mozilla.org/docs/Web/API/CloseWatcher/CloseWatcher",
+			"close": "https://developer.mozilla.org/docs/Web/API/CloseWatcher/close",
+			"destroy": "https://developer.mozilla.org/docs/Web/API/CloseWatcher/destroy",
+			"requestClose": "https://developer.mozilla.org/docs/Web/API/CloseWatcher/requestClose"
+		}
+	},
 	"Comment": {
 		"url": "https://developer.mozilla.org/docs/Web/API/Comment",
 		"inst": {
@@ -1583,14 +1601,58 @@
 	"DOMMatrix": {
 		"url": "https://developer.mozilla.org/docs/Web/API/DOMMatrix",
 		"inst": {
-			"DOMMatrix": "https://developer.mozilla.org/docs/Web/API/DOMMatrix/DOMMatrix"
+			"DOMMatrix": "https://developer.mozilla.org/docs/Web/API/DOMMatrix/DOMMatrix",
+			"a": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties",
+			"b": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties",
+			"c": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties",
+			"d": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties",
+			"e": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties",
+			"f": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties",
+			"m11": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties",
+			"m12": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties",
+			"m13": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties",
+			"m14": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties",
+			"m21": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties",
+			"m22": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties",
+			"m23": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties",
+			"m24": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties",
+			"m31": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties",
+			"m32": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties",
+			"m33": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties",
+			"m34": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties",
+			"m41": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties",
+			"m42": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties",
+			"m43": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties",
+			"m44": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties"
 		}
 	},
 	"DOMMatrixReadOnly": {
 		"url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly",
 		"inst": {
 			"DOMMatrixReadOnly": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/DOMMatrixReadOnly",
+			"a": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+			"b": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+			"c": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+			"d": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+			"e": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+			"f": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
 			"flipX": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/flipX",
+			"m11": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+			"m12": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+			"m13": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+			"m14": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+			"m21": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+			"m22": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+			"m23": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+			"m24": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+			"m31": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+			"m32": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+			"m33": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+			"m34": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+			"m41": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+			"m42": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+			"m43": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+			"m44": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
 			"scale": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/scale",
 			"translate": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/translate"
 		}
@@ -3255,6 +3317,7 @@
 		"inst": {
 			"accessKey": "https://developer.mozilla.org/docs/Web/API/HTMLElement/accessKey",
 			"accessKeyLabel": "https://developer.mozilla.org/docs/Web/API/HTMLElement/accessKeyLabel",
+			"anchorElement": "https://developer.mozilla.org/docs/Web/API/HTMLElement/anchorElement",
 			"attachInternals": "https://developer.mozilla.org/docs/Web/API/HTMLElement/attachInternals",
 			"attributeStyleMap": "https://developer.mozilla.org/docs/Web/API/HTMLElement/attributeStyleMap",
 			"autocapitalize": "https://developer.mozilla.org/docs/Web/API/HTMLElement/autocapitalize",
@@ -3452,6 +3515,7 @@
 			"crossOrigin": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/crossOrigin",
 			"disabled": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/disabled",
 			"fetchPriority": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/fetchPriority",
+			"href": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/href",
 			"hreflang": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/hreflang",
 			"integrity": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/integrity",
 			"referrerPolicy": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/referrerPolicy",
@@ -4868,6 +4932,22 @@
 			"updateCurrentEntry": "https://developer.mozilla.org/docs/Web/API/Navigation/updateCurrentEntry"
 		}
 	},
+	"NavigationActivation": {
+		"url": "https://developer.mozilla.org/docs/Web/API/NavigationActivation",
+		"inst": {
+			"entry": "https://developer.mozilla.org/docs/Web/API/NavigationActivation/entry",
+			"from": "https://developer.mozilla.org/docs/Web/API/NavigationActivation/from",
+			"navigationType": "https://developer.mozilla.org/docs/Web/API/NavigationActivation/navigationType"
+		}
+	},
+	"NavigationCurrentEntryChangeEvent": {
+		"url": "https://developer.mozilla.org/docs/Web/API/NavigationCurrentEntryChangeEvent",
+		"inst": {
+			"NavigationCurrentEntryChangeEvent": "https://developer.mozilla.org/docs/Web/API/NavigationCurrentEntryChangeEvent/NavigationCurrentEntryChangeEvent",
+			"from": "https://developer.mozilla.org/docs/Web/API/NavigationCurrentEntryChangeEvent/from",
+			"navigationType": "https://developer.mozilla.org/docs/Web/API/NavigationCurrentEntryChangeEvent/navigationType"
+		}
+	},
 	"NavigationDestination": {
 		"url": "https://developer.mozilla.org/docs/Web/API/NavigationDestination",
 		"inst": {
@@ -5221,6 +5301,21 @@
 		"inst": {
 			"OverconstrainedError": "https://developer.mozilla.org/docs/Web/API/OverconstrainedError/OverconstrainedError",
 			"constraint": "https://developer.mozilla.org/docs/Web/API/OverconstrainedError/constraint"
+		}
+	},
+	"PageRevealEvent": {
+		"url": "https://developer.mozilla.org/docs/Web/API/PageRevealEvent",
+		"inst": {
+			"PageRevealEvent": "https://developer.mozilla.org/docs/Web/API/PageRevealEvent/PageRevealEvent",
+			"viewTransition": "https://developer.mozilla.org/docs/Web/API/PageRevealEvent/viewTransition"
+		}
+	},
+	"PageSwapEvent": {
+		"url": "https://developer.mozilla.org/docs/Web/API/PageSwapEvent",
+		"inst": {
+			"PageSwapEvent": "https://developer.mozilla.org/docs/Web/API/PageSwapEvent/PageSwapEvent",
+			"activation": "https://developer.mozilla.org/docs/Web/API/PageSwapEvent/activation",
+			"viewTransition": "https://developer.mozilla.org/docs/Web/API/PageSwapEvent/viewTransition"
 		}
 	},
 	"PageTransitionEvent": {
@@ -5805,6 +5900,7 @@
 		"inst": {
 			"arrayBuffer": "https://developer.mozilla.org/docs/Web/API/PushMessageData/arrayBuffer",
 			"blob": "https://developer.mozilla.org/docs/Web/API/PushMessageData/blob",
+			"bytes": "https://developer.mozilla.org/docs/Web/API/PushMessageData/bytes",
 			"json": "https://developer.mozilla.org/docs/Web/API/PushMessageData/json",
 			"text": "https://developer.mozilla.org/docs/Web/API/PushMessageData/text"
 		}
@@ -6333,6 +6429,7 @@
 			"blob": "https://developer.mozilla.org/docs/Web/API/Request/blob",
 			"body": "https://developer.mozilla.org/docs/Web/API/Request/body",
 			"bodyUsed": "https://developer.mozilla.org/docs/Web/API/Request/bodyUsed",
+			"bytes": "https://developer.mozilla.org/docs/Web/API/Request/bytes",
 			"cache": "https://developer.mozilla.org/docs/Web/API/Request/cache",
 			"clone": "https://developer.mozilla.org/docs/Web/API/Request/clone",
 			"credentials": "https://developer.mozilla.org/docs/Web/API/Request/credentials",
@@ -6385,6 +6482,7 @@
 			"blob": "https://developer.mozilla.org/docs/Web/API/Response/blob",
 			"body": "https://developer.mozilla.org/docs/Web/API/Response/body",
 			"bodyUsed": "https://developer.mozilla.org/docs/Web/API/Response/bodyUsed",
+			"bytes": "https://developer.mozilla.org/docs/Web/API/Response/bytes",
 			"clone": "https://developer.mozilla.org/docs/Web/API/Response/clone",
 			"formData": "https://developer.mozilla.org/docs/Web/API/Response/formData",
 			"headers": "https://developer.mozilla.org/docs/Web/API/Response/headers",
@@ -6718,7 +6816,8 @@
 		"url": "https://developer.mozilla.org/docs/Web/API/ScrollTimeline",
 		"inst": {
 			"ScrollTimeline": "https://developer.mozilla.org/docs/Web/API/ScrollTimeline/ScrollTimeline",
-			"axis": "https://developer.mozilla.org/docs/Web/API/ScrollTimeline/axis"
+			"axis": "https://developer.mozilla.org/docs/Web/API/ScrollTimeline/axis",
+			"source": "https://developer.mozilla.org/docs/Web/API/ScrollTimeline/source"
 		}
 	},
 	"SecurityPolicyViolationEvent": {
@@ -7933,7 +8032,9 @@
 		"url": "https://developer.mozilla.org/docs/Web/API/ViewTimeline",
 		"inst": {
 			"ViewTimeline": "https://developer.mozilla.org/docs/Web/API/ViewTimeline/ViewTimeline",
-			"endOffset": "https://developer.mozilla.org/docs/Web/API/ViewTimeline/endOffset"
+			"endOffset": "https://developer.mozilla.org/docs/Web/API/ViewTimeline/endOffset",
+			"startOffset": "https://developer.mozilla.org/docs/Web/API/ViewTimeline/startOffset",
+			"subject": "https://developer.mozilla.org/docs/Web/API/ViewTimeline/subject"
 		}
 	},
 	"ViewTransition": {
