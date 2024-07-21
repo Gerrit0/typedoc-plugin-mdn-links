@@ -919,7 +919,81 @@
 			"length": "https://developer.mozilla.org/docs/Web/API/CSSPerspective/length"
 		}
 	},
-	"CSSPositionTryDescriptors": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors",
+	"CSSPositionTryDescriptors": {
+		"url": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors",
+		"inst": {
+			"align-self": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"alignSelf": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"block-size": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"blockSize": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"bottom": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"height": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"inline-size": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"inlineSize": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"inset": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"inset-area": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"inset-block": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"inset-block-end": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"inset-block-start": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"inset-inline": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"inset-inline-end": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"inset-inline-start": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"insetArea": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"insetBlock": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"insetBlockEnd": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"insetBlockStart": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"insetInline": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"insetInlineEnd": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"insetInlineStart": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"justify-self": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"justifySelf": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"left": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"margin": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"margin-block": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"margin-block-end": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"margin-block-start": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"margin-bottom": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"margin-inline": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"margin-inline-end": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"margin-inline-start": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"margin-left": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"margin-right": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"margin-top": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"marginBlock": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"marginBlockEnd": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"marginBlockStart": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"marginBottom": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"marginInline": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"marginInlineEnd": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"marginInlineStart": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"marginLeft": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"marginRight": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"marginTop": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"max-block-size": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"max-height": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"max-inline-size": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"max-width": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"maxBlockSize": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"maxHeight": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"maxInlineSize": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"maxWidth": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"min-block-size": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"min-height": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"min-inline-size": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"min-width": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"minBlockSize": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"minHeight": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"minInlineSize": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"minWidth": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"place-self": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"placeSelf": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"position-anchor": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"positionAnchor": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"right": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"top": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"width": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties"
+		}
+	},
 	"CSSPositionTryRule": {
 		"url": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryRule",
 		"inst": {
@@ -3251,6 +3325,7 @@
 	"HTMLBaseElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLBaseElement",
 		"inst": {
+			"href": "https://developer.mozilla.org/docs/Web/API/HTMLBaseElement/href",
 			"target": "https://developer.mozilla.org/docs/Web/API/HTMLBaseElement/target"
 		}
 	},
@@ -3461,7 +3536,12 @@
 			"naturalHeight": "https://developer.mozilla.org/docs/Web/API/HTMLImageElement/naturalHeight",
 			"naturalWidth": "https://developer.mozilla.org/docs/Web/API/HTMLImageElement/naturalWidth",
 			"referrerPolicy": "https://developer.mozilla.org/docs/Web/API/HTMLImageElement/referrerPolicy",
-			"sizes": "https://developer.mozilla.org/docs/Web/API/HTMLImageElement/sizes",
+			"sizes": {
+				"url": "https://developer.mozilla.org/docs/Web/API/HTMLImageElement/sizes",
+				"inst": {
+					"auto": "https://developer.mozilla.org/docs/Web/API/HTMLImageElement/sizes"
+				}
+			},
 			"src": "https://developer.mozilla.org/docs/Web/API/HTMLImageElement/src",
 			"srcset": "https://developer.mozilla.org/docs/Web/API/HTMLImageElement/srcset",
 			"useMap": "https://developer.mozilla.org/docs/Web/API/HTMLImageElement/useMap",
@@ -3518,6 +3598,7 @@
 			"href": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/href",
 			"hreflang": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/hreflang",
 			"integrity": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/integrity",
+			"media": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/media",
 			"referrerPolicy": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/referrerPolicy",
 			"rel": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/rel",
 			"relList": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/relList",
@@ -3528,6 +3609,7 @@
 	"HTMLMapElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLMapElement",
 		"inst": {
+			"areas": "https://developer.mozilla.org/docs/Web/API/HTMLMapElement/areas",
 			"name": "https://developer.mozilla.org/docs/Web/API/HTMLMapElement/name"
 		}
 	},
@@ -4539,6 +4621,7 @@
 		"url": "https://developer.mozilla.org/docs/Web/API/MediaKeys",
 		"inst": {
 			"createSession": "https://developer.mozilla.org/docs/Web/API/MediaKeys/createSession",
+			"getStatusForPolicy": "https://developer.mozilla.org/docs/Web/API/MediaKeys/getStatusForPolicy",
 			"setServerCertificate": "https://developer.mozilla.org/docs/Web/API/MediaKeys/setServerCertificate"
 		}
 	},
@@ -5141,7 +5224,6 @@
 	"NodeList": {
 		"url": "https://developer.mozilla.org/docs/Web/API/NodeList",
 		"inst": {
-			"@@iterator": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/@@iterator",
 			"entries": "https://developer.mozilla.org/docs/Web/API/NodeList/entries",
 			"forEach": "https://developer.mozilla.org/docs/Web/API/NodeList/forEach",
 			"item": "https://developer.mozilla.org/docs/Web/API/NodeList/item",
@@ -5275,8 +5357,77 @@
 	"OffscreenCanvasRenderingContext2D": {
 		"url": "https://developer.mozilla.org/docs/Web/API/OffscreenCanvasRenderingContext2D",
 		"inst": {
+			"arc": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/arc",
+			"arcTo": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/arcTo",
+			"beginPath": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/beginPath",
+			"bezierCurveTo": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/bezierCurveTo",
+			"canvas": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/canvas",
+			"clearRect": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/clearRect",
+			"clip": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/clip",
+			"closePath": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/closePath",
 			"commit": "https://developer.mozilla.org/docs/Web/API/OffscreenCanvasRenderingContext2D/commit",
-			"reset": "https://developer.mozilla.org/docs/Web/API/OffscreenCanvasRenderingContext2D#canvasrenderingcontext2d.reset"
+			"createConicGradient": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/createConicGradient",
+			"createImageData": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/createImageData",
+			"createLinearGradient": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/createLinearGradient",
+			"createPattern": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/createPattern",
+			"createRadialGradient": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/createRadialGradient",
+			"direction": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/direction",
+			"drawImage": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/drawImage",
+			"ellipse": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/ellipse",
+			"fill": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/fill",
+			"fillRect": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/fillRect",
+			"fillStyle": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/fillStyle",
+			"fillText": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/fillText",
+			"filter": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/filter",
+			"font": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/font",
+			"fontKerning": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/fontKerning",
+			"fontStretch": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/fontStretch",
+			"fontVariantCaps": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/fontVariantCaps",
+			"getImageData": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/getImageData",
+			"getLineDash": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/getLineDash",
+			"getTransform": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/getTransform",
+			"globalAlpha": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/globalAlpha",
+			"globalCompositeOperation": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation",
+			"imageSmoothingEnabled": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/imageSmoothingEnabled",
+			"imageSmoothingQuality": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/imageSmoothingQuality",
+			"isContextLost": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/isContextLost",
+			"isPointInPath": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/isPointInPath",
+			"isPointInStroke": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/isPointInStroke",
+			"letterSpacing": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/letterSpacing",
+			"lineCap": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/lineCap",
+			"lineDashOffset": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/lineDashOffset",
+			"lineJoin": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/lineJoin",
+			"lineTo": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/lineTo",
+			"lineWidth": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/lineWidth",
+			"measureText": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/measureText",
+			"miterLimit": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/miterLimit",
+			"moveTo": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/moveTo",
+			"putImageData": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/putImageData",
+			"quadraticCurveTo": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/quadraticCurveTo",
+			"rect": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/rect",
+			"reset": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/reset",
+			"resetTransform": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/resetTransform",
+			"restore": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/restore",
+			"rotate": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/rotate",
+			"roundRect": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/roundRect",
+			"save": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/save",
+			"scale": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/scale",
+			"setLineDash": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/setLineDash",
+			"setTransform": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/setTransform",
+			"shadowBlur": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/shadowBlur",
+			"shadowColor": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/shadowColor",
+			"shadowOffsetX": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/shadowOffsetX",
+			"shadowOffsetY": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/shadowOffsetY",
+			"stroke": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/stroke",
+			"strokeRect": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/strokeRect",
+			"strokeStyle": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/strokeStyle",
+			"strokeText": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/strokeText",
+			"textAlign": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/textAlign",
+			"textBaseline": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/textBaseline",
+			"textRendering": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/textRendering",
+			"transform": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/transform",
+			"translate": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/translate",
+			"wordSpacing": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/wordSpacing"
 		}
 	},
 	"OrientationSensor": {
@@ -5306,14 +5457,12 @@
 	"PageRevealEvent": {
 		"url": "https://developer.mozilla.org/docs/Web/API/PageRevealEvent",
 		"inst": {
-			"PageRevealEvent": "https://developer.mozilla.org/docs/Web/API/PageRevealEvent/PageRevealEvent",
 			"viewTransition": "https://developer.mozilla.org/docs/Web/API/PageRevealEvent/viewTransition"
 		}
 	},
 	"PageSwapEvent": {
 		"url": "https://developer.mozilla.org/docs/Web/API/PageSwapEvent",
 		"inst": {
-			"PageSwapEvent": "https://developer.mozilla.org/docs/Web/API/PageSwapEvent/PageSwapEvent",
 			"activation": "https://developer.mozilla.org/docs/Web/API/PageSwapEvent/activation",
 			"viewTransition": "https://developer.mozilla.org/docs/Web/API/PageSwapEvent/viewTransition"
 		}
@@ -5367,7 +5516,17 @@
 		"url": "https://developer.mozilla.org/docs/Web/API/Path2D",
 		"inst": {
 			"Path2D": "https://developer.mozilla.org/docs/Web/API/Path2D/Path2D",
-			"addPath": "https://developer.mozilla.org/docs/Web/API/Path2D/addPath"
+			"addPath": "https://developer.mozilla.org/docs/Web/API/Path2D/addPath",
+			"arc": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/arc",
+			"arcTo": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/arcTo",
+			"bezierCurveTo": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/bezierCurveTo",
+			"closePath": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/closePath",
+			"ellipse": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/ellipse",
+			"lineTo": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/lineTo",
+			"moveTo": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/moveTo",
+			"quadraticCurveTo": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/quadraticCurveTo",
+			"rect": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/rect",
+			"roundRect": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/roundRect"
 		}
 	},
 	"PaymentAddress": {
@@ -6216,7 +6375,7 @@
 	"RTCStatsReport": {
 		"url": "https://developer.mozilla.org/docs/Web/API/RTCStatsReport",
 		"inst": {
-			"@@iterator": "https://developer.mozilla.org/docs/Web/API/RTCStatsReport/@@iterator",
+			"@@iterator": "https://developer.mozilla.org/docs/Web/API/RTCStatsReport/Symbol.iterator",
 			"entries": "https://developer.mozilla.org/docs/Web/API/RTCStatsReport/entries",
 			"forEach": "https://developer.mozilla.org/docs/Web/API/RTCStatsReport/forEach",
 			"get": "https://developer.mozilla.org/docs/Web/API/RTCStatsReport/get",
@@ -7926,6 +8085,7 @@
 		"url": "https://developer.mozilla.org/docs/Web/API/ValidityState",
 		"inst": {
 			"badInput": "https://developer.mozilla.org/docs/Web/API/ValidityState/badInput",
+			"customError": "https://developer.mozilla.org/docs/Web/API/ValidityState/customError",
 			"patternMismatch": "https://developer.mozilla.org/docs/Web/API/ValidityState/patternMismatch",
 			"rangeOverflow": "https://developer.mozilla.org/docs/Web/API/ValidityState/rangeOverflow",
 			"rangeUnderflow": "https://developer.mozilla.org/docs/Web/API/ValidityState/rangeUnderflow",
@@ -7933,6 +8093,7 @@
 			"tooLong": "https://developer.mozilla.org/docs/Web/API/ValidityState/tooLong",
 			"tooShort": "https://developer.mozilla.org/docs/Web/API/ValidityState/tooShort",
 			"typeMismatch": "https://developer.mozilla.org/docs/Web/API/ValidityState/typeMismatch",
+			"valid": "https://developer.mozilla.org/docs/Web/API/ValidityState/valid",
 			"valueMissing": "https://developer.mozilla.org/docs/Web/API/ValidityState/valueMissing"
 		}
 	},
@@ -9415,9 +9576,9 @@
 	"Array": {
 		"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array",
 		"inst": {
-			"@@iterator": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/@@iterator",
-			"@@species": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/@@species",
-			"@@unscopables": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/@@unscopables",
+			"@@iterator": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/Symbol.iterator",
+			"@@species": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/Symbol.species",
+			"@@unscopables": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/Symbol.unscopables",
 			"Array": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/Array",
 			"at": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/at",
 			"concat": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/concat",
@@ -9467,7 +9628,7 @@
 	"ArrayBuffer": {
 		"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
 		"inst": {
-			"@@species": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer/@@species",
+			"@@species": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer/Symbol.species",
 			"ArrayBuffer": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer/ArrayBuffer",
 			"byteLength": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer/byteLength",
 			"detached": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer/detached",
@@ -9503,7 +9664,7 @@
 	"AsyncIterator": {
 		"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/AsyncIterator",
 		"inst": {
-			"@@asyncIterator": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/AsyncIterator/@@asyncIterator"
+			"@@asyncIterator": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/AsyncIterator/Symbol.asyncIterator"
 		}
 	},
 	"Atomics": {
@@ -9589,7 +9750,7 @@
 	"Date": {
 		"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date",
 		"inst": {
-			"@@toPrimitive": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/@@toPrimitive",
+			"@@toPrimitive": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/Symbol.toPrimitive",
 			"Date": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/Date",
 			"UTC": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/UTC",
 			"getDate": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getDate",
@@ -9693,7 +9854,7 @@
 	"Function": {
 		"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function",
 		"inst": {
-			"@@hasInstance": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/@@hasInstance",
+			"@@hasInstance": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/Symbol.hasInstance",
 			"Function": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/Function",
 			"apply": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/apply",
 			"arguments": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/arguments",
@@ -9868,7 +10029,7 @@
 			"Segments": {
 				"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter/segment/Segments",
 				"inst": {
-					"@@iterator": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter/segment/Segments/@@iterator",
+					"@@iterator": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter/segment/Segments/Symbol.iterator",
 					"containing": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter/segment/Segments/containing"
 				}
 			},
@@ -9879,7 +10040,7 @@
 	"Iterator": {
 		"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator",
 		"inst": {
-			"@@iterator": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/@@iterator",
+			"@@iterator": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/Symbol.iterator",
 			"Iterator": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/Iterator",
 			"drop": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/drop",
 			"every": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/every",
@@ -9913,8 +10074,8 @@
 	"Map": {
 		"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map",
 		"inst": {
-			"@@iterator": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/@@iterator",
-			"@@species": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/@@species",
+			"@@iterator": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/Symbol.iterator",
+			"@@species": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/Symbol.species",
 			"Map": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/Map",
 			"clear": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/clear",
 			"delete": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/delete",
@@ -10049,7 +10210,7 @@
 	"Promise": {
 		"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise",
 		"inst": {
-			"@@species": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/@@species",
+			"@@species": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/Symbol.species",
 			"Promise": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/Promise",
 			"all": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/all",
 			"allSettled": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettled",
@@ -10106,12 +10267,12 @@
 	"RegExp": {
 		"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
 		"inst": {
-			"@@match": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/@@match",
-			"@@matchAll": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/@@matchAll",
-			"@@replace": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/@@replace",
-			"@@search": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/@@search",
-			"@@species": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/@@species",
-			"@@split": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/@@split",
+			"@@match": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/Symbol.match",
+			"@@matchAll": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/Symbol.matchAll",
+			"@@replace": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/Symbol.replace",
+			"@@search": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/Symbol.search",
+			"@@species": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/Symbol.species",
+			"@@split": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/Symbol.split",
 			"RegExp": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/RegExp",
 			"compile": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/compile",
 			"dotAll": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/dotAll",
@@ -10139,8 +10300,8 @@
 	"Set": {
 		"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set",
 		"inst": {
-			"@@iterator": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/@@iterator",
-			"@@species": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/@@species",
+			"@@iterator": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/Symbol.iterator",
+			"@@species": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/Symbol.species",
 			"Set": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/Set",
 			"add": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/add",
 			"clear": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/clear",
@@ -10163,7 +10324,7 @@
 	"SharedArrayBuffer": {
 		"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer",
 		"inst": {
-			"@@species": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer/@@species",
+			"@@species": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer/Symbol.species",
 			"SharedArrayBuffer": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer/SharedArrayBuffer",
 			"byteLength": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer/byteLength",
 			"grow": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer/grow",
@@ -10175,7 +10336,7 @@
 	"String": {
 		"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String",
 		"inst": {
-			"@@iterator": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/@@iterator",
+			"@@iterator": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/Symbol.iterator",
 			"String": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/String",
 			"anchor": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/anchor",
 			"at": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/at",
@@ -10234,7 +10395,7 @@
 	"Symbol": {
 		"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
 		"inst": {
-			"@@toPrimitive": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/@@toPrimitive",
+			"@@toPrimitive": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/Symbol.toPrimitive",
 			"Symbol": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/Symbol",
 			"asyncIterator": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/asyncIterator",
 			"description": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/description",
@@ -10278,8 +10439,8 @@
 	"TypedArray": {
 		"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray",
 		"inst": {
-			"@@iterator": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/@@iterator",
-			"@@species": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/@@species",
+			"@@iterator": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/Symbol.iterator",
+			"@@species": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/Symbol.species",
 			"BYTES_PER_ELEMENT": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/BYTES_PER_ELEMENT",
 			"at": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/at",
 			"buffer": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/buffer",
