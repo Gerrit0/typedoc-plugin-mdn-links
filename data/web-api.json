@@ -1336,7 +1336,6 @@
 			"roundRect": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/roundRect",
 			"save": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/save",
 			"scale": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/scale",
-			"scrollPathIntoView": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/scrollPathIntoView",
 			"setLineDash": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/setLineDash",
 			"setTransform": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/setTransform",
 			"shadowBlur": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/shadowBlur",
@@ -3143,8 +3142,10 @@
 	"GamepadHapticActuator": {
 		"url": "https://developer.mozilla.org/docs/Web/API/GamepadHapticActuator",
 		"inst": {
+			"effects": "https://developer.mozilla.org/docs/Web/API/GamepadHapticActuator/effects",
 			"playEffect": "https://developer.mozilla.org/docs/Web/API/GamepadHapticActuator/playEffect",
 			"pulse": "https://developer.mozilla.org/docs/Web/API/GamepadHapticActuator/pulse",
+			"reset": "https://developer.mozilla.org/docs/Web/API/GamepadHapticActuator/reset",
 			"type": "https://developer.mozilla.org/docs/Web/API/GamepadHapticActuator/type"
 		}
 	},
@@ -3801,7 +3802,12 @@
 			"type": "https://developer.mozilla.org/docs/Web/API/HTMLStyleElement/type"
 		}
 	},
-	"HTMLTableCaptionElement": "https://developer.mozilla.org/docs/Web/API/HTMLTableCaptionElement",
+	"HTMLTableCaptionElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/HTMLTableCaptionElement",
+		"inst": {
+			"align": "https://developer.mozilla.org/docs/Web/API/HTMLTableCaptionElement/align"
+		}
+	},
 	"HTMLTableCellElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLTableCellElement",
 		"inst": {
@@ -3860,6 +3866,7 @@
 	"HTMLTableRowElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLTableRowElement",
 		"inst": {
+			"align": "https://developer.mozilla.org/docs/Web/API/HTMLTableRowElement/align",
 			"bgColor": "https://developer.mozilla.org/docs/Web/API/HTMLTableRowElement/bgColor",
 			"cells": "https://developer.mozilla.org/docs/Web/API/HTMLTableRowElement/cells",
 			"ch": "https://developer.mozilla.org/docs/Web/API/HTMLTableRowElement/ch",
@@ -3867,17 +3874,20 @@
 			"deleteCell": "https://developer.mozilla.org/docs/Web/API/HTMLTableRowElement/deleteCell",
 			"insertCell": "https://developer.mozilla.org/docs/Web/API/HTMLTableRowElement/insertCell",
 			"rowIndex": "https://developer.mozilla.org/docs/Web/API/HTMLTableRowElement/rowIndex",
-			"sectionRowIndex": "https://developer.mozilla.org/docs/Web/API/HTMLTableRowElement/sectionRowIndex"
+			"sectionRowIndex": "https://developer.mozilla.org/docs/Web/API/HTMLTableRowElement/sectionRowIndex",
+			"vAlign": "https://developer.mozilla.org/docs/Web/API/HTMLTableRowElement/vAlign"
 		}
 	},
 	"HTMLTableSectionElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLTableSectionElement",
 		"inst": {
+			"align": "https://developer.mozilla.org/docs/Web/API/HTMLTableSectionElement/align",
 			"ch": "https://developer.mozilla.org/docs/Web/API/HTMLTableSectionElement/ch",
 			"chOff": "https://developer.mozilla.org/docs/Web/API/HTMLTableSectionElement/chOff",
 			"deleteRow": "https://developer.mozilla.org/docs/Web/API/HTMLTableSectionElement/deleteRow",
 			"insertRow": "https://developer.mozilla.org/docs/Web/API/HTMLTableSectionElement/insertRow",
-			"rows": "https://developer.mozilla.org/docs/Web/API/HTMLTableSectionElement/rows"
+			"rows": "https://developer.mozilla.org/docs/Web/API/HTMLTableSectionElement/rows",
+			"vAlign": "https://developer.mozilla.org/docs/Web/API/HTMLTableSectionElement/vAlign"
 		}
 	},
 	"HTMLTemplateElement": {
@@ -4284,7 +4294,8 @@
 	"InstallEvent": {
 		"url": "https://developer.mozilla.org/docs/Web/API/InstallEvent",
 		"inst": {
-			"InstallEvent": "https://developer.mozilla.org/docs/Web/API/InstallEvent/InstallEvent"
+			"InstallEvent": "https://developer.mozilla.org/docs/Web/API/InstallEvent/InstallEvent",
+			"addRoutes": "https://developer.mozilla.org/docs/Web/API/InstallEvent/addRoutes"
 		}
 	},
 	"IntersectionObserver": {
@@ -5457,12 +5468,14 @@
 	"PageRevealEvent": {
 		"url": "https://developer.mozilla.org/docs/Web/API/PageRevealEvent",
 		"inst": {
+			"PageRevealEvent": "https://developer.mozilla.org/docs/Web/API/PageRevealEvent/PageRevealEvent",
 			"viewTransition": "https://developer.mozilla.org/docs/Web/API/PageRevealEvent/viewTransition"
 		}
 	},
 	"PageSwapEvent": {
 		"url": "https://developer.mozilla.org/docs/Web/API/PageSwapEvent",
 		"inst": {
+			"PageSwapEvent": "https://developer.mozilla.org/docs/Web/API/PageSwapEvent/PageSwapEvent",
 			"activation": "https://developer.mozilla.org/docs/Web/API/PageSwapEvent/activation",
 			"viewTransition": "https://developer.mozilla.org/docs/Web/API/PageSwapEvent/viewTransition"
 		}
@@ -7589,6 +7602,13 @@
 			"writable": "https://developer.mozilla.org/docs/Web/API/TextEncoderStream/writable"
 		}
 	},
+	"TextEvent": {
+		"url": "https://developer.mozilla.org/docs/Web/API/TextEvent",
+		"inst": {
+			"data": "https://developer.mozilla.org/docs/Web/API/TextEvent/data",
+			"initTextEvent": "https://developer.mozilla.org/docs/Web/API/TextEvent/initTextEvent"
+		}
+	},
 	"TextFormat": {
 		"url": "https://developer.mozilla.org/docs/Web/API/TextFormat",
 		"inst": {
@@ -9553,7 +9573,7 @@
 	"createImageBitmap": "https://developer.mozilla.org/docs/Web/API/createImageBitmap",
 	"crossOriginIsolated": "https://developer.mozilla.org/docs/Web/API/Window/crossOriginIsolated",
 	"crypto": "https://developer.mozilla.org/docs/Web/API/Window/crypto",
-	"fetch": "https://developer.mozilla.org/docs/Web/API/fetch",
+	"fetch": "https://developer.mozilla.org/docs/Web/API/Window/fetch",
 	"indexedDB": "https://developer.mozilla.org/docs/Web/API/Window/indexedDB",
 	"isSecureContext": "https://developer.mozilla.org/docs/Web/API/Window/isSecureContext",
 	"origin": "https://developer.mozilla.org/docs/Web/API/Window/origin",
@@ -10222,6 +10242,7 @@
 			"reject": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/reject",
 			"resolve": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/resolve",
 			"then": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/then",
+			"try": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/try",
 			"withResolvers": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/withResolvers"
 		}
 	},
