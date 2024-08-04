@@ -931,14 +931,12 @@
 			"inline-size": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
 			"inlineSize": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
 			"inset": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
-			"inset-area": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
 			"inset-block": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
 			"inset-block-end": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
 			"inset-block-start": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
 			"inset-inline": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
 			"inset-inline-end": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
 			"inset-inline-start": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
-			"insetArea": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
 			"insetBlock": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
 			"insetBlockEnd": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
 			"insetBlockStart": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
@@ -988,7 +986,9 @@
 			"place-self": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
 			"placeSelf": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
 			"position-anchor": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"position-area": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
 			"positionAnchor": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
+			"positionArea": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
 			"right": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
 			"top": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties",
 			"width": "https://developer.mozilla.org/docs/Web/API/CSSPositionTryDescriptors#instance_properties"
@@ -2305,7 +2305,6 @@
 			"setAttributeNode": "https://developer.mozilla.org/docs/Web/API/Element/setAttributeNode",
 			"setAttributeNodeNS": "https://developer.mozilla.org/docs/Web/API/Element/setAttributeNodeNS",
 			"setCapture": "https://developer.mozilla.org/docs/Web/API/Element/setCapture",
-			"setHTML": "https://developer.mozilla.org/docs/Web/API/Element/setHTML",
 			"setHTMLUnsafe": "https://developer.mozilla.org/docs/Web/API/Element/setHTMLUnsafe",
 			"setPointerCapture": "https://developer.mozilla.org/docs/Web/API/Element/setPointerCapture",
 			"shadowRoot": "https://developer.mozilla.org/docs/Web/API/Element/shadowRoot",
@@ -4535,7 +4534,12 @@
 	"MediaCapabilities": {
 		"url": "https://developer.mozilla.org/docs/Web/API/MediaCapabilities",
 		"inst": {
-			"decodingInfo": "https://developer.mozilla.org/docs/Web/API/MediaCapabilities/decodingInfo",
+			"decodingInfo": {
+				"url": "https://developer.mozilla.org/docs/Web/API/MediaCapabilities/decodingInfo",
+				"inst": {
+					"configuration_keySystemConfiguration_parameter": "https://developer.mozilla.org/docs/Web/API/MediaCapabilities/decodingInfo#keysystemconfiguration"
+				}
+			},
 			"encodingInfo": "https://developer.mozilla.org/docs/Web/API/MediaCapabilities/encodingInfo"
 		}
 	},
@@ -5778,6 +5782,7 @@
 		"inst": {
 			"connectEnd": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/connectEnd",
 			"connectStart": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/connectStart",
+			"contentType": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/contentType",
 			"decodedBodySize": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/decodedBodySize",
 			"deliveryType": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/deliveryType",
 			"domainLookupEnd": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/domainLookupEnd",
@@ -6909,13 +6914,6 @@
 	"SVGUseElement": "https://developer.mozilla.org/docs/Web/API/SVGUseElement",
 	"SVGVKernElement": "https://developer.mozilla.org/docs/Web/API/SVGVKernElement",
 	"SVGViewElement": "https://developer.mozilla.org/docs/Web/API/SVGViewElement",
-	"Sanitizer": {
-		"url": "https://developer.mozilla.org/docs/Web/API/Sanitizer",
-		"inst": {
-			"Sanitizer": "https://developer.mozilla.org/docs/Web/API/Sanitizer/Sanitizer",
-			"sanitize": "https://developer.mozilla.org/docs/Web/API/Sanitizer/sanitize"
-		}
-	},
 	"Scheduler": {
 		"url": "https://developer.mozilla.org/docs/Web/API/Scheduler",
 		"inst": {
