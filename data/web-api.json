@@ -905,6 +905,7 @@
 			"parse": "https://developer.mozilla.org/docs/Web/API/CSSNumericValue/parse_static"
 		}
 	},
+	"CSSPageDescriptors": "https://developer.mozilla.org/docs/Web/API/CSSPageDescriptors",
 	"CSSPageRule": {
 		"url": "https://developer.mozilla.org/docs/Web/API/CSSPageRule",
 		"inst": {
