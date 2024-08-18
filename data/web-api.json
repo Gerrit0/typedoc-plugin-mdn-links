@@ -1375,6 +1375,14 @@
 			"ChannelSplitterNode": "https://developer.mozilla.org/docs/Web/API/ChannelSplitterNode/ChannelSplitterNode"
 		}
 	},
+	"ChapterInformation": {
+		"url": "https://developer.mozilla.org/docs/Web/API/ChapterInformation",
+		"inst": {
+			"artwork": "https://developer.mozilla.org/docs/Web/API/ChapterInformation/artwork",
+			"startTime": "https://developer.mozilla.org/docs/Web/API/ChapterInformation/startTime",
+			"title": "https://developer.mozilla.org/docs/Web/API/ChapterInformation/title"
+		}
+	},
 	"CharacterBoundsUpdateEvent": {
 		"url": "https://developer.mozilla.org/docs/Web/API/CharacterBoundsUpdateEvent",
 		"inst": {
@@ -4658,6 +4666,7 @@
 			"album": "https://developer.mozilla.org/docs/Web/API/MediaMetadata/album",
 			"artist": "https://developer.mozilla.org/docs/Web/API/MediaMetadata/artist",
 			"artwork": "https://developer.mozilla.org/docs/Web/API/MediaMetadata/artwork",
+			"chapterInfo": "https://developer.mozilla.org/docs/Web/API/MediaMetadata/chapterInfo",
 			"title": "https://developer.mozilla.org/docs/Web/API/MediaMetadata/title"
 		}
 	},
@@ -6882,7 +6891,12 @@
 	"SVGPolylineElement": "https://developer.mozilla.org/docs/Web/API/SVGPolylineElement",
 	"SVGPreserveAspectRatio": "https://developer.mozilla.org/docs/Web/API/SVGPreserveAspectRatio",
 	"SVGRadialGradientElement": "https://developer.mozilla.org/docs/Web/API/SVGRadialGradientElement",
-	"SVGRect": "https://developer.mozilla.org/docs/Web/API/SVGRect",
+	"SVGRect": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGRect",
+		"inst": {
+			"x": "https://developer.mozilla.org/docs/Web/API/SVGRect/x"
+		}
+	},
 	"SVGRectElement": "https://developer.mozilla.org/docs/Web/API/SVGRectElement",
 	"SVGRenderingIntent": "https://developer.mozilla.org/docs/Web/API/SVGRenderingIntent",
 	"SVGSVGElement": "https://developer.mozilla.org/docs/Web/API/SVGSVGElement",
@@ -7459,14 +7473,20 @@
 		"url": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto",
 		"inst": {
 			"decrypt": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/decrypt",
-			"deriveBits": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/deriveBits",
+			"deriveBits": {
+				"url": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/deriveBits",
+				"inst": {
+					"x25519": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/deriveBits"
+				}
+			},
 			"deriveKey": {
 				"url": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/deriveKey",
 				"inst": {
 					"derivedKeyAlgorithm_option_aes": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/deriveKey",
 					"derivedKeyAlgorithm_option_hkdf": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/deriveKey",
 					"derivedKeyAlgorithm_option_hmac": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/deriveKey",
-					"derivedKeyAlgorithm_option_pbkdf2": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/deriveKey"
+					"derivedKeyAlgorithm_option_pbkdf2": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/deriveKey",
+					"x25519": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/deriveKey"
 				}
 			},
 			"digest": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/digest",
@@ -7474,19 +7494,22 @@
 			"exportKey": {
 				"url": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/exportKey",
 				"inst": {
-					"ed25519": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/exportKey"
+					"ed25519": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/exportKey",
+					"x25519": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/exportKey"
 				}
 			},
 			"generateKey": {
 				"url": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/generateKey",
 				"inst": {
-					"ed25519": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/generateKey"
+					"ed25519": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/generateKey",
+					"x25519": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/generateKey"
 				}
 			},
 			"importKey": {
 				"url": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/importKey",
 				"inst": {
-					"ed25519": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/importKey"
+					"ed25519": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/importKey",
+					"x25519": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/importKey"
 				}
 			},
 			"sign": {
