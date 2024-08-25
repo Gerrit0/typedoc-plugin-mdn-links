@@ -773,7 +773,7 @@
 			"href": "https://developer.mozilla.org/docs/Web/API/CSSImportRule/href",
 			"layerName": "https://developer.mozilla.org/docs/Web/API/CSSImportRule/layerName",
 			"media": "https://developer.mozilla.org/docs/Web/API/CSSImportRule/media",
-			"styleSheet": "https://developer.mozilla.org/docs/Web/API/CSSImportRule/stylesheet",
+			"styleSheet": "https://developer.mozilla.org/docs/Web/API/CSSImportRule/styleSheet",
 			"supportsText": "https://developer.mozilla.org/docs/Web/API/CSSImportRule/supportsText"
 		}
 	},
@@ -905,7 +905,23 @@
 			"parse": "https://developer.mozilla.org/docs/Web/API/CSSNumericValue/parse_static"
 		}
 	},
-	"CSSPageDescriptors": "https://developer.mozilla.org/docs/Web/API/CSSPageDescriptors",
+	"CSSPageDescriptors": {
+		"url": "https://developer.mozilla.org/docs/Web/API/CSSPageDescriptors",
+		"inst": {
+			"margin": "https://developer.mozilla.org/docs/Web/API/CSSPageDescriptors#margin",
+			"margin-bottom": "https://developer.mozilla.org/docs/Web/API/CSSPageDescriptors#margin-bottom",
+			"margin-left": "https://developer.mozilla.org/docs/Web/API/CSSPageDescriptors#margin-left",
+			"margin-right": "https://developer.mozilla.org/docs/Web/API/CSSPageDescriptors#margin-right",
+			"margin-top": "https://developer.mozilla.org/docs/Web/API/CSSPageDescriptors#margin-top",
+			"marginBottom": "https://developer.mozilla.org/docs/Web/API/CSSPageDescriptors#marginbottom",
+			"marginLeft": "https://developer.mozilla.org/docs/Web/API/CSSPageDescriptors#marginleft",
+			"marginRight": "https://developer.mozilla.org/docs/Web/API/CSSPageDescriptors#marginright",
+			"marginTop": "https://developer.mozilla.org/docs/Web/API/CSSPageDescriptors#margintop",
+			"page-orientation": "https://developer.mozilla.org/docs/Web/API/CSSPageDescriptors#page-orientation",
+			"pageOrientation": "https://developer.mozilla.org/docs/Web/API/CSSPageDescriptors#pageorientation",
+			"size": "https://developer.mozilla.org/docs/Web/API/CSSPageDescriptors#size"
+		}
+	},
 	"CSSPageRule": {
 		"url": "https://developer.mozilla.org/docs/Web/API/CSSPageRule",
 		"inst": {
@@ -1027,7 +1043,7 @@
 		"url": "https://developer.mozilla.org/docs/Web/API/CSSPropertyRule",
 		"inst": {
 			"inherits": "https://developer.mozilla.org/docs/Web/API/CSSPropertyRule/inherits",
-			"initialValue": "https://developer.mozilla.org/docs/Web/API/CSSPropertyRule/initialvalue",
+			"initialValue": "https://developer.mozilla.org/docs/Web/API/CSSPropertyRule/initialValue",
 			"name": "https://developer.mozilla.org/docs/Web/API/CSSPropertyRule/name",
 			"syntax": "https://developer.mozilla.org/docs/Web/API/CSSPropertyRule/syntax"
 		}
@@ -4141,7 +4157,7 @@
 			"error": "https://developer.mozilla.org/docs/Web/API/IDBTransaction/error",
 			"mode": "https://developer.mozilla.org/docs/Web/API/IDBTransaction/mode",
 			"objectStore": "https://developer.mozilla.org/docs/Web/API/IDBTransaction/objectStore",
-			"objectStoreNames": "https://developer.mozilla.org/docs/Web/API/IDBTransaction/ObjectStoreNames"
+			"objectStoreNames": "https://developer.mozilla.org/docs/Web/API/IDBTransaction/objectStoreNames"
 		}
 	},
 	"IDBVersionChangeEvent": {
@@ -6054,7 +6070,7 @@
 			"toJSON": "https://developer.mozilla.org/docs/Web/API/PublicKeyCredential/toJSON"
 		},
 		"stat": {
-			"isConditionalMediationAvailable": "https://developer.mozilla.org/docs/Web/API/PublicKeyCredential/isConditionalMediationAvailable",
+			"isConditionalMediationAvailable": "https://developer.mozilla.org/docs/Web/API/PublicKeyCredential/isConditionalMediationAvailable_static",
 			"isUserVerifyingPlatformAuthenticatorAvailable": "https://developer.mozilla.org/docs/Web/API/PublicKeyCredential/isUserVerifyingPlatformAuthenticatorAvailable_static",
 			"parseCreationOptionsFromJSON": "https://developer.mozilla.org/docs/Web/API/PublicKeyCredential/parseCreationOptionsFromJSON_static",
 			"parseRequestOptionsFromJSON": "https://developer.mozilla.org/docs/Web/API/PublicKeyCredential/parseRequestOptionsFromJSON_static"
@@ -7982,7 +7998,7 @@
 			"manufacturerName": "https://developer.mozilla.org/docs/Web/API/USBDevice/manufacturerName",
 			"open": "https://developer.mozilla.org/docs/Web/API/USBDevice/open",
 			"opened": "https://developer.mozilla.org/docs/Web/API/USBDevice/opened",
-			"productId": "https://developer.mozilla.org/docs/Web/API/USBDevice/productID",
+			"productId": "https://developer.mozilla.org/docs/Web/API/USBDevice/productId",
 			"productName": "https://developer.mozilla.org/docs/Web/API/USBDevice/productName",
 			"releaseInterface": "https://developer.mozilla.org/docs/Web/API/USBDevice/releaseInterface",
 			"reset": "https://developer.mozilla.org/docs/Web/API/USBDevice/reset",
@@ -7994,7 +8010,7 @@
 			"usbVersionMajor": "https://developer.mozilla.org/docs/Web/API/USBDevice/usbVersionMajor",
 			"usbVersionMinor": "https://developer.mozilla.org/docs/Web/API/USBDevice/usbVersionMinor",
 			"usbVersionSubminor": "https://developer.mozilla.org/docs/Web/API/USBDevice/usbVersionSubminor",
-			"vendorId": "https://developer.mozilla.org/docs/Web/API/USBDevice/vendorID"
+			"vendorId": "https://developer.mozilla.org/docs/Web/API/USBDevice/vendorId"
 		}
 	},
 	"USBEndpoint": "https://developer.mozilla.org/docs/Web/API/USBEndpoint",
@@ -9570,23 +9586,23 @@
 		"stat": {
 			"assert": "https://developer.mozilla.org/docs/Web/API/console/assert_static",
 			"clear": "https://developer.mozilla.org/docs/Web/API/console/clear_static",
-			"countReset": "https://developer.mozilla.org/docs/Web/API/console/countreset_static",
+			"countReset": "https://developer.mozilla.org/docs/Web/API/console/countReset_static",
 			"count": "https://developer.mozilla.org/docs/Web/API/console/count_static",
 			"debug": "https://developer.mozilla.org/docs/Web/API/console/debug_static",
 			"dir": "https://developer.mozilla.org/docs/Web/API/console/dir_static",
 			"dirxml": "https://developer.mozilla.org/docs/Web/API/console/dirxml_static",
 			"error": "https://developer.mozilla.org/docs/Web/API/console/error_static",
-			"groupCollapsed": "https://developer.mozilla.org/docs/Web/API/console/groupcollapsed_static",
-			"groupEnd": "https://developer.mozilla.org/docs/Web/API/console/groupend_static",
+			"groupCollapsed": "https://developer.mozilla.org/docs/Web/API/console/groupCollapsed_static",
+			"groupEnd": "https://developer.mozilla.org/docs/Web/API/console/groupEnd_static",
 			"group": "https://developer.mozilla.org/docs/Web/API/console/group_static",
 			"info": "https://developer.mozilla.org/docs/Web/API/console/info_static",
 			"log": "https://developer.mozilla.org/docs/Web/API/console/log_static",
-			"profileEnd": "https://developer.mozilla.org/docs/Web/API/console/profileend_static",
+			"profileEnd": "https://developer.mozilla.org/docs/Web/API/console/profileEnd_static",
 			"profile": "https://developer.mozilla.org/docs/Web/API/console/profile_static",
 			"table": "https://developer.mozilla.org/docs/Web/API/console/table_static",
-			"timeEnd": "https://developer.mozilla.org/docs/Web/API/console/timeend_static",
-			"timeLog": "https://developer.mozilla.org/docs/Web/API/console/timelog_static",
-			"timeStamp": "https://developer.mozilla.org/docs/Web/API/console/timestamp_static",
+			"timeEnd": "https://developer.mozilla.org/docs/Web/API/console/timeEnd_static",
+			"timeLog": "https://developer.mozilla.org/docs/Web/API/console/timeLog_static",
+			"timeStamp": "https://developer.mozilla.org/docs/Web/API/console/timeStamp_static",
 			"time": "https://developer.mozilla.org/docs/Web/API/console/time_static",
 			"trace": "https://developer.mozilla.org/docs/Web/API/console/trace_static",
 			"warn": "https://developer.mozilla.org/docs/Web/API/console/warn_static"
@@ -9963,7 +9979,12 @@
 			"DateTimeFormat": {
 				"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat",
 				"inst": {
-					"DateTimeFormat": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/DateTimeFormat",
+					"DateTimeFormat": {
+						"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/DateTimeFormat",
+						"inst": {
+							"IntlLegacyConstructedSymbol": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/DateTimeFormat#return_value"
+						}
+					},
 					"format": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/format",
 					"formatRange": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/formatRange",
 					"formatRangeToParts": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/formatRangeToParts",
@@ -10030,7 +10051,12 @@
 			"NumberFormat": {
 				"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat",
 				"inst": {
-					"NumberFormat": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/NumberFormat",
+					"NumberFormat": {
+						"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/NumberFormat",
+						"inst": {
+							"IntlLegacyConstructedSymbol": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/NumberFormat#return_value"
+						}
+					},
 					"format": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/format",
 					"formatRange": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/formatRange",
 					"formatRangeToParts": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/formatRangeToParts",
@@ -10423,8 +10449,18 @@
 			"substr": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/substr",
 			"substring": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/substring",
 			"sup": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/sup",
-			"toLocaleLowerCase": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/toLocaleLowerCase",
-			"toLocaleUpperCase": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/toLocaleUpperCase",
+			"toLocaleLowerCase": {
+				"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/toLocaleLowerCase",
+				"inst": {
+					"locales_parameter": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/toLocaleLowerCase#locales"
+				}
+			},
+			"toLocaleUpperCase": {
+				"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/toLocaleUpperCase",
+				"inst": {
+					"locales_parameter": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/toLocaleUpperCase#locales"
+				}
+			},
 			"toLowerCase": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase",
 			"toString": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/toString",
 			"toUpperCase": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase",
