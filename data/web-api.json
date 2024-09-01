@@ -791,6 +791,7 @@
 			"cssRules": "https://developer.mozilla.org/docs/Web/API/CSSKeyframesRule/cssRules",
 			"deleteRule": "https://developer.mozilla.org/docs/Web/API/CSSKeyframesRule/deleteRule",
 			"findRule": "https://developer.mozilla.org/docs/Web/API/CSSKeyframesRule/findRule",
+			"length": "https://developer.mozilla.org/docs/Web/API/CSSKeyframesRule/length",
 			"name": "https://developer.mozilla.org/docs/Web/API/CSSKeyframesRule/name"
 		}
 	},
@@ -3598,6 +3599,9 @@
 			"stepDown": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/stepDown",
 			"stepUp": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/stepUp",
 			"type": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/type",
+			"value": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/value",
+			"valueAsDate": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/valueAsDate",
+			"valueAsNumber": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/valueAsNumber",
 			"webkitEntries": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/webkitEntries",
 			"webkitdirectory": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/webkitdirectory"
 		}
@@ -4219,6 +4223,7 @@
 	"ImageBitmapRenderingContext": {
 		"url": "https://developer.mozilla.org/docs/Web/API/ImageBitmapRenderingContext",
 		"inst": {
+			"canvas": "https://developer.mozilla.org/docs/Web/API/ImageBitmapRenderingContext/canvas",
 			"transferFromImageBitmap": "https://developer.mozilla.org/docs/Web/API/ImageBitmapRenderingContext/transferFromImageBitmap"
 		}
 	},
