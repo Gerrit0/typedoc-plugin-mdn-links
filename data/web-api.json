@@ -3359,11 +3359,15 @@
 	"HTMLButtonElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement",
 		"inst": {
+			"checkValidity": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/checkValidity",
 			"disabled": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/disabled",
 			"labels": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/labels",
+			"name": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/name",
 			"popoverTargetAction": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/popoverTargetAction",
 			"popoverTargetElement": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/popoverTargetElement",
-			"type": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/type"
+			"reportValidity": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/reportValidity",
+			"type": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/type",
+			"value": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/value"
 		}
 	},
 	"HTMLCanvasElement": {
@@ -3398,6 +3402,7 @@
 	"HTMLDetailsElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLDetailsElement",
 		"inst": {
+			"name": "https://developer.mozilla.org/docs/Web/API/HTMLDetailsElement/open",
 			"open": "https://developer.mozilla.org/docs/Web/API/HTMLDetailsElement/open"
 		}
 	},
@@ -3474,7 +3479,14 @@
 			"width": "https://developer.mozilla.org/docs/Web/API/HTMLFencedFrameElement/width"
 		}
 	},
-	"HTMLFieldSetElement": "https://developer.mozilla.org/docs/Web/API/HTMLFieldSetElement",
+	"HTMLFieldSetElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/HTMLFieldSetElement",
+		"inst": {
+			"checkValidity": "https://developer.mozilla.org/docs/Web/API/HTMLFieldSetElement/checkValidity",
+			"name": "https://developer.mozilla.org/docs/Web/API/HTMLFieldSetElement/name",
+			"reportValidity": "https://developer.mozilla.org/docs/Web/API/HTMLFieldSetElement/reportValidity"
+		}
+	},
 	"HTMLFontElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLFontElement",
 		"inst": {
@@ -3494,6 +3506,7 @@
 		"inst": {
 			"acceptCharset": "https://developer.mozilla.org/docs/Web/API/HTMLFormElement/acceptCharset",
 			"action": "https://developer.mozilla.org/docs/Web/API/HTMLFormElement/action",
+			"checkValidity": "https://developer.mozilla.org/docs/Web/API/HTMLFormElement/checkValidity",
 			"elements": "https://developer.mozilla.org/docs/Web/API/HTMLFormElement/elements",
 			"encoding": "https://developer.mozilla.org/docs/Web/API/HTMLFormElement/encoding",
 			"enctype": "https://developer.mozilla.org/docs/Web/API/HTMLFormElement/enctype",
@@ -3581,10 +3594,17 @@
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement",
 		"inst": {
 			"checkValidity": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/checkValidity",
+			"defaultValue": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/defaultValue",
 			"disabled": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/disabled",
 			"files": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/files",
 			"labels": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/labels",
+			"list": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/list",
+			"max": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/max",
+			"maxLength": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/maxLength",
+			"min": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/min",
+			"minLength": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/minLength",
 			"multiple": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/multiple",
+			"name": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/name",
 			"popoverTargetAction": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/popoverTargetAction",
 			"popoverTargetElement": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/popoverTargetElement",
 			"reportValidity": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/reportValidity",
@@ -3596,6 +3616,7 @@
 			"setRangeText": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/setRangeText",
 			"setSelectionRange": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/setSelectionRange",
 			"showPicker": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/showPicker",
+			"step": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/step",
 			"stepDown": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/stepDown",
 			"stepUp": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/stepUp",
 			"type": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/type",
@@ -3704,7 +3725,13 @@
 	"HTMLMeterElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLMeterElement",
 		"inst": {
-			"labels": "https://developer.mozilla.org/docs/Web/API/HTMLMeterElement/labels"
+			"high": "https://developer.mozilla.org/docs/Web/API/HTMLMeterElement/high",
+			"labels": "https://developer.mozilla.org/docs/Web/API/HTMLMeterElement/labels",
+			"low": "https://developer.mozilla.org/docs/Web/API/HTMLMeterElement/low",
+			"max": "https://developer.mozilla.org/docs/Web/API/HTMLMeterElement/max",
+			"min": "https://developer.mozilla.org/docs/Web/API/HTMLMeterElement/min",
+			"optimum": "https://developer.mozilla.org/docs/Web/API/HTMLMeterElement/optimum",
+			"value": "https://developer.mozilla.org/docs/Web/API/HTMLMeterElement/value"
 		}
 	},
 	"HTMLModElement": "https://developer.mozilla.org/docs/Web/API/HTMLModElement",
@@ -3726,6 +3753,7 @@
 			"form": "https://developer.mozilla.org/docs/Web/API/HTMLObjectElement/form",
 			"height": "https://developer.mozilla.org/docs/Web/API/HTMLObjectElement/height",
 			"name": "https://developer.mozilla.org/docs/Web/API/HTMLObjectElement/name",
+			"reportValidity": "https://developer.mozilla.org/docs/Web/API/HTMLObjectElement/reportValidity",
 			"setCustomValidity": "https://developer.mozilla.org/docs/Web/API/HTMLObjectElement/setCustomValidity",
 			"type": "https://developer.mozilla.org/docs/Web/API/HTMLObjectElement/type",
 			"useMap": "https://developer.mozilla.org/docs/Web/API/HTMLObjectElement/useMap",
@@ -3739,14 +3767,19 @@
 	"HTMLOptionElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLOptionElement",
 		"inst": {
-			"Option": "https://developer.mozilla.org/docs/Web/API/HTMLOptionElement/Option"
+			"Option": "https://developer.mozilla.org/docs/Web/API/HTMLOptionElement/Option",
+			"value": "https://developer.mozilla.org/docs/Web/API/HTMLOptionElement/value"
 		}
 	},
 	"HTMLOptionsCollection": "https://developer.mozilla.org/docs/Web/API/HTMLOptionsCollection",
 	"HTMLOutputElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLOutputElement",
 		"inst": {
-			"labels": "https://developer.mozilla.org/docs/Web/API/HTMLOutputElement/labels"
+			"checkValidity": "https://developer.mozilla.org/docs/Web/API/HTMLOutputElement/checkValidity",
+			"labels": "https://developer.mozilla.org/docs/Web/API/HTMLOutputElement/labels",
+			"name": "https://developer.mozilla.org/docs/Web/API/HTMLOutputElement/name",
+			"reportValidity": "https://developer.mozilla.org/docs/Web/API/HTMLOutputElement/reportValidity",
+			"value": "https://developer.mozilla.org/docs/Web/API/HTMLOutputElement/value"
 		}
 	},
 	"HTMLParagraphElement": "https://developer.mozilla.org/docs/Web/API/HTMLParagraphElement",
@@ -3792,9 +3825,11 @@
 			"form": "https://developer.mozilla.org/docs/Web/API/HTMLSelectElement/form",
 			"item": "https://developer.mozilla.org/docs/Web/API/HTMLSelectElement/item",
 			"labels": "https://developer.mozilla.org/docs/Web/API/HTMLSelectElement/labels",
+			"name": "https://developer.mozilla.org/docs/Web/API/HTMLSelectElement/name",
 			"namedItem": "https://developer.mozilla.org/docs/Web/API/HTMLSelectElement/namedItem",
 			"options": "https://developer.mozilla.org/docs/Web/API/HTMLSelectElement/options",
 			"remove": "https://developer.mozilla.org/docs/Web/API/HTMLSelectElement/remove",
+			"reportValidity": "https://developer.mozilla.org/docs/Web/API/HTMLSelectElement/reportValidity",
 			"selectedIndex": "https://developer.mozilla.org/docs/Web/API/HTMLSelectElement/selectedIndex",
 			"selectedOptions": "https://developer.mozilla.org/docs/Web/API/HTMLSelectElement/selectedOptions",
 			"setCustomValidity": "https://developer.mozilla.org/docs/Web/API/HTMLSelectElement/setCustomValidity",
@@ -3931,8 +3966,12 @@
 	"HTMLTextAreaElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement",
 		"inst": {
+			"checkValidity": "https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/checkValidity",
 			"labels": "https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/labels",
-			"type": "https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/type"
+			"name": "https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/name",
+			"reportValidity": "https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/reportValidity",
+			"type": "https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/type",
+			"value": "https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/value"
 		}
 	},
 	"HTMLTimeElement": {
@@ -5950,6 +5989,7 @@
 			"getPredictedEvents": "https://developer.mozilla.org/docs/Web/API/PointerEvent/getPredictedEvents",
 			"height": "https://developer.mozilla.org/docs/Web/API/PointerEvent/height",
 			"isPrimary": "https://developer.mozilla.org/docs/Web/API/PointerEvent/isPrimary",
+			"persistentDeviceId": "https://developer.mozilla.org/docs/Web/API/PointerEvent/persistentDeviceId",
 			"pointerId": "https://developer.mozilla.org/docs/Web/API/PointerEvent/pointerId",
 			"pointerType": "https://developer.mozilla.org/docs/Web/API/PointerEvent/pointerType",
 			"pressure": "https://developer.mozilla.org/docs/Web/API/PointerEvent/pressure",
@@ -7698,7 +7738,8 @@
 			"label": "https://developer.mozilla.org/docs/Web/API/TextTrack/label",
 			"language": "https://developer.mozilla.org/docs/Web/API/TextTrack/language",
 			"mode": "https://developer.mozilla.org/docs/Web/API/TextTrack/mode",
-			"removeCue": "https://developer.mozilla.org/docs/Web/API/TextTrack/removeCue"
+			"removeCue": "https://developer.mozilla.org/docs/Web/API/TextTrack/removeCue",
+			"sourceBuffer": "https://developer.mozilla.org/docs/Web/API/TextTrack/sourceBuffer"
 		}
 	},
 	"TextTrackCue": {
