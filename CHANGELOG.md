@@ -1,5 +1,12 @@
 # Changelog
 
+## v3.3.0 (2024-09-19)
+
+-   Added support for resolving `@link` tags which reference globals from supported module sources, #21.
+    Prior to TypeDoc 0.26.8, this may result in some unexpected link text if the `@link` tag
+    is specified with custom link text.
+-   Updated MDN API index with @mdn/browser-compat-data version 5.6.1
+
 ## v3.2.12 (2024-09-08)
 
 -   Updated MDN API index with @mdn/browser-compat-data version 5.5.51

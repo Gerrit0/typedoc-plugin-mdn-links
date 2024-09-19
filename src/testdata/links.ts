@@ -33,3 +33,9 @@ export type NumberIterable = Iterable<number>;
  * - {@link !Iterable}
  */
 export const comment = true;
+
+/**
+ * {@link Map}
+ * {@link Map.size | map size}
+ */
+export const commentTsResolution = true;

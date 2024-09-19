@@ -1,4 +1,15 @@
-import { Application, ComponentPath, Converter, ParameterType } from "typedoc";
+import {
+    Application,
+    CommentDisplayPart,
+    ComponentPath,
+    Converter,
+    DeclarationReference,
+    ParameterType,
+    Reflection,
+    ReflectionSymbolId,
+    splitUnquotedString,
+    SymbolReference,
+} from "typedoc";
 import { resolveTsType } from "./typescript";
 import { resolveWebApiPath } from "./webApi";
 
@@ -45,7 +56,22 @@ export function load(app: Application) {
         }
     });
 
-    app.converter.addUnknownSymbolResolver((declaration) => {
+    app.converter.addUnknownSymbolResolver(resolveSymbol);
+
+    function resolveSymbol(
+        declaration: DeclarationReference,
+        _refl: Reflection,
+        _part: CommentDisplayPart | undefined,
+        symbolId: ReflectionSymbolId | undefined,
+    ) {
+        if (symbolId) {
+            return resolveDeclaration(makeDeclarationReference(symbolId));
+        }
+
+        return resolveDeclaration(declaration);
+    }
+
+    function resolveDeclaration(declaration: DeclarationReference) {
         const validSources = [
             ...app.options.getValue("additionalModuleSources"),
             ...defaultModuleSources,
@@ -77,7 +103,7 @@ export function load(app: Application) {
 
             return result;
         }
-    });
+    }
 }
 
 function stringifyPath(path: ComponentPath[]) {
@@ -88,4 +114,44 @@ function stringifyPath(path: ComponentPath[]) {
     }
 
     return result;
+}
+
+function makeDeclarationReference(
+    symbolId: ReflectionSymbolId,
+): DeclarationReference {
+    if ("toDeclarationReference" in symbolId) {
+        // Method added in TypeDoc 0.26.8, use it if present as it will be
+        // smarter about package names which aren't in node_modules. Probably not
+        // an issue for this project, so the simpler method is also included here.
+        return (symbolId as any).toDeclarationReference();
+    }
+
+    return {
+        resolutionStart: "global",
+        moduleSource: getModuleName(symbolId.fileName),
+        symbolReference: getSymbolReference(symbolId.qualifiedName),
+    };
+}
+
+function getModuleName(symbolPath: string) {
+    // Attempt to decide package name from path if it contains "node_modules"
+    let startIndex = symbolPath.lastIndexOf("node_modules/");
+    if (startIndex !== -1) {
+        startIndex += "node_modules/".length;
+        let stopIndex = symbolPath.indexOf("/", startIndex);
+        // Scoped package, e.g. `@types/node`
+        if (symbolPath[startIndex] === "@") {
+            stopIndex = symbolPath.indexOf("/", stopIndex + 1);
+        }
+        return symbolPath.substring(startIndex, stopIndex);
+    }
+}
+
+function getSymbolReference(qualifiedName: string): SymbolReference {
+    return {
+        path: splitUnquotedString(qualifiedName, ".").map((path) => ({
+            navigation: ".",
+            path,
+        })),
+    };
 }

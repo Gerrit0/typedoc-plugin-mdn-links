@@ -154,6 +154,33 @@ describe("Statically defined names", () => {
         ]);
     });
 
+    test("Handles comment links with TS link resolution", () => {
+        const refl = project.getChildByName("commentTsResolution");
+        expect(refl).toBeInstanceOf(DeclarationReflection);
+        const tags = (
+            refl?.comment?.summary.filter(
+                (f) => f.kind === "inline-tag",
+            ) as InlineTagDisplayPart[]
+        ).map((part) => ({ target: part.target, text: part.text }));
+
+        expect(tags).toEqual([
+            {
+                target: "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map",
+                text: "Map",
+            },
+            {
+                target: "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/size",
+                // TypeDoc prior to 0.26.8 didn't handle this quite right... get rid of this check once
+                // 0.26.8 has been released.
+                // https://github.com/TypeStrong/typedoc/commit/9189a4cab593e38f5587874dd7bdb99b108a9e6a
+                text:
+                    Application.VERSION >= "0.26.8"
+                        ? "map size"
+                        : "Map.size | map size",
+            },
+        ]);
+    });
+
     test("Handles types from @webgpu/types", () => {
         const refl = project.getChildByName("WGpuDevice");
         expect(refl).toBeInstanceOf(DeclarationReflection);
