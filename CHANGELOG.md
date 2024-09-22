@@ -1,5 +1,9 @@
 # Changelog
 
+## v3.3.1 (2024-09-22)
+
+-   Updated MDN API index with @mdn/browser-compat-data version 5.6.2
+
 ## v3.3.0 (2024-09-19)
 
 -   Added support for resolving `@link` tags which reference globals from supported module sources, #21.
