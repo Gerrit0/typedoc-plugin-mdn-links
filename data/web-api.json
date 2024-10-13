@@ -2434,7 +2434,12 @@
 			"type": "https://developer.mozilla.org/docs/Web/API/EncodedVideoChunk/type"
 		}
 	},
-	"ErrorEvent": "https://developer.mozilla.org/docs/Web/API/ErrorEvent",
+	"ErrorEvent": {
+		"url": "https://developer.mozilla.org/docs/Web/API/ErrorEvent",
+		"inst": {
+			"ErrorEvent": "https://developer.mozilla.org/docs/Web/API/ErrorEvent/ErrorEvent"
+		}
+	},
 	"Event": {
 		"url": "https://developer.mozilla.org/docs/Web/API/Event",
 		"inst": {
@@ -2553,7 +2558,6 @@
 			"handled": "https://developer.mozilla.org/docs/Web/API/FetchEvent/handled",
 			"isReload": "https://developer.mozilla.org/docs/Web/API/FetchEvent/isReload",
 			"preloadResponse": "https://developer.mozilla.org/docs/Web/API/FetchEvent/preloadResponse",
-			"replacesClientId": "https://developer.mozilla.org/docs/Web/API/FetchEvent/replacesClientId",
 			"request": "https://developer.mozilla.org/docs/Web/API/FetchEvent/request",
 			"respondWith": "https://developer.mozilla.org/docs/Web/API/FetchEvent/respondWith",
 			"resultingClientId": "https://developer.mozilla.org/docs/Web/API/FetchEvent/resultingClientId"
@@ -3378,6 +3382,7 @@
 			"checkValidity": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/checkValidity",
 			"disabled": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/disabled",
 			"form": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/form",
+			"formAction": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/formAction",
 			"labels": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/labels",
 			"name": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/name",
 			"popoverTargetAction": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/popoverTargetAction",
@@ -3638,6 +3643,7 @@
 			"disabled": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/disabled",
 			"files": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/files",
 			"form": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/form",
+			"formAction": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/formAction",
 			"height": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/height",
 			"indeterminate": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/indeterminate",
 			"labels": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/labels",
@@ -3725,6 +3731,7 @@
 	"HTMLMediaElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement",
 		"inst": {
+			"addTextTrack": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/addTextTrack",
 			"audioTracks": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/audioTracks",
 			"autoplay": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/autoplay",
 			"buffered": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/buffered",
@@ -3842,12 +3849,22 @@
 			"value": "https://developer.mozilla.org/docs/Web/API/HTMLOptionElement/value"
 		}
 	},
-	"HTMLOptionsCollection": "https://developer.mozilla.org/docs/Web/API/HTMLOptionsCollection",
+	"HTMLOptionsCollection": {
+		"url": "https://developer.mozilla.org/docs/Web/API/HTMLOptionsCollection",
+		"inst": {
+			"add": "https://developer.mozilla.org/docs/Web/API/HTMLOptionsCollection/add",
+			"length": "https://developer.mozilla.org/docs/Web/API/HTMLOptionsCollection/length",
+			"remove": "https://developer.mozilla.org/docs/Web/API/HTMLOptionsCollection/remove",
+			"selectedIndex": "https://developer.mozilla.org/docs/Web/API/HTMLOptionsCollection/selectedIndex"
+		}
+	},
 	"HTMLOutputElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLOutputElement",
 		"inst": {
 			"checkValidity": "https://developer.mozilla.org/docs/Web/API/HTMLOutputElement/checkValidity",
+			"defaultValue": "https://developer.mozilla.org/docs/Web/API/HTMLOutputElement/defaultValue",
 			"form": "https://developer.mozilla.org/docs/Web/API/HTMLOutputElement/form",
+			"htmlFor": "https://developer.mozilla.org/docs/Web/API/HTMLOutputElement/htmlFor",
 			"labels": "https://developer.mozilla.org/docs/Web/API/HTMLOutputElement/labels",
 			"name": "https://developer.mozilla.org/docs/Web/API/HTMLOutputElement/name",
 			"reportValidity": "https://developer.mozilla.org/docs/Web/API/HTMLOutputElement/reportValidity",
@@ -6794,6 +6811,7 @@
 			"headers": "https://developer.mozilla.org/docs/Web/API/Request/headers",
 			"integrity": "https://developer.mozilla.org/docs/Web/API/Request/integrity",
 			"json": "https://developer.mozilla.org/docs/Web/API/Request/json",
+			"keepalive": "https://developer.mozilla.org/docs/Web/API/Request/keepalive",
 			"method": "https://developer.mozilla.org/docs/Web/API/Request/method",
 			"mode": "https://developer.mozilla.org/docs/Web/API/Request/mode",
 			"redirect": "https://developer.mozilla.org/docs/Web/API/Request/redirect",
@@ -9757,8 +9775,8 @@
 	"atob": "https://developer.mozilla.org/docs/Web/API/Window/atob",
 	"btoa": "https://developer.mozilla.org/docs/Web/API/Window/btoa",
 	"caches": "https://developer.mozilla.org/docs/Web/API/Window/caches",
-	"clearInterval": "https://developer.mozilla.org/docs/Web/API/clearInterval",
-	"clearTimeout": "https://developer.mozilla.org/docs/Web/API/clearTimeout",
+	"clearInterval": "https://developer.mozilla.org/docs/Web/API/Window/clearInterval",
+	"clearTimeout": "https://developer.mozilla.org/docs/Web/API/Window/clearTimeout",
 	"console": {
 		"url": "https://developer.mozilla.org/docs/Web/API/console",
 		"stat": {
@@ -9786,7 +9804,7 @@
 			"warn": "https://developer.mozilla.org/docs/Web/API/console/warn_static"
 		}
 	},
-	"createImageBitmap": "https://developer.mozilla.org/docs/Web/API/createImageBitmap",
+	"createImageBitmap": "https://developer.mozilla.org/docs/Web/API/Window/createImageBitmap",
 	"crossOriginIsolated": "https://developer.mozilla.org/docs/Web/API/Window/crossOriginIsolated",
 	"crypto": "https://developer.mozilla.org/docs/Web/API/Window/crypto",
 	"fetch": "https://developer.mozilla.org/docs/Web/API/Window/fetch",
@@ -9797,8 +9815,8 @@
 	"queueMicrotask": "https://developer.mozilla.org/docs/Web/API/Window/queueMicrotask",
 	"reportError": "https://developer.mozilla.org/docs/Web/API/Window/reportError",
 	"scheduler": "https://developer.mozilla.org/docs/Web/API/Window/scheduler",
-	"setInterval": "https://developer.mozilla.org/docs/Web/API/setInterval",
-	"setTimeout": "https://developer.mozilla.org/docs/Web/API/setTimeout",
+	"setInterval": "https://developer.mozilla.org/docs/Web/API/Window/setInterval",
+	"setTimeout": "https://developer.mozilla.org/docs/Web/API/Window/setTimeout",
 	"structuredClone": "https://developer.mozilla.org/docs/Web/API/Window/structuredClone",
 	"trustedTypes": "https://developer.mozilla.org/docs/Web/API/Window/trustedTypes",
 	"AggregateError": {
