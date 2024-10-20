@@ -2437,7 +2437,12 @@
 	"ErrorEvent": {
 		"url": "https://developer.mozilla.org/docs/Web/API/ErrorEvent",
 		"inst": {
-			"ErrorEvent": "https://developer.mozilla.org/docs/Web/API/ErrorEvent/ErrorEvent"
+			"ErrorEvent": "https://developer.mozilla.org/docs/Web/API/ErrorEvent/ErrorEvent",
+			"colno": "https://developer.mozilla.org/docs/Web/API/ErrorEvent/colno",
+			"error": "https://developer.mozilla.org/docs/Web/API/ErrorEvent/error",
+			"filename": "https://developer.mozilla.org/docs/Web/API/ErrorEvent/filename",
+			"lineno": "https://developer.mozilla.org/docs/Web/API/ErrorEvent/lineno",
+			"message": "https://developer.mozilla.org/docs/Web/API/ErrorEvent/message"
 		}
 	},
 	"Event": {
@@ -2844,6 +2849,7 @@
 		"inst": {
 			"canvas": "https://developer.mozilla.org/docs/Web/API/GPUCanvasContext/canvas",
 			"configure": "https://developer.mozilla.org/docs/Web/API/GPUCanvasContext/configure",
+			"getConfiguration": "https://developer.mozilla.org/docs/Web/API/GPUCanvasContext/getConfiguration",
 			"getCurrentTexture": "https://developer.mozilla.org/docs/Web/API/GPUCanvasContext/getCurrentTexture",
 			"unconfigure": "https://developer.mozilla.org/docs/Web/API/GPUCanvasContext/unconfigure"
 		}
@@ -3383,6 +3389,8 @@
 			"disabled": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/disabled",
 			"form": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/form",
 			"formAction": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/formAction",
+			"formEnctype": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/formEnctype",
+			"formMethod": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/formMethod",
 			"labels": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/labels",
 			"name": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/name",
 			"popoverTargetAction": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/popoverTargetAction",
@@ -3545,6 +3553,7 @@
 		"inst": {
 			"acceptCharset": "https://developer.mozilla.org/docs/Web/API/HTMLFormElement/acceptCharset",
 			"action": "https://developer.mozilla.org/docs/Web/API/HTMLFormElement/action",
+			"autocomplete": "https://developer.mozilla.org/docs/Web/API/HTMLFormElement/autocomplete",
 			"checkValidity": "https://developer.mozilla.org/docs/Web/API/HTMLFormElement/checkValidity",
 			"elements": "https://developer.mozilla.org/docs/Web/API/HTMLFormElement/elements",
 			"encoding": "https://developer.mozilla.org/docs/Web/API/HTMLFormElement/encoding",
@@ -3644,6 +3653,8 @@
 			"files": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/files",
 			"form": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/form",
 			"formAction": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/formAction",
+			"formEnctype": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/formEnctype",
+			"formMethod": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/formMethod",
 			"height": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/height",
 			"indeterminate": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/indeterminate",
 			"labels": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/labels",
@@ -7407,6 +7418,14 @@
 			"name": "https://developer.mozilla.org/docs/Web/API/SharedWorkerGlobalScope/name"
 		}
 	},
+	"SnapEvent": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SnapEvent",
+		"inst": {
+			"SnapEvent": "https://developer.mozilla.org/docs/Web/API/SnapEvent/SnapEvent",
+			"snapTargetBlock": "https://developer.mozilla.org/docs/Web/API/SnapEvent/snapTargetBlock",
+			"snapTargetInline": "https://developer.mozilla.org/docs/Web/API/SnapEvent/snapTargetInline"
+		}
+	},
 	"SourceBuffer": {
 		"url": "https://developer.mozilla.org/docs/Web/API/SourceBuffer",
 		"inst": {
@@ -8750,6 +8769,7 @@
 			"uniformMatrix4fv": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/uniformMatrix",
 			"uniformMatrix4x2fv": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/uniformMatrix",
 			"uniformMatrix4x3fv": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/uniformMatrix",
+			"unpackColorSpace": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/unpackColorSpace",
 			"useProgram": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/useProgram",
 			"validateProgram": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/validateProgram",
 			"vertexAttrib1f": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/vertexAttrib",
@@ -9230,6 +9250,7 @@
 			"globalPrivacyControl": "https://developer.mozilla.org/docs/Web/API/WorkerNavigator/globalPrivacyControl",
 			"gpu": "https://developer.mozilla.org/docs/Web/API/WorkerNavigator/gpu",
 			"hardwareConcurrency": "https://developer.mozilla.org/docs/Web/API/Navigator/hardwareConcurrency",
+			"hid": "https://developer.mozilla.org/docs/Web/API/WorkerNavigator/hid",
 			"language": "https://developer.mozilla.org/docs/Web/API/WorkerNavigator/language",
 			"languages": "https://developer.mozilla.org/docs/Web/API/WorkerNavigator/languages",
 			"locks": "https://developer.mozilla.org/docs/Web/API/WorkerNavigator/locks",
