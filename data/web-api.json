@@ -1512,6 +1512,14 @@
 			"requestClose": "https://developer.mozilla.org/docs/Web/API/CloseWatcher/requestClose"
 		}
 	},
+	"CommandEvent": {
+		"url": "https://developer.mozilla.org/docs/Web/API/CommandEvent",
+		"inst": {
+			"CommandEvent": "https://developer.mozilla.org/docs/Web/API/CommandEvent/CommandEvent",
+			"command": "https://developer.mozilla.org/docs/Web/API/CommandEvent/command",
+			"source": "https://developer.mozilla.org/docs/Web/API/CommandEvent/source"
+		}
+	},
 	"Comment": {
 		"url": "https://developer.mozilla.org/docs/Web/API/Comment",
 		"inst": {
@@ -3386,6 +3394,7 @@
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement",
 		"inst": {
 			"checkValidity": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/checkValidity",
+			"command": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/command",
 			"disabled": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/disabled",
 			"form": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/form",
 			"formAction": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/formAction",
@@ -3925,6 +3934,7 @@
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLSelectElement",
 		"inst": {
 			"add": "https://developer.mozilla.org/docs/Web/API/HTMLSelectElement/add",
+			"autocomplete": "https://developer.mozilla.org/docs/Web/API/HTMLSelectElement/autocomplete",
 			"checkValidity": "https://developer.mozilla.org/docs/Web/API/HTMLSelectElement/checkValidity",
 			"disabled": "https://developer.mozilla.org/docs/Web/API/HTMLSelectElement/disabled",
 			"form": "https://developer.mozilla.org/docs/Web/API/HTMLSelectElement/form",
@@ -6808,7 +6818,12 @@
 	"Request": {
 		"url": "https://developer.mozilla.org/docs/Web/API/Request",
 		"inst": {
-			"Request": "https://developer.mozilla.org/docs/Web/API/Request/Request",
+			"Request": {
+				"url": "https://developer.mozilla.org/docs/Web/API/Request/Request",
+				"inst": {
+					"init_keepalive_parameter": "https://developer.mozilla.org/docs/Web/API/Request/keepalive"
+				}
+			},
 			"arrayBuffer": "https://developer.mozilla.org/docs/Web/API/Request/arrayBuffer",
 			"blob": "https://developer.mozilla.org/docs/Web/API/Request/blob",
 			"body": "https://developer.mozilla.org/docs/Web/API/Request/body",
