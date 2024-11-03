@@ -2812,6 +2812,7 @@
 		"url": "https://developer.mozilla.org/docs/Web/API/GPUAdapter",
 		"inst": {
 			"features": "https://developer.mozilla.org/docs/Web/API/GPUAdapter/features",
+			"info": "https://developer.mozilla.org/docs/Web/API/GPUAdapter/info",
 			"isFallbackAdapter": "https://developer.mozilla.org/docs/Web/API/GPUAdapter/isFallbackAdapter",
 			"limits": "https://developer.mozilla.org/docs/Web/API/GPUAdapter/limits",
 			"requestAdapterInfo": "https://developer.mozilla.org/docs/Web/API/GPUAdapter/requestAdapterInfo",
@@ -3400,6 +3401,8 @@
 			"formAction": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/formAction",
 			"formEnctype": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/formEnctype",
 			"formMethod": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/formMethod",
+			"formNoValidate": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/formNoValidate",
+			"formTarget": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/formTarget",
 			"labels": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/labels",
 			"name": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/name",
 			"popoverTargetAction": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/popoverTargetAction",
@@ -3570,6 +3573,7 @@
 			"length": "https://developer.mozilla.org/docs/Web/API/HTMLFormElement/length",
 			"method": "https://developer.mozilla.org/docs/Web/API/HTMLFormElement/method",
 			"name": "https://developer.mozilla.org/docs/Web/API/HTMLFormElement/name",
+			"noValidate": "https://developer.mozilla.org/docs/Web/API/HTMLFormElement/noValidate",
 			"reportValidity": "https://developer.mozilla.org/docs/Web/API/HTMLFormElement/reportValidity",
 			"requestSubmit": "https://developer.mozilla.org/docs/Web/API/HTMLFormElement/requestSubmit",
 			"reset": "https://developer.mozilla.org/docs/Web/API/HTMLFormElement/reset",
@@ -3664,6 +3668,8 @@
 			"formAction": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/formAction",
 			"formEnctype": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/formEnctype",
 			"formMethod": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/formMethod",
+			"formNoValidate": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/formNoValidate",
+			"formTarget": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/formTarget",
 			"height": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/height",
 			"indeterminate": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/indeterminate",
 			"labels": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/labels",
@@ -4472,14 +4478,6 @@
 			"requestPresenter": "https://developer.mozilla.org/docs/Web/API/Ink/requestPresenter"
 		}
 	},
-	"InkPresenter": {
-		"url": "https://developer.mozilla.org/docs/Web/API/InkPresenter",
-		"inst": {
-			"expectedImprovement": "https://developer.mozilla.org/docs/Web/API/InkPresenter/expectedImprovement",
-			"presentationArea": "https://developer.mozilla.org/docs/Web/API/InkPresenter/presentationArea",
-			"updateInkTrailStartPoint": "https://developer.mozilla.org/docs/Web/API/InkPresenter/updateInkTrailStartPoint"
-		}
-	},
 	"InputDeviceCapabilities": {
 		"url": "https://developer.mozilla.org/docs/Web/API/InputDeviceCapabilities",
 		"inst": {
@@ -5232,6 +5230,7 @@
 	"Navigation": {
 		"url": "https://developer.mozilla.org/docs/Web/API/Navigation",
 		"inst": {
+			"activation": "https://developer.mozilla.org/docs/Web/API/Navigation/activation",
 			"back": "https://developer.mozilla.org/docs/Web/API/Navigation/back",
 			"canGoBack": "https://developer.mozilla.org/docs/Web/API/Navigation/canGoBack",
 			"canGoForward": "https://developer.mozilla.org/docs/Web/API/Navigation/canGoForward",
@@ -6836,6 +6835,7 @@
 			"formData": "https://developer.mozilla.org/docs/Web/API/Request/formData",
 			"headers": "https://developer.mozilla.org/docs/Web/API/Request/headers",
 			"integrity": "https://developer.mozilla.org/docs/Web/API/Request/integrity",
+			"isHistoryNavigation": "https://developer.mozilla.org/docs/Web/API/Request/isHistoryNavigation",
 			"json": "https://developer.mozilla.org/docs/Web/API/Request/json",
 			"keepalive": "https://developer.mozilla.org/docs/Web/API/Request/keepalive",
 			"method": "https://developer.mozilla.org/docs/Web/API/Request/method",
