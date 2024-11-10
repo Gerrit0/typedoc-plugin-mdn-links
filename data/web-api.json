@@ -3396,6 +3396,7 @@
 		"inst": {
 			"checkValidity": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/checkValidity",
 			"command": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/command",
+			"commandForElement": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/commandForElement",
 			"disabled": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/disabled",
 			"form": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/form",
 			"formAction": "https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/formAction",
@@ -3478,6 +3479,7 @@
 			"attachInternals": "https://developer.mozilla.org/docs/Web/API/HTMLElement/attachInternals",
 			"attributeStyleMap": "https://developer.mozilla.org/docs/Web/API/HTMLElement/attributeStyleMap",
 			"autocapitalize": "https://developer.mozilla.org/docs/Web/API/HTMLElement/autocapitalize",
+			"autocorrect": "https://developer.mozilla.org/docs/Web/API/HTMLElement/autocorrect",
 			"autofocus": "https://developer.mozilla.org/docs/Web/API/HTMLElement/autofocus",
 			"blur": "https://developer.mozilla.org/docs/Web/API/HTMLElement/blur",
 			"click": "https://developer.mozilla.org/docs/Web/API/HTMLElement/click",
@@ -10815,7 +10817,13 @@
 	"Uint8Array": {
 		"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
 		"inst": {
-			"Uint8Array": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array/Uint8Array"
+			"Uint8Array": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array/Uint8Array",
+			"fromBase64": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array/fromBase64",
+			"fromHex": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array/fromHex",
+			"setFromBase64": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array/setFromBase64",
+			"setFromHex": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array/setFromHex",
+			"toBase64": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array/toBase64",
+			"toHex": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array/toHex"
 		}
 	},
 	"Uint8ClampedArray": {
