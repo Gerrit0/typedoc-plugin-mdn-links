@@ -1814,7 +1814,14 @@
 			"fromPoint": "https://developer.mozilla.org/docs/Web/API/DOMPointReadOnly/fromPoint_static"
 		}
 	},
-	"DOMQuad": "https://developer.mozilla.org/docs/Web/API/DOMQuad",
+	"DOMQuad": {
+		"url": "https://developer.mozilla.org/docs/Web/API/DOMQuad",
+		"inst": {
+			"DOMQuad": "https://developer.mozilla.org/docs/Web/API/DOMQuad/DOMQuad",
+			"getBounds": "https://developer.mozilla.org/docs/Web/API/DOMQuad/getBounds",
+			"toJSON": "https://developer.mozilla.org/docs/Web/API/DOMQuad/toJSON"
+		}
+	},
 	"DOMRect": {
 		"url": "https://developer.mozilla.org/docs/Web/API/DOMRect",
 		"inst": {
@@ -3357,6 +3364,7 @@
 	"HTMLAreaElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLAreaElement",
 		"inst": {
+			"download": "https://developer.mozilla.org/docs/Web/API/HTMLAreaElement/download",
 			"hash": "https://developer.mozilla.org/docs/Web/API/HTMLAreaElement/hash",
 			"host": "https://developer.mozilla.org/docs/Web/API/HTMLAreaElement/host",
 			"hostname": "https://developer.mozilla.org/docs/Web/API/HTMLAreaElement/hostname",
@@ -3714,7 +3722,12 @@
 			"willValidate": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/willValidate"
 		}
 	},
-	"HTMLLIElement": "https://developer.mozilla.org/docs/Web/API/HTMLLIElement",
+	"HTMLLIElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/HTMLLIElement",
+		"inst": {
+			"value": "https://developer.mozilla.org/docs/Web/API/HTMLLIElement/value"
+		}
+	},
 	"HTMLLabelElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLLabelElement",
 		"inst": {
