@@ -170,13 +170,7 @@ describe("Statically defined names", () => {
             },
             {
                 target: "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/size",
-                // TypeDoc prior to 0.26.8 didn't handle this quite right... get rid of this check once
-                // 0.26.8 has been released.
-                // https://github.com/TypeStrong/typedoc/commit/9189a4cab593e38f5587874dd7bdb99b108a9e6a
-                text:
-                    Application.VERSION >= "0.26.8"
-                        ? "map size"
-                        : "Map.size | map size",
+                text: "map size",
             },
         ]);
     });
@@ -201,5 +195,35 @@ describe("Statically defined names", () => {
 
         const ref = type as ReferenceType;
         expect(ref.externalUrl).toBeUndefined();
+    });
+
+    test("Handles links to Iterator types", () => {
+        const refl = project.getChildByName("GH22");
+        expect(refl).toBeInstanceOf(DeclarationReflection);
+        const tags = (
+            refl?.comment?.summary.filter(
+                (f) => f.kind === "inline-tag",
+            ) as InlineTagDisplayPart[]
+        ).map((part) => ({ target: part.target, text: part.text }));
+
+        expect(tags).toEqual([
+            {
+                target: "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator",
+                text: "It",
+            },
+            {
+                // Not an instance, so this link doesn't work
+                target: undefined,
+                text: "Iterator#from | fromHash",
+            },
+            {
+                target: "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/from",
+                text: "fromDot",
+            },
+            {
+                target: "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/entries",
+                text: "entries",
+            },
+        ]);
     });
 });

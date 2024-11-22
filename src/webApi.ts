@@ -15,7 +15,14 @@ function resolvePath(
     i = 0,
 ): string | undefined {
     if (!root) return;
-    const api = root[names[i].path];
+    let api = root[names[i].path];
+
+    // Global objects like `Object` and `Iterator` have interfaces defined
+    // in TS declarations as `ObjectConstructor` and `IteratorConstructor`
+    if (!api && names[i].path.endsWith("Constructor")) {
+        api = root[names[i].path.replace(/Constructor$/, "")];
+    }
+
     if (typeof api === "string") {
         if (i === names.length - 1) {
             return api;

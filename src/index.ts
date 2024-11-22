@@ -13,9 +13,6 @@ import {
 import { resolveTsType } from "./typescript";
 import { resolveWebApiPath } from "./webApi";
 
-const version = Application.VERSION.split(/[\.-]/);
-const supportsObjectReturn = +version[1] > 23 || +version[2] >= 26;
-
 declare module "typedoc" {
     export interface TypeDocOptionMap {
         resolveUtilityTypes: boolean;
@@ -94,7 +91,7 @@ export function load(app: Application) {
                 );
             }
 
-            if (supportsObjectReturn && result) {
+            if (result) {
                 return {
                     target: result,
                     caption: dottedName,
@@ -123,14 +120,39 @@ function makeDeclarationReference(
         // Method added in TypeDoc 0.26.8, use it if present as it will be
         // smarter about package names which aren't in node_modules. Probably not
         // an issue for this project, so the simpler method is also included here.
-        return (symbolId as any).toDeclarationReference();
+        return removeLeadingGlobalRef(
+            (symbolId as any).toDeclarationReference(),
+        );
     }
 
-    return {
+    const symId = symbolId as ReflectionSymbolId;
+    return removeLeadingGlobalRef({
         resolutionStart: "global",
-        moduleSource: getModuleName(symbolId.fileName),
-        symbolReference: getSymbolReference(symbolId.qualifiedName),
-    };
+        moduleSource: getModuleName(symId.fileName),
+        symbolReference: getSymbolReference(symId.qualifiedName),
+    });
+}
+
+function removeLeadingGlobalRef(
+    ref: DeclarationReference,
+): DeclarationReference {
+    // This takes care of lib.esnext.iterator.d.ts which
+    // defines Iterator under declare global in a special way.
+
+    if (
+        ref.resolutionStart === "global" &&
+        ref.symbolReference?.path?.[0].path === "__global"
+    ) {
+        return {
+            ...ref,
+            symbolReference: {
+                ...ref.symbolReference,
+                path: ref.symbolReference.path.slice(1),
+            },
+        };
+    }
+
+    return ref;
 }
 
 function getModuleName(symbolPath: string) {

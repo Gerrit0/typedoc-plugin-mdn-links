@@ -1,5 +1,11 @@
 # Changelog
 
+## v4.0.0 (2024-11-22)
+
+-   Breaking: Drop support for TypeDoc before 0.26.0
+-   Add support for TypeDoc 0.27.x
+-   Fix issue when linking to static methods on global objects, #22
+
 ## v3.3.8 (2024-11-17)
 
 -   Updated MDN API index with @mdn/browser-compat-data version 5.6.15

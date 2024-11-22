@@ -6,7 +6,7 @@
   "devDependencies": {
     "@webgpu/types": "^0.1.43",
     "prettier": "^3.3.2",
-    "typedoc": "^0.26.0",
+    "typedoc": "^0.26.11",
     "typescript": "^5.5.2",
     "vitest": "^1.6.0",
     "@mdn/browser-compat-data": "5.x.x"
@@ -24,7 +24,7 @@
     "#data": "./data/web-api.json"
   },
   "peerDependencies": {
-    "typedoc": ">= 0.23.14 || 0.24.x || 0.25.x || 0.26.x"
+    "typedoc": "0.26.x || 0.27.x"
   },
   "scripts": {
     "lint": "prettier --check .",

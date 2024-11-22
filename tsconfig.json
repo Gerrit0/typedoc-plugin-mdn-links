@@ -2,6 +2,7 @@
     "compilerOptions": {
         "target": "es2020",
         "module": "Node16",
+        "lib": ["ESNext", "DOM"],
         "rootDir": "src",
         "strict": true,
         "isolatedModules": true,

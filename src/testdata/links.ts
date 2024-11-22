@@ -39,3 +39,11 @@ export const comment = true;
  * {@link Map.size | map size}
  */
 export const commentTsResolution = true;
+
+/**
+ * {@link Iterator | It}
+ * {@link Iterator#from | fromHash}
+ * {@link Iterator.from | fromDot}
+ * {@link Object.entries | entries}
+ */
+export const GH22 = 1;
