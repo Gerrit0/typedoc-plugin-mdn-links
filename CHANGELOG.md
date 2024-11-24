@@ -1,5 +1,9 @@
 # Changelog
 
+## v4.0.1 (2024-11-24)
+
+-   Updated MDN API index with @mdn/browser-compat-data version 5.6.18
+
 ## v4.0.0 (2024-11-22)
 
 -   Breaking: Drop support for TypeDoc before 0.26.0

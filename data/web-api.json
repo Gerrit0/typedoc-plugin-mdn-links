@@ -898,6 +898,12 @@
 			"prefix": "https://developer.mozilla.org/docs/Web/API/CSSNamespaceRule/prefix"
 		}
 	},
+	"CSSNestedDeclarations": {
+		"url": "https://developer.mozilla.org/docs/Web/API/CSSNestedDeclarations",
+		"inst": {
+			"style": "https://developer.mozilla.org/docs/Web/API/CSSNestedDeclarations/style"
+		}
+	},
 	"CSSNumericArray": {
 		"url": "https://developer.mozilla.org/docs/Web/API/CSSNumericArray",
 		"inst": {
@@ -1819,16 +1825,31 @@
 		"inst": {
 			"DOMQuad": "https://developer.mozilla.org/docs/Web/API/DOMQuad/DOMQuad",
 			"getBounds": "https://developer.mozilla.org/docs/Web/API/DOMQuad/getBounds",
+			"p1": "https://developer.mozilla.org/docs/Web/API/DOMQuad/p1",
+			"p2": "https://developer.mozilla.org/docs/Web/API/DOMQuad/p2",
+			"p3": "https://developer.mozilla.org/docs/Web/API/DOMQuad/p3",
+			"p4": "https://developer.mozilla.org/docs/Web/API/DOMQuad/p4",
 			"toJSON": "https://developer.mozilla.org/docs/Web/API/DOMQuad/toJSON"
 		}
 	},
 	"DOMRect": {
 		"url": "https://developer.mozilla.org/docs/Web/API/DOMRect",
 		"inst": {
-			"DOMRect": "https://developer.mozilla.org/docs/Web/API/DOMRect/DOMRect"
+			"DOMRect": "https://developer.mozilla.org/docs/Web/API/DOMRect/DOMRect",
+			"height": "https://developer.mozilla.org/docs/Web/API/DOMRect/height",
+			"width": "https://developer.mozilla.org/docs/Web/API/DOMRect/width",
+			"x": "https://developer.mozilla.org/docs/Web/API/DOMRect/x",
+			"y": "https://developer.mozilla.org/docs/Web/API/DOMRect/y"
 		},
 		"stat": {
 			"fromRect": "https://developer.mozilla.org/docs/Web/API/DOMRect/fromRect_static"
+		}
+	},
+	"DOMRectList": {
+		"url": "https://developer.mozilla.org/docs/Web/API/DOMRectList",
+		"inst": {
+			"item": "https://developer.mozilla.org/docs/Web/API/DOMRectList/item",
+			"length": "https://developer.mozilla.org/docs/Web/API/DOMRectList/length"
 		}
 	},
 	"DOMRectReadOnly": {
@@ -1839,6 +1860,7 @@
 			"height": "https://developer.mozilla.org/docs/Web/API/DOMRectReadOnly/height",
 			"left": "https://developer.mozilla.org/docs/Web/API/DOMRectReadOnly/left",
 			"right": "https://developer.mozilla.org/docs/Web/API/DOMRectReadOnly/right",
+			"toJSON": "https://developer.mozilla.org/docs/Web/API/DOMRectReadOnly/toJSON",
 			"top": "https://developer.mozilla.org/docs/Web/API/DOMRectReadOnly/top",
 			"width": "https://developer.mozilla.org/docs/Web/API/DOMRectReadOnly/width",
 			"x": "https://developer.mozilla.org/docs/Web/API/DOMRectReadOnly/x",
@@ -1936,6 +1958,14 @@
 		"inst": {
 			"DelayNode": "https://developer.mozilla.org/docs/Web/API/DelayNode/DelayNode",
 			"delayTime": "https://developer.mozilla.org/docs/Web/API/DelayNode/delayTime"
+		}
+	},
+	"DelegatedInkTrailPresenter": {
+		"url": "https://developer.mozilla.org/docs/Web/API/DelegatedInkTrailPresenter",
+		"inst": {
+			"expectedImprovement": "https://developer.mozilla.org/docs/Web/API/DelegatedInkTrailPresenter/expectedImprovement",
+			"presentationArea": "https://developer.mozilla.org/docs/Web/API/DelegatedInkTrailPresenter/presentationArea",
+			"updateInkTrailStartPoint": "https://developer.mozilla.org/docs/Web/API/DelegatedInkTrailPresenter/updateInkTrailStartPoint"
 		}
 	},
 	"DeprecationReportBody": {
@@ -3364,6 +3394,7 @@
 	"HTMLAreaElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLAreaElement",
 		"inst": {
+			"alt": "https://developer.mozilla.org/docs/Web/API/HTMLAreaElement/alt",
 			"download": "https://developer.mozilla.org/docs/Web/API/HTMLAreaElement/download",
 			"hash": "https://developer.mozilla.org/docs/Web/API/HTMLAreaElement/hash",
 			"host": "https://developer.mozilla.org/docs/Web/API/HTMLAreaElement/host",
@@ -3500,7 +3531,12 @@
 			"focus": "https://developer.mozilla.org/docs/Web/API/HTMLElement/focus",
 			"hidden": "https://developer.mozilla.org/docs/Web/API/HTMLElement/hidden",
 			"hidePopover": "https://developer.mozilla.org/docs/Web/API/HTMLElement/hidePopover",
-			"inert": "https://developer.mozilla.org/docs/Web/API/HTMLElement/inert",
+			"inert": {
+				"url": "https://developer.mozilla.org/docs/Web/API/HTMLElement/inert",
+				"inst": {
+					"ignores_find_in_page": "https://developer.mozilla.org/docs/Web/API/HTMLElement/inert"
+				}
+			},
 			"innerText": "https://developer.mozilla.org/docs/Web/API/HTMLElement/innerText",
 			"inputMode": "https://developer.mozilla.org/docs/Web/API/HTMLElement/inputMode",
 			"isContentEditable": "https://developer.mozilla.org/docs/Web/API/HTMLElement/isContentEditable",
