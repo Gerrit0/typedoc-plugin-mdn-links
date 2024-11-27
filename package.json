@@ -5,12 +5,13 @@
   "type": "module",
   "license": "MIT",
   "devDependencies": {
+    "@mdn/browser-compat-data": "5.x.x",
+    "@types/node": "^22.10.0",
     "@webgpu/types": "^0.1.43",
     "prettier": "^3.3.2",
     "typedoc": "^0.26.11",
     "typescript": "^5.5.2",
-    "vitest": "^1.6.0",
-    "@mdn/browser-compat-data": "5.x.x"
+    "vitest": "^1.6.0"
   },
   "keywords": [
     "typedoc-plugin"
@@ -21,9 +22,6 @@
     "dist/webApi.js",
     "data/web-api.json"
   ],
-  "imports": {
-    "#data": "./data/web-api.json"
-  },
   "peerDependencies": {
     "typedoc": "0.26.x || 0.27.x"
   },

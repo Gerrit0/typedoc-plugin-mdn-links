@@ -1,4 +1,4 @@
-import bcd from "@mdn/browser-compat-data" assert { type: "json" };
+import bcd from "@mdn/browser-compat-data/forLegacyNode";
 import { writeFileSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";

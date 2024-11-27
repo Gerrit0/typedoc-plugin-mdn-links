@@ -1,4 +1,7 @@
 import type { ComponentPath } from "typedoc";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
+import { readFileSync } from "node:fs";
 
 export interface WebApiData {
     url: string;
@@ -6,8 +9,10 @@ export interface WebApiData {
     stat?: Record<string, WebApiData | string>;
 }
 
-import _webApi from "#data" assert { type: "json" };
-const webApi = _webApi as Record<string, WebApiData | string>;
+const REPO_ROOT = dirname(dirname(fileURLToPath(import.meta.url)));
+const webApi = JSON.parse(
+    readFileSync(join(REPO_ROOT, "data/web-api.json"), "utf-8"),
+);
 
 function resolvePath(
     root: Record<string, WebApiData | string> | undefined,
