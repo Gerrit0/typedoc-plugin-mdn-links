@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "target": "es2020",
-        "module": "Node16",
+        "module": "NodeNext",
         "lib": ["ESNext", "DOM"],
         "rootDir": "src",
         "strict": true,
@@ -10,7 +10,8 @@
         "resolveJsonModule": true,
         "outDir": "dist",
         "types": [],
-        "skipLibCheck": true
+        "skipLibCheck": true,
+        "verbatimModuleSyntax": true
     },
     "include": ["."]
 }

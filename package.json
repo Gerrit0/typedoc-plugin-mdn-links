@@ -2,6 +2,7 @@
   "name": "typedoc-plugin-mdn-links",
   "version": "4.0.1",
   "main": "dist/index.js",
+  "type": "module",
   "license": "MIT",
   "devDependencies": {
     "@webgpu/types": "^0.1.43",

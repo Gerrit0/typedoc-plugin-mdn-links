@@ -1,17 +1,17 @@
 import {
     Application,
-    CommentDisplayPart,
-    ComponentPath,
+    type CommentDisplayPart,
+    type ComponentPath,
     Converter,
-    DeclarationReference,
+    type DeclarationReference,
     ParameterType,
     Reflection,
     ReflectionSymbolId,
     splitUnquotedString,
-    SymbolReference,
+    type SymbolReference,
 } from "typedoc";
-import { resolveTsType } from "./typescript";
-import { resolveWebApiPath } from "./webApi";
+import { resolveTsType } from "./typescript.js";
+import { resolveWebApiPath } from "./webApi.js";
 
 declare module "typedoc" {
     export interface TypeDocOptionMap {

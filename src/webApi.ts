@@ -1,4 +1,4 @@
-import { ComponentPath } from "typedoc";
+import type { ComponentPath } from "typedoc";
 
 export interface WebApiData {
     url: string;
@@ -6,7 +6,7 @@ export interface WebApiData {
     stat?: Record<string, WebApiData | string>;
 }
 
-import _webApi from "#data";
+import _webApi from "#data" assert { type: "json" };
 const webApi = _webApi as Record<string, WebApiData | string>;
 
 function resolvePath(

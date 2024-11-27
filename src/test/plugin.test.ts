@@ -1,7 +1,7 @@
 import {
     Application,
     DeclarationReflection,
-    InlineTagDisplayPart,
+    type InlineTagDisplayPart,
     ProjectReflection,
     QueryType,
     ReferenceType,
