@@ -1,4 +1,4 @@
-import { ComponentPath } from "typedoc";
+import type { ComponentPath } from "typedoc";
 
 const utilityTypes = new Map([
     ["Awaited", "awaitedtype"],
