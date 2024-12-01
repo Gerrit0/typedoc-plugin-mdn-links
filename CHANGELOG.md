@@ -1,5 +1,9 @@
 # Changelog
 
+## v4.0.3 (2024-12-01)
+
+-   Updated MDN API index with @mdn/browser-compat-data version 5.6.20
+
 ## v4.0.2 (2024-11-27)
 
 -   Fix plugin when running with TypeDoc 0.27.x (@blutorange)
