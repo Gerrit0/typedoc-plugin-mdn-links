@@ -3395,6 +3395,7 @@
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLAreaElement",
 		"inst": {
 			"alt": "https://developer.mozilla.org/docs/Web/API/HTMLAreaElement/alt",
+			"coords": "https://developer.mozilla.org/docs/Web/API/HTMLAreaElement/coords",
 			"download": "https://developer.mozilla.org/docs/Web/API/HTMLAreaElement/download",
 			"hash": "https://developer.mozilla.org/docs/Web/API/HTMLAreaElement/hash",
 			"host": "https://developer.mozilla.org/docs/Web/API/HTMLAreaElement/host",
@@ -3410,6 +3411,7 @@
 			"rel": "https://developer.mozilla.org/docs/Web/API/HTMLAreaElement/rel",
 			"relList": "https://developer.mozilla.org/docs/Web/API/HTMLAreaElement/relList",
 			"search": "https://developer.mozilla.org/docs/Web/API/HTMLAreaElement/search",
+			"shape": "https://developer.mozilla.org/docs/Web/API/HTMLAreaElement/shape",
 			"target": "https://developer.mozilla.org/docs/Web/API/HTMLAreaElement/target",
 			"toString": "https://developer.mozilla.org/docs/Web/API/HTMLAreaElement/toString",
 			"username": "https://developer.mozilla.org/docs/Web/API/HTMLAreaElement/username"
@@ -3880,7 +3882,12 @@
 			"value": "https://developer.mozilla.org/docs/Web/API/HTMLMeterElement/value"
 		}
 	},
-	"HTMLModElement": "https://developer.mozilla.org/docs/Web/API/HTMLModElement",
+	"HTMLModElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/HTMLModElement",
+		"inst": {
+			"cite": "https://developer.mozilla.org/docs/Web/API/HTMLModElement/cite"
+		}
+	},
 	"HTMLOListElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLOListElement",
 		"inst": {
@@ -3971,7 +3978,12 @@
 			"value": "https://developer.mozilla.org/docs/Web/API/HTMLProgressElement/value"
 		}
 	},
-	"HTMLQuoteElement": "https://developer.mozilla.org/docs/Web/API/HTMLQuoteElement",
+	"HTMLQuoteElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/HTMLQuoteElement",
+		"inst": {
+			"cite": "https://developer.mozilla.org/docs/Web/API/HTMLQuoteElement/cite"
+		}
+	},
 	"HTMLScriptElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLScriptElement",
 		"inst": {
@@ -6971,6 +6983,7 @@
 	"SVGAElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/SVGAElement",
 		"inst": {
+			"href": "https://developer.mozilla.org/docs/Web/API/SVGAElement/href",
 			"target": "https://developer.mozilla.org/docs/Web/API/SVGAElement/target"
 		}
 	},
@@ -7375,6 +7388,7 @@
 		"url": "https://developer.mozilla.org/docs/Web/API/SerialPort",
 		"inst": {
 			"close": "https://developer.mozilla.org/docs/Web/API/SerialPort/close",
+			"connected": "https://developer.mozilla.org/docs/Web/API/SerialPort/connected",
 			"forget": "https://developer.mozilla.org/docs/Web/API/SerialPort/forget",
 			"getInfo": "https://developer.mozilla.org/docs/Web/API/SerialPort/getInfo",
 			"getSignals": "https://developer.mozilla.org/docs/Web/API/SerialPort/getSignals",
@@ -8787,6 +8801,7 @@
 			"isTexture": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/isTexture",
 			"isTransformFeedback": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/isTransformFeedback",
 			"isVertexArray": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/isVertexArray",
+			"lineWidth": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/lineWidth",
 			"linkProgram": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/linkProgram",
 			"makeXRCompatible": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/makeXRCompatible",
 			"pauseTransformFeedback": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/pauseTransformFeedback",
@@ -10644,6 +10659,7 @@
 			"RegExp": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/RegExp",
 			"compile": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/compile",
 			"dotAll": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/dotAll",
+			"escape": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/escape",
 			"exec": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec",
 			"flags": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/flags",
 			"global": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/global",
