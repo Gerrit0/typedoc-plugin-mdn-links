@@ -6992,8 +6992,20 @@
 	"SVGAnimateElement": "https://developer.mozilla.org/docs/Web/API/SVGAnimateElement",
 	"SVGAnimateMotionElement": "https://developer.mozilla.org/docs/Web/API/SVGAnimateMotionElement",
 	"SVGAnimateTransformElement": "https://developer.mozilla.org/docs/Web/API/SVGAnimateTransformElement",
-	"SVGAnimatedAngle": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedAngle",
-	"SVGAnimatedBoolean": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedBoolean",
+	"SVGAnimatedAngle": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedAngle",
+		"inst": {
+			"animVal": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedAngle/animVal",
+			"baseVal": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedAngle/baseVal"
+		}
+	},
+	"SVGAnimatedBoolean": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedBoolean",
+		"inst": {
+			"animVal": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedBoolean/animVal",
+			"baseVal": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedBoolean/baseVal"
+		}
+	},
 	"SVGAnimatedEnumeration": {
 		"url": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedEnumeration",
 		"inst": {
@@ -7013,7 +7025,13 @@
 	"SVGAnimatedNumber": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedNumber",
 	"SVGAnimatedNumberList": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedNumberList",
 	"SVGAnimatedPreserveAspectRatio": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedPreserveAspectRatio",
-	"SVGAnimatedRect": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedRect",
+	"SVGAnimatedRect": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedRect",
+		"inst": {
+			"animVal": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedRect/animVal",
+			"baseVal": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedRect/baseVal"
+		}
+	},
 	"SVGAnimatedString": {
 		"url": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedString",
 		"inst": {
@@ -7021,7 +7039,13 @@
 			"baseVal": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedString/baseVal"
 		}
 	},
-	"SVGAnimatedTransformList": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedTransformList",
+	"SVGAnimatedTransformList": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedTransformList",
+		"inst": {
+			"animVal": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedTransformList/animVal",
+			"baseVal": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedTransformList/baseVal"
+		}
+	},
 	"SVGAnimationElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement",
 		"inst": {
