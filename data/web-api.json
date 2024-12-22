@@ -1737,6 +1737,7 @@
 			"d": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties",
 			"e": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties",
 			"f": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties",
+			"invertSelf": "https://developer.mozilla.org/docs/Web/API/DOMMatrix/invertSelf",
 			"m11": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties",
 			"m12": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties",
 			"m13": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties",
@@ -1752,7 +1753,12 @@
 			"m41": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties",
 			"m42": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties",
 			"m43": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties",
-			"m44": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties"
+			"m44": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties",
+			"rotateSelf": "https://developer.mozilla.org/docs/Web/API/DOMMatrix/rotateSelf",
+			"setMatrixValue": "https://developer.mozilla.org/docs/Web/API/DOMMatrix/setMatrixValue",
+			"skewXSelf": "https://developer.mozilla.org/docs/Web/API/DOMMatrix/skewXSelf",
+			"skewYSelf": "https://developer.mozilla.org/docs/Web/API/DOMMatrix/skewYSelf",
+			"translateSelf": "https://developer.mozilla.org/docs/Web/API/DOMMatrix/translateSelf"
 		}
 	},
 	"DOMMatrixReadOnly": {
@@ -1766,6 +1772,7 @@
 			"e": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
 			"f": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
 			"flipX": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/flipX",
+			"inverse": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/inverse",
 			"m11": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
 			"m12": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
 			"m13": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
@@ -1783,6 +1790,8 @@
 			"m43": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
 			"m44": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
 			"scale": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/scale",
+			"toJSON": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/toJSON",
+			"toString": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/toString",
 			"translate": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/translate"
 		}
 	},
@@ -3558,7 +3567,8 @@
 			"title": "https://developer.mozilla.org/docs/Web/API/HTMLElement/title",
 			"togglePopover": "https://developer.mozilla.org/docs/Web/API/HTMLElement/togglePopover",
 			"translate": "https://developer.mozilla.org/docs/Web/API/HTMLElement/translate",
-			"virtualKeyboardPolicy": "https://developer.mozilla.org/docs/Web/API/HTMLElement/virtualKeyboardPolicy"
+			"virtualKeyboardPolicy": "https://developer.mozilla.org/docs/Web/API/HTMLElement/virtualKeyboardPolicy",
+			"writingSuggestions": "https://developer.mozilla.org/docs/Web/API/HTMLElement/writingSuggestions"
 		}
 	},
 	"HTMLEmbedElement": {
@@ -7021,9 +7031,27 @@
 			"baseVal": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedLength/baseVal"
 		}
 	},
-	"SVGAnimatedLengthList": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedLengthList",
-	"SVGAnimatedNumber": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedNumber",
-	"SVGAnimatedNumberList": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedNumberList",
+	"SVGAnimatedLengthList": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedLengthList",
+		"inst": {
+			"animVal": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedLengthList/animVal",
+			"baseVal": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedLengthList/baseVal"
+		}
+	},
+	"SVGAnimatedNumber": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedNumber",
+		"inst": {
+			"animVal": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedNumber/animVal",
+			"baseVal": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedNumber/baseVal"
+		}
+	},
+	"SVGAnimatedNumberList": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedNumberList",
+		"inst": {
+			"animVal": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedNumberList/animVal",
+			"baseVal": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedNumberList/baseVal"
+		}
+	},
 	"SVGAnimatedPreserveAspectRatio": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedPreserveAspectRatio",
 	"SVGAnimatedRect": {
 		"url": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedRect",
@@ -7049,6 +7077,12 @@
 	"SVGAnimationElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement",
 		"inst": {
+			"beginElement": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/beginElement",
+			"beginElementAt": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/beginElementAt",
+			"endElement": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/endElement",
+			"endElementAt": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/endElementAt",
+			"requiredExtensions": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/requiredExtensions",
+			"systemLanguage": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/systemLanguage",
 			"targetElement": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/targetElement"
 		}
 	},
@@ -7501,19 +7535,6 @@
 			"clear": "https://developer.mozilla.org/docs/Web/API/SharedStorage/clear",
 			"delete": "https://developer.mozilla.org/docs/Web/API/SharedStorage/delete",
 			"set": "https://developer.mozilla.org/docs/Web/API/SharedStorage/set"
-		}
-	},
-	"SharedStorageOperation": "https://developer.mozilla.org/docs/Web/API/SharedStorageOperation",
-	"SharedStorageRunOperation": {
-		"url": "https://developer.mozilla.org/docs/Web/API/SharedStorageRunOperation",
-		"inst": {
-			"run": "https://developer.mozilla.org/docs/Web/API/SharedStorageRunOperation/run"
-		}
-	},
-	"SharedStorageSelectURLOperation": {
-		"url": "https://developer.mozilla.org/docs/Web/API/SharedStorageSelectURLOperation",
-		"inst": {
-			"run": "https://developer.mozilla.org/docs/Web/API/SharedStorageSelectURLOperation/run"
 		}
 	},
 	"SharedStorageWorklet": "https://developer.mozilla.org/docs/Web/API/SharedStorageWorklet",
@@ -9318,14 +9339,6 @@
 			"visible": "https://developer.mozilla.org/docs/Web/API/WindowControlsOverlayGeometryChangeEvent/visible"
 		}
 	},
-	"WindowSharedStorage": {
-		"url": "https://developer.mozilla.org/docs/Web/API/WindowSharedStorage",
-		"inst": {
-			"run": "https://developer.mozilla.org/docs/Web/API/WindowSharedStorage/run",
-			"selectURL": "https://developer.mozilla.org/docs/Web/API/WindowSharedStorage/selectURL",
-			"worklet": "https://developer.mozilla.org/docs/Web/API/WindowSharedStorage/worklet"
-		}
-	},
 	"Worker": {
 		"url": "https://developer.mozilla.org/docs/Web/API/Worker",
 		"inst": {
@@ -9395,17 +9408,6 @@
 		}
 	},
 	"WorkletGlobalScope": "https://developer.mozilla.org/docs/Web/API/WorkletGlobalScope",
-	"WorkletSharedStorage": {
-		"url": "https://developer.mozilla.org/docs/Web/API/WorkletSharedStorage",
-		"inst": {
-			"context": "https://developer.mozilla.org/docs/Web/API/WorkletSharedStorage/context",
-			"entries": "https://developer.mozilla.org/docs/Web/API/WorkletSharedStorage/entries",
-			"get": "https://developer.mozilla.org/docs/Web/API/WorkletSharedStorage/get",
-			"keys": "https://developer.mozilla.org/docs/Web/API/WorkletSharedStorage/keys",
-			"length": "https://developer.mozilla.org/docs/Web/API/WorkletSharedStorage/length",
-			"remainingBudget": "https://developer.mozilla.org/docs/Web/API/WorkletSharedStorage/remainingBudget"
-		}
-	},
 	"WritableStream": {
 		"url": "https://developer.mozilla.org/docs/Web/API/WritableStream",
 		"inst": {
