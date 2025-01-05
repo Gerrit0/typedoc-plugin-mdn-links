@@ -1790,8 +1790,11 @@
 			"m43": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
 			"m44": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
 			"scale": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/scale",
+			"toFloat32Array": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/toFloat32Array",
+			"toFloat64Array": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/toFloat64Array",
 			"toJSON": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/toJSON",
 			"toString": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/toString",
+			"transformPoint": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/transformPoint",
 			"translate": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/translate"
 		}
 	},
@@ -1819,6 +1822,7 @@
 		"url": "https://developer.mozilla.org/docs/Web/API/DOMPointReadOnly",
 		"inst": {
 			"DOMPointReadOnly": "https://developer.mozilla.org/docs/Web/API/DOMPointReadOnly/DOMPointReadOnly",
+			"matrixTransform": "https://developer.mozilla.org/docs/Web/API/DOMPointReadOnly/matrixTransform",
 			"toJSON": "https://developer.mozilla.org/docs/Web/API/DOMPointReadOnly/toJSON",
 			"w": "https://developer.mozilla.org/docs/Web/API/DOMPointReadOnly/w",
 			"x": "https://developer.mozilla.org/docs/Web/API/DOMPointReadOnly/x",
@@ -1902,6 +1906,7 @@
 			"remove_duplicates": "https://developer.mozilla.org/docs/Web/API/DOMTokenList#Trimming_of_whitespace_and_removal_of_duplicates",
 			"replace": "https://developer.mozilla.org/docs/Web/API/DOMTokenList/replace",
 			"supports": "https://developer.mozilla.org/docs/Web/API/DOMTokenList/supports",
+			"toString": "https://developer.mozilla.org/docs/Web/API/DOMTokenList/toString",
 			"toggle": "https://developer.mozilla.org/docs/Web/API/DOMTokenList/toggle",
 			"trim_whitespace": "https://developer.mozilla.org/docs/Web/API/DOMTokenList#Trimming_of_whitespace_and_removal_of_duplicates",
 			"value": "https://developer.mozilla.org/docs/Web/API/DOMTokenList/value",
@@ -4948,7 +4953,8 @@
 			"deleteMedium": "https://developer.mozilla.org/docs/Web/API/MediaList/deleteMedium",
 			"item": "https://developer.mozilla.org/docs/Web/API/MediaList/item",
 			"length": "https://developer.mozilla.org/docs/Web/API/MediaList/length",
-			"mediaText": "https://developer.mozilla.org/docs/Web/API/MediaList/mediaText"
+			"mediaText": "https://developer.mozilla.org/docs/Web/API/MediaList/mediaText",
+			"toString": "https://developer.mozilla.org/docs/Web/API/MediaList/toString"
 		}
 	},
 	"MediaMetadata": {
@@ -7109,8 +7115,14 @@
 		"url": "https://developer.mozilla.org/docs/Web/API/SVGElement",
 		"inst": {
 			"attributeStyleMap": "https://developer.mozilla.org/docs/Web/API/SVGElement/attributeStyleMap",
+			"blur": "https://developer.mozilla.org/docs/Web/API/SVGElement/blur",
 			"dataset": "https://developer.mozilla.org/docs/Web/API/SVGElement/dataset",
-			"style": "https://developer.mozilla.org/docs/Web/API/SVGElement/style"
+			"focus": "https://developer.mozilla.org/docs/Web/API/SVGElement/focus",
+			"nonce": "https://developer.mozilla.org/docs/Web/API/SVGElement/nonce",
+			"ownerSVGElement": "https://developer.mozilla.org/docs/Web/API/SVGElement/ownerSVGElement",
+			"style": "https://developer.mozilla.org/docs/Web/API/SVGElement/style",
+			"tabIndex": "https://developer.mozilla.org/docs/Web/API/SVGElement/tabIndex",
+			"viewportElement": "https://developer.mozilla.org/docs/Web/API/SVGElement/viewportElement"
 		}
 	},
 	"SVGEllipseElement": "https://developer.mozilla.org/docs/Web/API/SVGEllipseElement",
@@ -7132,7 +7144,12 @@
 	"SVGFEImageElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/SVGFEImageElement",
 		"inst": {
-			"crossOrigin": "https://developer.mozilla.org/docs/Web/API/SVGFEImageElement"
+			"crossOrigin": "https://developer.mozilla.org/docs/Web/API/SVGFEImageElement",
+			"height": "https://developer.mozilla.org/docs/Web/API/SVGFEImageElement/height",
+			"result": "https://developer.mozilla.org/docs/Web/API/SVGFEImageElement/result",
+			"width": "https://developer.mozilla.org/docs/Web/API/SVGFEImageElement/width",
+			"x": "https://developer.mozilla.org/docs/Web/API/SVGFEImageElement/x",
+			"y": "https://developer.mozilla.org/docs/Web/API/SVGFEImageElement/y"
 		}
 	},
 	"SVGFEMergeElement": "https://developer.mozilla.org/docs/Web/API/SVGFEMergeElement",
@@ -7201,7 +7218,15 @@
 		}
 	},
 	"SVGLineElement": "https://developer.mozilla.org/docs/Web/API/SVGLineElement",
-	"SVGLinearGradientElement": "https://developer.mozilla.org/docs/Web/API/SVGLinearGradientElement",
+	"SVGLinearGradientElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGLinearGradientElement",
+		"inst": {
+			"x1": "https://developer.mozilla.org/docs/Web/API/SVGLinearGradientElement/x1",
+			"x2": "https://developer.mozilla.org/docs/Web/API/SVGLinearGradientElement/x2",
+			"y1": "https://developer.mozilla.org/docs/Web/API/SVGLinearGradientElement/y1",
+			"y2": "https://developer.mozilla.org/docs/Web/API/SVGLinearGradientElement/y2"
+		}
+	},
 	"SVGMPathElement": "https://developer.mozilla.org/docs/Web/API/SVGMPathElement",
 	"SVGMarkerElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/SVGMarkerElement",
@@ -7235,7 +7260,14 @@
 	"SVGNumber": "https://developer.mozilla.org/docs/Web/API/SVGNumber",
 	"SVGNumberList": "https://developer.mozilla.org/docs/Web/API/SVGNumberList",
 	"SVGPathElement": "https://developer.mozilla.org/docs/Web/API/SVGPathElement",
-	"SVGPatternElement": "https://developer.mozilla.org/docs/Web/API/SVGPatternElement",
+	"SVGPatternElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGPatternElement",
+		"inst": {
+			"patternContentUnits": "https://developer.mozilla.org/docs/Web/API/SVGPatternElement/patternContentUnits",
+			"patternTransform": "https://developer.mozilla.org/docs/Web/API/SVGPatternElement/patternTransform",
+			"patternUnits": "https://developer.mozilla.org/docs/Web/API/SVGPatternElement/patternUnits"
+		}
+	},
 	"SVGPoint": "https://developer.mozilla.org/docs/Web/API/SVGPoint",
 	"SVGPointList": {
 		"url": "https://developer.mozilla.org/docs/Web/API/SVGPointList",
@@ -7254,7 +7286,16 @@
 	"SVGPolygonElement": "https://developer.mozilla.org/docs/Web/API/SVGPolygonElement",
 	"SVGPolylineElement": "https://developer.mozilla.org/docs/Web/API/SVGPolylineElement",
 	"SVGPreserveAspectRatio": "https://developer.mozilla.org/docs/Web/API/SVGPreserveAspectRatio",
-	"SVGRadialGradientElement": "https://developer.mozilla.org/docs/Web/API/SVGRadialGradientElement",
+	"SVGRadialGradientElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGRadialGradientElement",
+		"inst": {
+			"cx": "https://developer.mozilla.org/docs/Web/API/SVGRadialGradientElement/cx",
+			"cy": "https://developer.mozilla.org/docs/Web/API/SVGRadialGradientElement/cy",
+			"fx": "https://developer.mozilla.org/docs/Web/API/SVGRadialGradientElement/fx",
+			"fy": "https://developer.mozilla.org/docs/Web/API/SVGRadialGradientElement/fy",
+			"r": "https://developer.mozilla.org/docs/Web/API/SVGRadialGradientElement/r"
+		}
+	},
 	"SVGRect": {
 		"url": "https://developer.mozilla.org/docs/Web/API/SVGRect",
 		"inst": {
@@ -7287,12 +7328,31 @@
 	"SVGTextPathElement": "https://developer.mozilla.org/docs/Web/API/SVGTextPathElement",
 	"SVGTextPositioningElement": "https://developer.mozilla.org/docs/Web/API/SVGTextPositioningElement",
 	"SVGTitleElement": "https://developer.mozilla.org/docs/Web/API/SVGTitleElement",
-	"SVGTransform": "https://developer.mozilla.org/docs/Web/API/SVGTransform",
+	"SVGTransform": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGTransform",
+		"inst": {
+			"angle": "https://developer.mozilla.org/docs/Web/API/SVGTransform/angle",
+			"matrix": "https://developer.mozilla.org/docs/Web/API/SVGTransform/matrix",
+			"setMatrix": "https://developer.mozilla.org/docs/Web/API/SVGTransform/setMatrix",
+			"setRotate": "https://developer.mozilla.org/docs/Web/API/SVGTransform/setRotate",
+			"setScale": "https://developer.mozilla.org/docs/Web/API/SVGTransform/setScale",
+			"setSkewX": "https://developer.mozilla.org/docs/Web/API/SVGTransform/setSkewX",
+			"setSkewY": "https://developer.mozilla.org/docs/Web/API/SVGTransform/setSkewY",
+			"setTranslate": "https://developer.mozilla.org/docs/Web/API/SVGTransform/setTranslate",
+			"type": "https://developer.mozilla.org/docs/Web/API/SVGTransform/type"
+		}
+	},
 	"SVGTransformList": "https://developer.mozilla.org/docs/Web/API/SVGTransformList",
 	"SVGUnitTypes": "https://developer.mozilla.org/docs/Web/API/SVGUnitTypes",
 	"SVGUseElement": "https://developer.mozilla.org/docs/Web/API/SVGUseElement",
 	"SVGVKernElement": "https://developer.mozilla.org/docs/Web/API/SVGVKernElement",
-	"SVGViewElement": "https://developer.mozilla.org/docs/Web/API/SVGViewElement",
+	"SVGViewElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGViewElement",
+		"inst": {
+			"preserveAspectRatio": "https://developer.mozilla.org/docs/Web/API/SVGViewElement/preserveAspectRatio",
+			"viewBox": "https://developer.mozilla.org/docs/Web/API/SVGViewElement/viewBox"
+		}
+	},
 	"Scheduler": {
 		"url": "https://developer.mozilla.org/docs/Web/API/Scheduler",
 		"inst": {
