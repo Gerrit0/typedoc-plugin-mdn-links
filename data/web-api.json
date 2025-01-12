@@ -1772,6 +1772,7 @@
 			"e": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
 			"f": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
 			"flipX": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/flipX",
+			"flipY": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/flipY",
 			"inverse": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/inverse",
 			"m11": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
 			"m12": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
@@ -3509,7 +3510,7 @@
 	"HTMLDetailsElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLDetailsElement",
 		"inst": {
-			"name": "https://developer.mozilla.org/docs/Web/API/HTMLDetailsElement/open",
+			"name": "https://developer.mozilla.org/docs/Web/API/HTMLDetailsElement/name",
 			"open": "https://developer.mozilla.org/docs/Web/API/HTMLDetailsElement/open"
 		}
 	},
@@ -3858,12 +3859,14 @@
 			"paused": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/paused",
 			"play": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/play",
 			"playbackRate": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/playbackRate",
+			"played": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/played",
 			"preload": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/preload",
 			"preservesPitch": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/preservesPitch",
 			"readyState": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/readyState",
 			"remote": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/remote",
 			"seekToNextFrame": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/seekToNextFrame",
 			"seekable": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/seekable",
+			"seeking": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/seeking",
 			"setMediaKeys": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/setMediaKeys",
 			"setSinkId": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/setSinkId",
 			"sinkId": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/sinkId",
@@ -5313,6 +5316,7 @@
 			"destination": "https://developer.mozilla.org/docs/Web/API/NavigateEvent/destination",
 			"downloadRequest": "https://developer.mozilla.org/docs/Web/API/NavigateEvent/downloadRequest",
 			"formData": "https://developer.mozilla.org/docs/Web/API/NavigateEvent/formData",
+			"hasUAVisualTransition": "https://developer.mozilla.org/docs/Web/API/NavigateEvent/hasUAVisualTransition",
 			"hashChange": "https://developer.mozilla.org/docs/Web/API/NavigateEvent/hashChange",
 			"info": "https://developer.mozilla.org/docs/Web/API/NavigateEvent/info",
 			"intercept": "https://developer.mozilla.org/docs/Web/API/NavigateEvent/intercept",
@@ -6243,6 +6247,7 @@
 		"url": "https://developer.mozilla.org/docs/Web/API/PopStateEvent",
 		"inst": {
 			"PopStateEvent": "https://developer.mozilla.org/docs/Web/API/PopStateEvent/PopStateEvent",
+			"hasUAVisualTransition": "https://developer.mozilla.org/docs/Web/API/PopStateEvent/hasUAVisualTransition",
 			"state": "https://developer.mozilla.org/docs/Web/API/PopStateEvent/state"
 		}
 	},
@@ -6711,12 +6716,111 @@
 			"has": "https://developer.mozilla.org/docs/Web/API/RTCStatsReport/has",
 			"keys": "https://developer.mozilla.org/docs/Web/API/RTCStatsReport/keys",
 			"size": "https://developer.mozilla.org/docs/Web/API/RTCStatsReport/size",
-			"type_candidate-pair": "https://developer.mozilla.org/docs/Web/API/RTCStatsReport#canditate_pair",
-			"type_certificate": "https://developer.mozilla.org/docs/Web/API/RTCStatsReport#certificate",
-			"type_codec": "https://developer.mozilla.org/docs/Web/API/RTCStatsReport#codec",
-			"type_data-channel": "https://developer.mozilla.org/docs/Web/API/RTCStatsReport#data_channel",
-			"type_inbound-rtp": "https://developer.mozilla.org/docs/Web/API/RTCStatsReport#inbound_rtp",
-			"type_local-candidate": "https://developer.mozilla.org/docs/Web/API/RTCStatsReport#local_candidate",
+			"type_candidate-pair": {
+				"url": "https://developer.mozilla.org/docs/Web/API/RTCStatsReport#canditate_pair",
+				"inst": {
+					"availableOutgoingBitrate": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/availableOutgoingBitrate",
+					"bytesDiscardedOnSend": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/bytesDiscardedOnSend",
+					"bytesReceived": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/bytesReceived",
+					"bytesSent": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/bytesSent",
+					"consentRequestsSent": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/consentRequestsSent",
+					"currentRoundTripTime": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/currentRoundTripTime",
+					"id": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/id",
+					"lastPacketReceivedTimestamp": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/lastPacketReceivedTimestamp",
+					"lastPacketSentTimestamp": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/lastPacketSentTimestamp",
+					"localCandidateId": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/localCandidateId",
+					"nominated": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/nominated",
+					"packetsDiscardedOnSend": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/packetsDiscardedOnSend",
+					"packetsReceived": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/packetsReceived",
+					"packetsSent": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/packetsSent",
+					"priority": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/priority",
+					"remoteCandidateId": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/remoteCandidateId",
+					"requestsReceived": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/requestsReceived",
+					"requestsSent": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/requestsSent",
+					"responsesReceived": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/responsesReceived",
+					"responsesSent": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/responsesSent",
+					"state": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/state",
+					"timestamp": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/timestamp",
+					"totalRoundTripTime": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/totalRoundTripTime",
+					"transportId": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/transportId",
+					"type": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/type"
+				}
+			},
+			"type_certificate": {
+				"url": "https://developer.mozilla.org/docs/Web/API/RTCStatsReport#certificate",
+				"inst": {
+					"base64Certificate": "https://developer.mozilla.org/docs/Web/API/RTCCertificateStats/base64Certificate",
+					"fingerprint": "https://developer.mozilla.org/docs/Web/API/RTCCertificateStats/fingerprint",
+					"fingerprintAlgorithm": "https://developer.mozilla.org/docs/Web/API/RTCCertificateStats/fingerprintAlgorithm",
+					"id": "https://developer.mozilla.org/docs/Web/API/RTCCertificateStats/id",
+					"timestamp": "https://developer.mozilla.org/docs/Web/API/RTCCertificateStats/timestamp",
+					"type": "https://developer.mozilla.org/docs/Web/API/RTCCertificateStats/type"
+				}
+			},
+			"type_codec": {
+				"url": "https://developer.mozilla.org/docs/Web/API/RTCStatsReport#codec",
+				"inst": {
+					"channels": "https://developer.mozilla.org/docs/Web/API/RTCCodecStats/channels",
+					"clockRate": "https://developer.mozilla.org/docs/Web/API/RTCCodecStats/clockRate",
+					"id": "https://developer.mozilla.org/docs/Web/API/RTCCodecStats/id",
+					"mimeType": "https://developer.mozilla.org/docs/Web/API/RTCCodecStats/mimeType",
+					"payloadType": "https://developer.mozilla.org/docs/Web/API/RTCCodecStats/payloadType",
+					"sdpFmtpLine": "https://developer.mozilla.org/docs/Web/API/RTCCodecStats/sdpFmtpLine",
+					"timestamp": "https://developer.mozilla.org/docs/Web/API/RTCCodecStats/timestamp",
+					"transportId": "https://developer.mozilla.org/docs/Web/API/RTCCodecStats/transportId",
+					"type": "https://developer.mozilla.org/docs/Web/API/RTCCodecStats/type"
+				}
+			},
+			"type_data-channel": {
+				"url": "https://developer.mozilla.org/docs/Web/API/RTCStatsReport#data_channel",
+				"inst": {
+					"bytesReceived": "https://developer.mozilla.org/docs/Web/API/RTCDataChannelStats/bytesReceived",
+					"bytesSent": "https://developer.mozilla.org/docs/Web/API/RTCDataChannelStats/bytesSent",
+					"dataChannelIdentifier": "https://developer.mozilla.org/docs/Web/API/RTCDataChannelStats/dataChannelIdentifier",
+					"id": "https://developer.mozilla.org/docs/Web/API/RTCDataChannelStats/id",
+					"label": "https://developer.mozilla.org/docs/Web/API/RTCDataChannelStats/label",
+					"messagesReceived": "https://developer.mozilla.org/docs/Web/API/RTCDataChannelStats/messagesReceived",
+					"messagesSent": "https://developer.mozilla.org/docs/Web/API/RTCDataChannelStats/messagesSent",
+					"protocol": "https://developer.mozilla.org/docs/Web/API/RTCDataChannelStats/protocol",
+					"state": "https://developer.mozilla.org/docs/Web/API/RTCDataChannelStats/state",
+					"timestamp": "https://developer.mozilla.org/docs/Web/API/RTCDataChannelStats/timestamp",
+					"type": "https://developer.mozilla.org/docs/Web/API/RTCDataChannelStats/type"
+				}
+			},
+			"type_inbound-rtp": {
+				"url": "https://developer.mozilla.org/docs/Web/API/RTCStatsReport#inbound_rtp",
+				"inst": {
+					"bytesReceived": "https://developer.mozilla.org/docs/Web/API/RTCInboundRtpStreamStats/bytesReceived",
+					"codecId": "https://developer.mozilla.org/docs/Web/API/RTCInboundRtpStreamStats/codecId",
+					"fecPacketsDiscarded": "https://developer.mozilla.org/docs/Web/API/RTCInboundRtpStreamStats/fecPacketsDiscarded",
+					"fecPacketsReceived": "https://developer.mozilla.org/docs/Web/API/RTCInboundRtpStreamStats/fecPacketsReceived",
+					"framesDecoded": "https://developer.mozilla.org/docs/Web/API/RTCInboundRtpStreamStats/framesDecoded",
+					"id": "https://developer.mozilla.org/docs/Web/API/RTCInboundRtpStreamStats/id",
+					"kind": "https://developer.mozilla.org/docs/Web/API/RTCInboundRtpStreamStats/kind",
+					"lastPacketReceivedTimestamp": "https://developer.mozilla.org/docs/Web/API/RTCInboundRtpStreamStats/lastPacketReceivedTimestamp",
+					"nackCount": "https://developer.mozilla.org/docs/Web/API/RTCInboundRtpStreamStats/nackCount",
+					"qpSum": "https://developer.mozilla.org/docs/Web/API/RTCInboundRtpStreamStats/qpSum",
+					"remoteId": "https://developer.mozilla.org/docs/Web/API/RTCInboundRtpStreamStats/remoteId",
+					"ssrc": "https://developer.mozilla.org/docs/Web/API/RTCInboundRtpStreamStats/ssrc",
+					"timestamp": "https://developer.mozilla.org/docs/Web/API/RTCInboundRtpStreamStats/timestamp",
+					"transportId": "https://developer.mozilla.org/docs/Web/API/RTCInboundRtpStreamStats/transportId",
+					"type": "https://developer.mozilla.org/docs/Web/API/RTCInboundRtpStreamStats/type"
+				}
+			},
+			"type_local-candidate": {
+				"url": "https://developer.mozilla.org/docs/Web/API/RTCStatsReport#local_candidate",
+				"inst": {
+					"address": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidateStats/address",
+					"candidateType": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidateStats/candidateType",
+					"id": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidateStats/id",
+					"port": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidateStats/port",
+					"priority": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidateStats/priority",
+					"protocol": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidateStats/protocol",
+					"timestamp": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidateStats/timestamp",
+					"transportId": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidateStats/transportId",
+					"type": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidateStats/type"
+				}
+			},
 			"type_media-playout": "https://developer.mozilla.org/docs/Web/API/RTCStatsReport#media_playout",
 			"type_media-source": {
 				"url": "https://developer.mozilla.org/docs/Web/API/RTCStatsReport#media_source",
@@ -6730,7 +6834,23 @@
 					"width": "https://developer.mozilla.org/docs/Web/API/RTCVideoSourceStats/width"
 				}
 			},
-			"type_outbound-rtp": "https://developer.mozilla.org/docs/Web/API/RTCStatsReport#outbound_rtp",
+			"type_outbound-rtp": {
+				"url": "https://developer.mozilla.org/docs/Web/API/RTCStatsReport#outbound_rtp",
+				"inst": {
+					"codecId": "https://developer.mozilla.org/docs/Web/API/RTCOutboundRtpStreamStats/codecId",
+					"framesEncoded": "https://developer.mozilla.org/docs/Web/API/RTCOutboundRtpStreamStats/framesEncoded",
+					"id": "https://developer.mozilla.org/docs/Web/API/RTCOutboundRtpStreamStats/id",
+					"kind": "https://developer.mozilla.org/docs/Web/API/RTCOutboundRtpStreamStats/kind",
+					"nackCount": "https://developer.mozilla.org/docs/Web/API/RTCOutboundRtpStreamStats/nackCount",
+					"qpSum": "https://developer.mozilla.org/docs/Web/API/RTCOutboundRtpStreamStats/qpSum",
+					"qualityLimitationReason": "https://developer.mozilla.org/docs/Web/API/RTCOutboundRtpStreamStats/qualityLimitationReason",
+					"remoteId": "https://developer.mozilla.org/docs/Web/API/RTCOutboundRtpStreamStats/remoteId",
+					"ssrc": "https://developer.mozilla.org/docs/Web/API/RTCOutboundRtpStreamStats/ssrc",
+					"timestamp": "https://developer.mozilla.org/docs/Web/API/RTCOutboundRtpStreamStats/timestamp",
+					"transportId": "https://developer.mozilla.org/docs/Web/API/RTCOutboundRtpStreamStats/transportId",
+					"type": "https://developer.mozilla.org/docs/Web/API/RTCOutboundRtpStreamStats/type"
+				}
+			},
 			"type_peer-connection": {
 				"url": "https://developer.mozilla.org/docs/Web/API/RTCPeerConnectionStats",
 				"inst": {
@@ -6742,9 +6862,50 @@
 				}
 			},
 			"type_remote-candidate": "https://developer.mozilla.org/docs/Web/API/RTCStatsReport#remote_candidate",
-			"type_remote-inbound-rtp": "https://developer.mozilla.org/docs/Web/API/RTCStatsReport#remote_inbound_rtp",
-			"type_remote-outbound-rtp": "https://developer.mozilla.org/docs/Web/API/RTCStatsReport#remote_outbound_rtp",
-			"type_transport": "https://developer.mozilla.org/docs/Web/API/RTCStatsReport#transport",
+			"type_remote-inbound-rtp": {
+				"url": "https://developer.mozilla.org/docs/Web/API/RTCStatsReport#remote_inbound_rtp",
+				"inst": {
+					"codecId": "https://developer.mozilla.org/docs/Web/API/RTCRemoteInboundRtpStreamStats/codecId",
+					"fractionLost": "https://developer.mozilla.org/docs/Web/API/RTCRemoteInboundRtpStreamStats/fractionLost",
+					"id": "https://developer.mozilla.org/docs/Web/API/RTCRemoteInboundRtpStreamStats/id",
+					"jitter": "https://developer.mozilla.org/docs/Web/API/RTCRemoteInboundRtpStreamStats/jitter",
+					"kind": "https://developer.mozilla.org/docs/Web/API/RTCRemoteInboundRtpStreamStats/kind",
+					"localId": "https://developer.mozilla.org/docs/Web/API/RTCRemoteInboundRtpStreamStats/localId",
+					"packetsLost": "https://developer.mozilla.org/docs/Web/API/RTCRemoteInboundRtpStreamStats/packetsLost",
+					"packetsReceived": "https://developer.mozilla.org/docs/Web/API/RTCRemoteInboundRtpStreamStats/packetsReceived",
+					"roundTripTime": "https://developer.mozilla.org/docs/Web/API/RTCRemoteInboundRtpStreamStats/roundTripTime",
+					"roundTripTimeMeasurements": "https://developer.mozilla.org/docs/Web/API/RTCRemoteInboundRtpStreamStats/roundTripTimeMeasurements",
+					"ssrc": "https://developer.mozilla.org/docs/Web/API/RTCRemoteInboundRtpStreamStats/ssrc",
+					"timestamp": "https://developer.mozilla.org/docs/Web/API/RTCRemoteInboundRtpStreamStats/timestamp",
+					"totalRoundTripTime": "https://developer.mozilla.org/docs/Web/API/RTCRemoteInboundRtpStreamStats/totalRoundTripTime",
+					"transportId": "https://developer.mozilla.org/docs/Web/API/RTCRemoteInboundRtpStreamStats/transportId",
+					"type": "https://developer.mozilla.org/docs/Web/API/RTCRemoteInboundRtpStreamStats/type"
+				}
+			},
+			"type_remote-outbound-rtp": {
+				"url": "https://developer.mozilla.org/docs/Web/API/RTCStatsReport#remote_outbound_rtp",
+				"inst": {
+					"codecId": "https://developer.mozilla.org/docs/Web/API/RTCRemoteOutboundRtpStreamStats/codecId",
+					"id": "https://developer.mozilla.org/docs/Web/API/RTCRemoteOutboundRtpStreamStats/id",
+					"kind": "https://developer.mozilla.org/docs/Web/API/RTCRemoteOutboundRtpStreamStats/kind",
+					"localId": "https://developer.mozilla.org/docs/Web/API/RTCRemoteOutboundRtpStreamStats/localId",
+					"remoteTimestamp": "https://developer.mozilla.org/docs/Web/API/RTCRemoteOutboundRtpStreamStats/remoteTimestamp",
+					"roundTripTimeMeasurements": "https://developer.mozilla.org/docs/Web/API/RTCRemoteOutboundRtpStreamStats/roundTripTimeMeasurements",
+					"ssrc": "https://developer.mozilla.org/docs/Web/API/RTCRemoteOutboundRtpStreamStats/ssrc",
+					"timestamp": "https://developer.mozilla.org/docs/Web/API/RTCRemoteOutboundRtpStreamStats/timestamp",
+					"totalRoundTripTime": "https://developer.mozilla.org/docs/Web/API/RTCRemoteOutboundRtpStreamStats/totalRoundTripTime",
+					"transportId": "https://developer.mozilla.org/docs/Web/API/RTCRemoteOutboundRtpStreamStats/transportId",
+					"type": "https://developer.mozilla.org/docs/Web/API/RTCRemoteOutboundRtpStreamStats/type"
+				}
+			},
+			"type_transport": {
+				"url": "https://developer.mozilla.org/docs/Web/API/RTCStatsReport#transport",
+				"inst": {
+					"id": "https://developer.mozilla.org/docs/Web/API/RTCTransportStats/id",
+					"timestamp": "https://developer.mozilla.org/docs/Web/API/RTCTransportStats/timestamp",
+					"type": "https://developer.mozilla.org/docs/Web/API/RTCTransportStats/type"
+				}
+			},
 			"values": "https://developer.mozilla.org/docs/Web/API/RTCStatsReport/values"
 		}
 	},
@@ -7003,7 +7164,17 @@
 			"target": "https://developer.mozilla.org/docs/Web/API/SVGAElement/target"
 		}
 	},
-	"SVGAngle": "https://developer.mozilla.org/docs/Web/API/SVGAngle",
+	"SVGAngle": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGAngle",
+		"inst": {
+			"convertToSpecifiedUnits": "https://developer.mozilla.org/docs/Web/API/SVGAngle/convertToSpecifiedUnits",
+			"newValueSpecifiedUnits": "https://developer.mozilla.org/docs/Web/API/SVGAngle/newValueSpecifiedUnits",
+			"unitType": "https://developer.mozilla.org/docs/Web/API/SVGAngle/unitType",
+			"value": "https://developer.mozilla.org/docs/Web/API/SVGAngle/value",
+			"valueAsString": "https://developer.mozilla.org/docs/Web/API/SVGAngle/valueAsString",
+			"valueInSpecifiedUnits": "https://developer.mozilla.org/docs/Web/API/SVGAngle/valueInSpecifiedUnits"
+		}
+	},
 	"SVGAnimateColorElement": "https://developer.mozilla.org/docs/Web/API/SVGAnimateColorElement",
 	"SVGAnimateElement": "https://developer.mozilla.org/docs/Web/API/SVGAnimateElement",
 	"SVGAnimateMotionElement": "https://developer.mozilla.org/docs/Web/API/SVGAnimateMotionElement",
@@ -7029,7 +7200,13 @@
 			"baseVal": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedEnumeration/baseVal"
 		}
 	},
-	"SVGAnimatedInteger": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedInteger",
+	"SVGAnimatedInteger": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedInteger",
+		"inst": {
+			"animVal": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedInteger/animVal",
+			"baseVal": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedInteger/baseVal"
+		}
+	},
 	"SVGAnimatedLength": {
 		"url": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedLength",
 		"inst": {
@@ -7058,7 +7235,13 @@
 			"baseVal": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedNumberList/baseVal"
 		}
 	},
-	"SVGAnimatedPreserveAspectRatio": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedPreserveAspectRatio",
+	"SVGAnimatedPreserveAspectRatio": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedPreserveAspectRatio",
+		"inst": {
+			"animVal": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedPreserveAspectRatio/animVal",
+			"baseVal": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedPreserveAspectRatio/baseVal"
+		}
+	},
 	"SVGAnimatedRect": {
 		"url": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedRect",
 		"inst": {
@@ -7127,20 +7310,55 @@
 	},
 	"SVGEllipseElement": "https://developer.mozilla.org/docs/Web/API/SVGEllipseElement",
 	"SVGFEBlendElement": "https://developer.mozilla.org/docs/Web/API/SVGFEBlendElement",
-	"SVGFEColorMatrixElement": "https://developer.mozilla.org/docs/Web/API/SVGFEColorMatrixElement",
+	"SVGFEColorMatrixElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGFEColorMatrixElement",
+		"inst": {
+			"in1": "https://developer.mozilla.org/docs/Web/API/SVGFEColorMatrixElement/in1",
+			"type": "https://developer.mozilla.org/docs/Web/API/SVGFEColorMatrixElement/type",
+			"values": "https://developer.mozilla.org/docs/Web/API/SVGFEColorMatrixElement/values"
+		}
+	},
 	"SVGFEComponentTransferElement": "https://developer.mozilla.org/docs/Web/API/SVGFEComponentTransferElement",
 	"SVGFECompositeElement": "https://developer.mozilla.org/docs/Web/API/SVGFECompositeElement",
 	"SVGFEConvolveMatrixElement": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement",
-	"SVGFEDiffuseLightingElement": "https://developer.mozilla.org/docs/Web/API/SVGFEDiffuseLightingElement",
+	"SVGFEDiffuseLightingElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGFEDiffuseLightingElement",
+		"inst": {
+			"diffuseConstant": "https://developer.mozilla.org/docs/Web/API/SVGFEDiffuseLightingElement/diffuseConstant",
+			"height": "https://developer.mozilla.org/docs/Web/API/SVGFEDiffuseLightingElement/height",
+			"in1": "https://developer.mozilla.org/docs/Web/API/SVGFEDiffuseLightingElement/in1",
+			"kernelUnitLengthX": "https://developer.mozilla.org/docs/Web/API/SVGFEDiffuseLightingElement/kernelUnitLengthX",
+			"kernelUnitLengthY": "https://developer.mozilla.org/docs/Web/API/SVGFEDiffuseLightingElement/kernelUnitLengthY",
+			"result": "https://developer.mozilla.org/docs/Web/API/SVGFEDiffuseLightingElement/result",
+			"surfaceScale": "https://developer.mozilla.org/docs/Web/API/SVGFEDiffuseLightingElement/surfaceScale",
+			"width": "https://developer.mozilla.org/docs/Web/API/SVGFEDiffuseLightingElement/width",
+			"x": "https://developer.mozilla.org/docs/Web/API/SVGFEDiffuseLightingElement/x",
+			"y": "https://developer.mozilla.org/docs/Web/API/SVGFEDiffuseLightingElement/y"
+		}
+	},
 	"SVGFEDisplacementMapElement": "https://developer.mozilla.org/docs/Web/API/SVGFEDisplacementMapElement",
-	"SVGFEDistantLightElement": "https://developer.mozilla.org/docs/Web/API/SVGFEDistantLightElement",
+	"SVGFEDistantLightElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGFEDistantLightElement",
+		"inst": {
+			"azimuth": "https://developer.mozilla.org/docs/Web/API/SVGFEDistantLightElement/azimuth",
+			"elevation": "https://developer.mozilla.org/docs/Web/API/SVGFEDistantLightElement/elevation"
+		}
+	},
 	"SVGFEDropShadowElement": "https://developer.mozilla.org/docs/Web/API/SVGFEDropShadowElement",
 	"SVGFEFloodElement": "https://developer.mozilla.org/docs/Web/API/SVGFEFloodElement",
 	"SVGFEFuncAElement": "https://developer.mozilla.org/docs/Web/API/SVGFEFuncAElement",
 	"SVGFEFuncBElement": "https://developer.mozilla.org/docs/Web/API/SVGFEFuncBElement",
 	"SVGFEFuncGElement": "https://developer.mozilla.org/docs/Web/API/SVGFEFuncGElement",
 	"SVGFEFuncRElement": "https://developer.mozilla.org/docs/Web/API/SVGFEFuncRElement",
-	"SVGFEGaussianBlurElement": "https://developer.mozilla.org/docs/Web/API/SVGFEGaussianBlurElement",
+	"SVGFEGaussianBlurElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGFEGaussianBlurElement",
+		"inst": {
+			"in1": "https://developer.mozilla.org/docs/Web/API/SVGFEGaussianBlurElement/in1",
+			"setStdDeviation": "https://developer.mozilla.org/docs/Web/API/SVGFEGaussianBlurElement/setStdDeviation",
+			"stdDeviationX": "https://developer.mozilla.org/docs/Web/API/SVGFEGaussianBlurElement/stdDeviationX",
+			"stdDeviationY": "https://developer.mozilla.org/docs/Web/API/SVGFEGaussianBlurElement/stdDeviationY"
+		}
+	},
 	"SVGFEImageElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/SVGFEImageElement",
 		"inst": {
@@ -7153,15 +7371,47 @@
 		}
 	},
 	"SVGFEMergeElement": "https://developer.mozilla.org/docs/Web/API/SVGFEMergeElement",
-	"SVGFEMergeNodeElement": "https://developer.mozilla.org/docs/Web/API/SVGFEMergeNodeElement",
-	"SVGFEMorphologyElement": "https://developer.mozilla.org/docs/Web/API/SVGFEMorphologyElement",
+	"SVGFEMergeNodeElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGFEMergeNodeElement",
+		"inst": {
+			"in1": "https://developer.mozilla.org/docs/Web/API/SVGFEMergeNodeElement/in1"
+		}
+	},
+	"SVGFEMorphologyElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGFEMorphologyElement",
+		"inst": {
+			"in1": "https://developer.mozilla.org/docs/Web/API/SVGFEMorphologyElement/in1",
+			"operator": "https://developer.mozilla.org/docs/Web/API/SVGFEMorphologyElement/operator",
+			"radiusX": "https://developer.mozilla.org/docs/Web/API/SVGFEMorphologyElement/radiusX",
+			"radiusY": "https://developer.mozilla.org/docs/Web/API/SVGFEMorphologyElement/radiusY"
+		}
+	},
 	"SVGFEOffsetElement": "https://developer.mozilla.org/docs/Web/API/SVGFEOffsetElement",
 	"SVGFEPointLightElement": "https://developer.mozilla.org/docs/Web/API/SVGFEPointLightElement",
-	"SVGFESpecularLightingElement": "https://developer.mozilla.org/docs/Web/API/SVGFESpecularLightingElement",
+	"SVGFESpecularLightingElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGFESpecularLightingElement",
+		"inst": {
+			"in1": "https://developer.mozilla.org/docs/Web/API/SVGFESpecularLightingElement/in1",
+			"specularConstant": "https://developer.mozilla.org/docs/Web/API/SVGFESpecularLightingElement/specularConstant",
+			"specularExponent": "https://developer.mozilla.org/docs/Web/API/SVGFESpecularLightingElement/specularExponent",
+			"surfaceScale": "https://developer.mozilla.org/docs/Web/API/SVGFESpecularLightingElement/surfaceScale"
+		}
+	},
 	"SVGFESpotLightElement": "https://developer.mozilla.org/docs/Web/API/SVGFESpotLightElement",
 	"SVGFETileElement": "https://developer.mozilla.org/docs/Web/API/SVGFETileElement",
 	"SVGFETurbulenceElement": "https://developer.mozilla.org/docs/Web/API/SVGFETurbulenceElement",
-	"SVGFilterElement": "https://developer.mozilla.org/docs/Web/API/SVGFilterElement",
+	"SVGFilterElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGFilterElement",
+		"inst": {
+			"filterUnits": "https://developer.mozilla.org/docs/Web/API/SVGFilterElement/filterUnits",
+			"height": "https://developer.mozilla.org/docs/Web/API/SVGFilterElement/height",
+			"href": "https://developer.mozilla.org/docs/Web/API/SVGFilterElement/href",
+			"primitiveUnits": "https://developer.mozilla.org/docs/Web/API/SVGFilterElement/primitiveUnits",
+			"width": "https://developer.mozilla.org/docs/Web/API/SVGFilterElement/width",
+			"x": "https://developer.mozilla.org/docs/Web/API/SVGFilterElement/x",
+			"y": "https://developer.mozilla.org/docs/Web/API/SVGFilterElement/y"
+		}
+	},
 	"SVGFontElement": "https://developer.mozilla.org/docs/Web/API/SVGFontElement",
 	"SVGFontFaceElement": "https://developer.mozilla.org/docs/Web/API/SVGFontFaceElement",
 	"SVGFontFaceFormatElement": "https://developer.mozilla.org/docs/Web/API/SVGFontFaceFormatElement",
@@ -7182,7 +7432,15 @@
 	},
 	"SVGGlyphElement": "https://developer.mozilla.org/docs/Web/API/SVGGlyphElement",
 	"SVGGlyphRefElement": "https://developer.mozilla.org/docs/Web/API/SVGGlyphRefElement",
-	"SVGGradientElement": "https://developer.mozilla.org/docs/Web/API/SVGGradientElement",
+	"SVGGradientElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGGradientElement",
+		"inst": {
+			"gradientTransform": "https://developer.mozilla.org/docs/Web/API/SVGGradientElement/gradientTransform",
+			"gradientUnits": "https://developer.mozilla.org/docs/Web/API/SVGGradientElement/gradientUnits",
+			"href": "https://developer.mozilla.org/docs/Web/API/SVGGradientElement/href",
+			"spreadMethod": "https://developer.mozilla.org/docs/Web/API/SVGGradientElement/spreadMethod"
+		}
+	},
 	"SVGGraphicsElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/SVGGraphicsElement",
 		"inst": {
@@ -7196,6 +7454,7 @@
 			"decode": "https://developer.mozilla.org/docs/Web/API/SVGImageElement/decode",
 			"decoding": "https://developer.mozilla.org/docs/Web/API/SVGImageElement/decoding",
 			"height": "https://developer.mozilla.org/docs/Web/API/SVGImageElement/height",
+			"href": "https://developer.mozilla.org/docs/Web/API/SVGImageElement/href",
 			"preserveAspectRatio": "https://developer.mozilla.org/docs/Web/API/SVGImageElement/preserveAspectRatio",
 			"width": "https://developer.mozilla.org/docs/Web/API/SVGImageElement/width",
 			"x": "https://developer.mozilla.org/docs/Web/API/SVGImageElement/x",
@@ -7217,7 +7476,15 @@
 			"replaceItem": "https://developer.mozilla.org/docs/Web/API/SVGLengthList/replaceItem"
 		}
 	},
-	"SVGLineElement": "https://developer.mozilla.org/docs/Web/API/SVGLineElement",
+	"SVGLineElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGLineElement",
+		"inst": {
+			"x1": "https://developer.mozilla.org/docs/Web/API/SVGLineElement/x1",
+			"x2": "https://developer.mozilla.org/docs/Web/API/SVGLineElement/x2",
+			"y1": "https://developer.mozilla.org/docs/Web/API/SVGLineElement/y1",
+			"y2": "https://developer.mozilla.org/docs/Web/API/SVGLineElement/y2"
+		}
+	},
 	"SVGLinearGradientElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/SVGLinearGradientElement",
 		"inst": {
@@ -7258,7 +7525,20 @@
 	"SVGMetadataElement": "https://developer.mozilla.org/docs/Web/API/SVGMetadataElement",
 	"SVGMissingGlyphElement": "https://developer.mozilla.org/docs/Web/API/SVGMissingGlyphElement",
 	"SVGNumber": "https://developer.mozilla.org/docs/Web/API/SVGNumber",
-	"SVGNumberList": "https://developer.mozilla.org/docs/Web/API/SVGNumberList",
+	"SVGNumberList": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGNumberList",
+		"inst": {
+			"appendItem": "https://developer.mozilla.org/docs/Web/API/SVGNumberList/appendItem",
+			"clear": "https://developer.mozilla.org/docs/Web/API/SVGNumberList/clear",
+			"getItem": "https://developer.mozilla.org/docs/Web/API/SVGNumberList/getItem",
+			"initialize": "https://developer.mozilla.org/docs/Web/API/SVGNumberList/initialize",
+			"insertItemBefore": "https://developer.mozilla.org/docs/Web/API/SVGNumberList/insertItemBefore",
+			"length": "https://developer.mozilla.org/docs/Web/API/SVGNumberList/length",
+			"numberOfItems": "https://developer.mozilla.org/docs/Web/API/SVGNumberList/numberOfItems",
+			"removeItem": "https://developer.mozilla.org/docs/Web/API/SVGNumberList/removeItem",
+			"replaceItem": "https://developer.mozilla.org/docs/Web/API/SVGNumberList/replaceItem"
+		}
+	},
 	"SVGPathElement": "https://developer.mozilla.org/docs/Web/API/SVGPathElement",
 	"SVGPatternElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/SVGPatternElement",
@@ -7283,7 +7563,13 @@
 			"replaceItem": "https://developer.mozilla.org/docs/Web/API/SVGPointList/replaceItem"
 		}
 	},
-	"SVGPolygonElement": "https://developer.mozilla.org/docs/Web/API/SVGPolygonElement",
+	"SVGPolygonElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGPolygonElement",
+		"inst": {
+			"animatedPoints": "https://developer.mozilla.org/docs/Web/API/SVGPolygonElement/animatedPoints",
+			"points": "https://developer.mozilla.org/docs/Web/API/SVGPolygonElement/points"
+		}
+	},
 	"SVGPolylineElement": "https://developer.mozilla.org/docs/Web/API/SVGPolylineElement",
 	"SVGPreserveAspectRatio": "https://developer.mozilla.org/docs/Web/API/SVGPreserveAspectRatio",
 	"SVGRadialGradientElement": {
@@ -7299,7 +7585,10 @@
 	"SVGRect": {
 		"url": "https://developer.mozilla.org/docs/Web/API/SVGRect",
 		"inst": {
-			"x": "https://developer.mozilla.org/docs/Web/API/SVGRect/x"
+			"height": "https://developer.mozilla.org/docs/Web/API/SVGRect/height",
+			"width": "https://developer.mozilla.org/docs/Web/API/SVGRect/width",
+			"x": "https://developer.mozilla.org/docs/Web/API/SVGRect/x",
+			"y": "https://developer.mozilla.org/docs/Web/API/SVGRect/y"
 		}
 	},
 	"SVGRectElement": "https://developer.mozilla.org/docs/Web/API/SVGRectElement",
@@ -7307,7 +7596,12 @@
 	"SVGSVGElement": "https://developer.mozilla.org/docs/Web/API/SVGSVGElement",
 	"SVGScriptElement": "https://developer.mozilla.org/docs/Web/API/SVGScriptElement",
 	"SVGSetElement": "https://developer.mozilla.org/docs/Web/API/SVGSetElement",
-	"SVGStopElement": "https://developer.mozilla.org/docs/Web/API/SVGStopElement",
+	"SVGStopElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGStopElement",
+		"inst": {
+			"offset": "https://developer.mozilla.org/docs/Web/API/SVGStopElement/offset"
+		}
+	},
 	"SVGStringList": "https://developer.mozilla.org/docs/Web/API/SVGStringList",
 	"SVGStyleElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/SVGStyleElement",
@@ -7320,12 +7614,40 @@
 		}
 	},
 	"SVGSwitchElement": "https://developer.mozilla.org/docs/Web/API/SVGSwitchElement",
-	"SVGSymbolElement": "https://developer.mozilla.org/docs/Web/API/SVGSymbolElement",
+	"SVGSymbolElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGSymbolElement",
+		"inst": {
+			"preserveAspectRatio": "https://developer.mozilla.org/docs/Web/API/SVGSymbolElement/preserveAspectRatio",
+			"viewBox": "https://developer.mozilla.org/docs/Web/API/SVGSymbolElement/viewBox"
+		}
+	},
 	"SVGTRefElement": "https://developer.mozilla.org/docs/Web/API/SVGTRefElement",
 	"SVGTSpanElement": "https://developer.mozilla.org/docs/Web/API/SVGTSpanElement",
-	"SVGTextContentElement": "https://developer.mozilla.org/docs/Web/API/SVGTextContentElement",
+	"SVGTextContentElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGTextContentElement",
+		"inst": {
+			"getCharNumAtPosition": "https://developer.mozilla.org/docs/Web/API/SVGTextContentElement/getCharNumAtPosition",
+			"getComputedTextLength": "https://developer.mozilla.org/docs/Web/API/SVGTextContentElement/getComputedTextLength",
+			"getEndPositionOfChar": "https://developer.mozilla.org/docs/Web/API/SVGTextContentElement/getEndPositionOfChar",
+			"getExtentOfChar": "https://developer.mozilla.org/docs/Web/API/SVGTextContentElement/getExtentOfChar",
+			"getNumberOfChars": "https://developer.mozilla.org/docs/Web/API/SVGTextContentElement/getNumberOfChars",
+			"getRotationOfChar": "https://developer.mozilla.org/docs/Web/API/SVGTextContentElement/getRotationOfChar",
+			"getStartPositionOfChar": "https://developer.mozilla.org/docs/Web/API/SVGTextContentElement/getStartPositionOfChar",
+			"getSubStringLength": "https://developer.mozilla.org/docs/Web/API/SVGTextContentElement/getSubStringLength",
+			"lengthAdjust": "https://developer.mozilla.org/docs/Web/API/SVGTextContentElement/lengthAdjust",
+			"textLength": "https://developer.mozilla.org/docs/Web/API/SVGTextContentElement/textLength"
+		}
+	},
 	"SVGTextElement": "https://developer.mozilla.org/docs/Web/API/SVGTextElement",
-	"SVGTextPathElement": "https://developer.mozilla.org/docs/Web/API/SVGTextPathElement",
+	"SVGTextPathElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGTextPathElement",
+		"inst": {
+			"href": "https://developer.mozilla.org/docs/Web/API/SVGTextPathElement/href",
+			"method": "https://developer.mozilla.org/docs/Web/API/SVGTextPathElement/method",
+			"spacing": "https://developer.mozilla.org/docs/Web/API/SVGTextPathElement/spacing",
+			"startOffset": "https://developer.mozilla.org/docs/Web/API/SVGTextPathElement/startOffset"
+		}
+	},
 	"SVGTextPositioningElement": "https://developer.mozilla.org/docs/Web/API/SVGTextPositioningElement",
 	"SVGTitleElement": "https://developer.mozilla.org/docs/Web/API/SVGTitleElement",
 	"SVGTransform": {
@@ -7342,7 +7664,22 @@
 			"type": "https://developer.mozilla.org/docs/Web/API/SVGTransform/type"
 		}
 	},
-	"SVGTransformList": "https://developer.mozilla.org/docs/Web/API/SVGTransformList",
+	"SVGTransformList": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGTransformList",
+		"inst": {
+			"appendItem": "https://developer.mozilla.org/docs/Web/API/SVGTransformList/appendItem",
+			"clear": "https://developer.mozilla.org/docs/Web/API/SVGTransformList/clear",
+			"consolidate": "https://developer.mozilla.org/docs/Web/API/SVGTransformList/consolidate",
+			"createSVGTransformFromMatrix": "https://developer.mozilla.org/docs/Web/API/SVGTransformList/createSVGTransformFromMatrix",
+			"getItem": "https://developer.mozilla.org/docs/Web/API/SVGTransformList/getItem",
+			"initialize": "https://developer.mozilla.org/docs/Web/API/SVGTransformList/initialize",
+			"insertItemBefore": "https://developer.mozilla.org/docs/Web/API/SVGTransformList/insertItemBefore",
+			"length": "https://developer.mozilla.org/docs/Web/API/SVGTransformList/length",
+			"numberOfItems": "https://developer.mozilla.org/docs/Web/API/SVGTransformList/numberOfItems",
+			"removeItem": "https://developer.mozilla.org/docs/Web/API/SVGTransformList/removeItem",
+			"replaceItem": "https://developer.mozilla.org/docs/Web/API/SVGTransformList/replaceItem"
+		}
+	},
 	"SVGUnitTypes": "https://developer.mozilla.org/docs/Web/API/SVGUnitTypes",
 	"SVGUseElement": "https://developer.mozilla.org/docs/Web/API/SVGUseElement",
 	"SVGVKernElement": "https://developer.mozilla.org/docs/Web/API/SVGVKernElement",
@@ -7460,7 +7797,7 @@
 			"containsNode": "https://developer.mozilla.org/docs/Web/API/Selection/containsNode",
 			"deleteFromDocument": "https://developer.mozilla.org/docs/Web/API/Selection/deleteFromDocument",
 			"direction": "https://developer.mozilla.org/docs/Web/API/Selection/direction",
-			"empty": "https://developer.mozilla.org/docs/Web/API/Selection/removeAllRanges",
+			"empty": "https://developer.mozilla.org/docs/Web/API/Selection/empty",
 			"extend": "https://developer.mozilla.org/docs/Web/API/Selection/extend",
 			"focusNode": "https://developer.mozilla.org/docs/Web/API/Selection/focusNode",
 			"focusOffset": "https://developer.mozilla.org/docs/Web/API/Selection/focusOffset",
@@ -7473,7 +7810,7 @@
 			"removeRange": "https://developer.mozilla.org/docs/Web/API/Selection/removeRange",
 			"selectAllChildren": "https://developer.mozilla.org/docs/Web/API/Selection/selectAllChildren",
 			"setBaseAndExtent": "https://developer.mozilla.org/docs/Web/API/Selection/setBaseAndExtent",
-			"setPosition": "https://developer.mozilla.org/docs/Web/API/Selection/collapse",
+			"setPosition": "https://developer.mozilla.org/docs/Web/API/Selection/setPosition",
 			"toString": "https://developer.mozilla.org/docs/Web/API/Selection/toString",
 			"type": "https://developer.mozilla.org/docs/Web/API/Selection/type"
 		}
@@ -8781,8 +9118,8 @@
 			"blendFunc": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/blendFunc",
 			"blendFuncSeparate": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/blendFuncSeparate",
 			"blitFramebuffer": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/blitFramebuffer",
-			"bufferData": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/bufferData",
-			"bufferSubData": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/bufferSubData",
+			"bufferData": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/bufferData",
+			"bufferSubData": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/bufferSubData",
 			"canvas": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/canvas",
 			"checkFramebufferStatus": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/checkFramebufferStatus",
 			"clear": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/clear",
@@ -8797,7 +9134,7 @@
 			"colorMask": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/colorMask",
 			"compileShader": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/compileShader",
 			"compressedTexImage2D": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/compressedTexImage2D",
-			"compressedTexImage3D": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/compressedTexImage2D",
+			"compressedTexImage3D": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/compressedTexImage3D",
 			"compressedTexSubImage2D": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/compressedTexSubImage2D",
 			"compressedTexSubImage3D": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/compressedTexSubImage3D",
 			"copyBufferSubData": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/copyBufferSubData",
@@ -8838,7 +9175,7 @@
 			"drawElements": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/drawElements",
 			"drawElementsInstanced": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/drawElementsInstanced",
 			"drawRangeElements": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/drawRangeElements",
-			"drawingBufferColorSpace": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/drawingBufferColorSpace",
+			"drawingBufferColorSpace": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/drawingBufferColorSpace",
 			"drawingBufferHeight": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/drawingBufferHeight",
 			"drawingBufferWidth": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/drawingBufferWidth",
 			"enable": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/enable",
@@ -8962,7 +9299,7 @@
 			"uniform4ui": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/uniform",
 			"uniform4uiv": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/uniform",
 			"uniformBlockBinding": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/uniformBlockBinding",
-			"uniformMatrix2fv": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/uniformMatrix",
+			"uniformMatrix2fv": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/uniformMatrix",
 			"uniformMatrix2x3fv": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/uniformMatrix",
 			"uniformMatrix2x4fv": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/uniformMatrix",
 			"uniformMatrix3fv": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/uniformMatrix",
@@ -9443,7 +9780,7 @@
 			"deviceMemory": "https://developer.mozilla.org/docs/Web/API/WorkerNavigator/deviceMemory",
 			"globalPrivacyControl": "https://developer.mozilla.org/docs/Web/API/WorkerNavigator/globalPrivacyControl",
 			"gpu": "https://developer.mozilla.org/docs/Web/API/WorkerNavigator/gpu",
-			"hardwareConcurrency": "https://developer.mozilla.org/docs/Web/API/Navigator/hardwareConcurrency",
+			"hardwareConcurrency": "https://developer.mozilla.org/docs/Web/API/WorkerNavigator/hardwareConcurrency",
 			"hid": "https://developer.mozilla.org/docs/Web/API/WorkerNavigator/hid",
 			"language": "https://developer.mozilla.org/docs/Web/API/WorkerNavigator/language",
 			"languages": "https://developer.mozilla.org/docs/Web/API/WorkerNavigator/languages",
