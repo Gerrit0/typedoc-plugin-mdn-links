@@ -1754,6 +1754,8 @@
 			"m42": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties",
 			"m43": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties",
 			"m44": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties",
+			"multiplySelf": "https://developer.mozilla.org/docs/Web/API/DOMMatrix/multiplySelf",
+			"preMultiplySelf": "https://developer.mozilla.org/docs/Web/API/DOMMatrix/preMultiplySelf",
 			"rotateSelf": "https://developer.mozilla.org/docs/Web/API/DOMMatrix/rotateSelf",
 			"setMatrixValue": "https://developer.mozilla.org/docs/Web/API/DOMMatrix/setMatrixValue",
 			"skewXSelf": "https://developer.mozilla.org/docs/Web/API/DOMMatrix/skewXSelf",
@@ -1790,6 +1792,7 @@
 			"m42": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
 			"m43": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
 			"m44": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+			"multiply": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/multiply",
 			"scale": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/scale",
 			"toFloat32Array": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/toFloat32Array",
 			"toFloat64Array": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/toFloat64Array",
@@ -7290,7 +7293,18 @@
 			"transform": "https://developer.mozilla.org/docs/Web/API/SVGClipPathElement/transform"
 		}
 	},
-	"SVGComponentTransferFunctionElement": "https://developer.mozilla.org/docs/Web/API/SVGComponentTransferFunctionElement",
+	"SVGComponentTransferFunctionElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGComponentTransferFunctionElement",
+		"inst": {
+			"amplitude": "https://developer.mozilla.org/docs/Web/API/SVGComponentTransferFunctionElement/amplitude",
+			"exponent": "https://developer.mozilla.org/docs/Web/API/SVGComponentTransferFunctionElement/exponent",
+			"intercept": "https://developer.mozilla.org/docs/Web/API/SVGComponentTransferFunctionElement/intercept",
+			"offset": "https://developer.mozilla.org/docs/Web/API/SVGComponentTransferFunctionElement/offset",
+			"slope": "https://developer.mozilla.org/docs/Web/API/SVGComponentTransferFunctionElement/slope",
+			"tableValues": "https://developer.mozilla.org/docs/Web/API/SVGComponentTransferFunctionElement/tableValues",
+			"type": "https://developer.mozilla.org/docs/Web/API/SVGComponentTransferFunctionElement/type"
+		}
+	},
 	"SVGCursorElement": "https://developer.mozilla.org/docs/Web/API/SVGCursorElement",
 	"SVGDefsElement": "https://developer.mozilla.org/docs/Web/API/SVGDefsElement",
 	"SVGDescElement": "https://developer.mozilla.org/docs/Web/API/SVGDescElement",
@@ -7591,7 +7605,17 @@
 			"y": "https://developer.mozilla.org/docs/Web/API/SVGRect/y"
 		}
 	},
-	"SVGRectElement": "https://developer.mozilla.org/docs/Web/API/SVGRectElement",
+	"SVGRectElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGRectElement",
+		"inst": {
+			"height": "https://developer.mozilla.org/docs/Web/API/SVGRectElement/height",
+			"rx": "https://developer.mozilla.org/docs/Web/API/SVGRectElement/rx",
+			"ry": "https://developer.mozilla.org/docs/Web/API/SVGRectElement/ry",
+			"width": "https://developer.mozilla.org/docs/Web/API/SVGRectElement/width",
+			"x": "https://developer.mozilla.org/docs/Web/API/SVGRectElement/x",
+			"y": "https://developer.mozilla.org/docs/Web/API/SVGRectElement/y"
+		}
+	},
 	"SVGRenderingIntent": "https://developer.mozilla.org/docs/Web/API/SVGRenderingIntent",
 	"SVGSVGElement": "https://developer.mozilla.org/docs/Web/API/SVGSVGElement",
 	"SVGScriptElement": "https://developer.mozilla.org/docs/Web/API/SVGScriptElement",
