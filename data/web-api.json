@@ -86,6 +86,7 @@
 			"finish": "https://developer.mozilla.org/docs/Web/API/Animation/finish",
 			"finished": "https://developer.mozilla.org/docs/Web/API/Animation/finished",
 			"id": "https://developer.mozilla.org/docs/Web/API/Animation/id",
+			"overallProgress": "https://developer.mozilla.org/docs/Web/API/Animation/overallProgress",
 			"pause": "https://developer.mozilla.org/docs/Web/API/Animation/pause",
 			"pending": "https://developer.mozilla.org/docs/Web/API/Animation/pending",
 			"persist": "https://developer.mozilla.org/docs/Web/API/Animation/persist",
@@ -1776,6 +1777,8 @@
 			"flipX": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/flipX",
 			"flipY": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/flipY",
 			"inverse": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/inverse",
+			"is2D": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/is2D",
+			"isIdentity": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/isIdentity",
 			"m11": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
 			"m12": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
 			"m13": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
@@ -3906,7 +3909,8 @@
 	"HTMLModElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLModElement",
 		"inst": {
-			"cite": "https://developer.mozilla.org/docs/Web/API/HTMLModElement/cite"
+			"cite": "https://developer.mozilla.org/docs/Web/API/HTMLModElement/cite",
+			"dateTime": "https://developer.mozilla.org/docs/Web/API/HTMLModElement/dateTime"
 		}
 	},
 	"HTMLOListElement": {
@@ -6105,6 +6109,7 @@
 			"domainLookupStart": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/domainLookupStart",
 			"encodedBodySize": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/encodedBodySize",
 			"fetchStart": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/fetchStart",
+			"finalResponseHeadersStart": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/finalResponseHeadersStart",
 			"firstInterimResponseStart": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/firstInterimResponseStart",
 			"initiatorType": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/initiatorType",
 			"nextHopProtocol": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/nextHopProtocol",
@@ -6801,6 +6806,7 @@
 					"id": "https://developer.mozilla.org/docs/Web/API/RTCInboundRtpStreamStats/id",
 					"kind": "https://developer.mozilla.org/docs/Web/API/RTCInboundRtpStreamStats/kind",
 					"lastPacketReceivedTimestamp": "https://developer.mozilla.org/docs/Web/API/RTCInboundRtpStreamStats/lastPacketReceivedTimestamp",
+					"mid": "https://developer.mozilla.org/docs/Web/API/RTCInboundRtpStreamStats/mid",
 					"nackCount": "https://developer.mozilla.org/docs/Web/API/RTCInboundRtpStreamStats/nackCount",
 					"qpSum": "https://developer.mozilla.org/docs/Web/API/RTCInboundRtpStreamStats/qpSum",
 					"remoteId": "https://developer.mozilla.org/docs/Web/API/RTCInboundRtpStreamStats/remoteId",
@@ -7273,6 +7279,9 @@
 			"beginElementAt": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/beginElementAt",
 			"endElement": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/endElement",
 			"endElementAt": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/endElementAt",
+			"getCurrentTime": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/getCurrentTime",
+			"getSimpleDuration": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/getSimpleDuration",
+			"getStartTime": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/getStartTime",
 			"requiredExtensions": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/requiredExtensions",
 			"systemLanguage": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/systemLanguage",
 			"targetElement": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/targetElement"
@@ -7358,8 +7367,26 @@
 			"elevation": "https://developer.mozilla.org/docs/Web/API/SVGFEDistantLightElement/elevation"
 		}
 	},
-	"SVGFEDropShadowElement": "https://developer.mozilla.org/docs/Web/API/SVGFEDropShadowElement",
-	"SVGFEFloodElement": "https://developer.mozilla.org/docs/Web/API/SVGFEFloodElement",
+	"SVGFEDropShadowElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGFEDropShadowElement",
+		"inst": {
+			"height": "https://developer.mozilla.org/docs/Web/API/SVGFEDropShadowElement/height",
+			"result": "https://developer.mozilla.org/docs/Web/API/SVGFEDropShadowElement/result",
+			"width": "https://developer.mozilla.org/docs/Web/API/SVGFEDropShadowElement/width",
+			"x": "https://developer.mozilla.org/docs/Web/API/SVGFEDropShadowElement/x",
+			"y": "https://developer.mozilla.org/docs/Web/API/SVGFEDropShadowElement/y"
+		}
+	},
+	"SVGFEFloodElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGFEFloodElement",
+		"inst": {
+			"height": "https://developer.mozilla.org/docs/Web/API/SVGFEFloodElement/height",
+			"result": "https://developer.mozilla.org/docs/Web/API/SVGFEFloodElement/result",
+			"width": "https://developer.mozilla.org/docs/Web/API/SVGFEFloodElement/width",
+			"x": "https://developer.mozilla.org/docs/Web/API/SVGFEFloodElement/x",
+			"y": "https://developer.mozilla.org/docs/Web/API/SVGFEFloodElement/y"
+		}
+	},
 	"SVGFEFuncAElement": "https://developer.mozilla.org/docs/Web/API/SVGFEFuncAElement",
 	"SVGFEFuncBElement": "https://developer.mozilla.org/docs/Web/API/SVGFEFuncBElement",
 	"SVGFEFuncGElement": "https://developer.mozilla.org/docs/Web/API/SVGFEFuncGElement",
@@ -7367,10 +7394,15 @@
 	"SVGFEGaussianBlurElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/SVGFEGaussianBlurElement",
 		"inst": {
+			"height": "https://developer.mozilla.org/docs/Web/API/SVGFEGaussianBlurElement/height",
 			"in1": "https://developer.mozilla.org/docs/Web/API/SVGFEGaussianBlurElement/in1",
+			"result": "https://developer.mozilla.org/docs/Web/API/SVGFEGaussianBlurElement/result",
 			"setStdDeviation": "https://developer.mozilla.org/docs/Web/API/SVGFEGaussianBlurElement/setStdDeviation",
 			"stdDeviationX": "https://developer.mozilla.org/docs/Web/API/SVGFEGaussianBlurElement/stdDeviationX",
-			"stdDeviationY": "https://developer.mozilla.org/docs/Web/API/SVGFEGaussianBlurElement/stdDeviationY"
+			"stdDeviationY": "https://developer.mozilla.org/docs/Web/API/SVGFEGaussianBlurElement/stdDeviationY",
+			"width": "https://developer.mozilla.org/docs/Web/API/SVGFEGaussianBlurElement/width",
+			"x": "https://developer.mozilla.org/docs/Web/API/SVGFEGaussianBlurElement/x",
+			"y": "https://developer.mozilla.org/docs/Web/API/SVGFEGaussianBlurElement/y"
 		}
 	},
 	"SVGFEImageElement": {
@@ -7384,7 +7416,16 @@
 			"y": "https://developer.mozilla.org/docs/Web/API/SVGFEImageElement/y"
 		}
 	},
-	"SVGFEMergeElement": "https://developer.mozilla.org/docs/Web/API/SVGFEMergeElement",
+	"SVGFEMergeElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGFEMergeElement",
+		"inst": {
+			"height": "https://developer.mozilla.org/docs/Web/API/SVGFEMergeElement/height",
+			"result": "https://developer.mozilla.org/docs/Web/API/SVGFEMergeElement/result",
+			"width": "https://developer.mozilla.org/docs/Web/API/SVGFEMergeElement/width",
+			"x": "https://developer.mozilla.org/docs/Web/API/SVGFEMergeElement/x",
+			"y": "https://developer.mozilla.org/docs/Web/API/SVGFEMergeElement/y"
+		}
+	},
 	"SVGFEMergeNodeElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/SVGFEMergeNodeElement",
 		"inst": {
@@ -7401,17 +7442,36 @@
 		}
 	},
 	"SVGFEOffsetElement": "https://developer.mozilla.org/docs/Web/API/SVGFEOffsetElement",
-	"SVGFEPointLightElement": "https://developer.mozilla.org/docs/Web/API/SVGFEPointLightElement",
+	"SVGFEPointLightElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGFEPointLightElement",
+		"inst": {
+			"x": "https://developer.mozilla.org/docs/Web/API/SVGFEPointLightElement/x",
+			"y": "https://developer.mozilla.org/docs/Web/API/SVGFEPointLightElement/y",
+			"z": "https://developer.mozilla.org/docs/Web/API/SVGFEPointLightElement/z"
+		}
+	},
 	"SVGFESpecularLightingElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/SVGFESpecularLightingElement",
 		"inst": {
+			"height": "https://developer.mozilla.org/docs/Web/API/SVGFESpecularLightingElement/height",
 			"in1": "https://developer.mozilla.org/docs/Web/API/SVGFESpecularLightingElement/in1",
+			"result": "https://developer.mozilla.org/docs/Web/API/SVGFESpecularLightingElement/result",
 			"specularConstant": "https://developer.mozilla.org/docs/Web/API/SVGFESpecularLightingElement/specularConstant",
 			"specularExponent": "https://developer.mozilla.org/docs/Web/API/SVGFESpecularLightingElement/specularExponent",
-			"surfaceScale": "https://developer.mozilla.org/docs/Web/API/SVGFESpecularLightingElement/surfaceScale"
+			"surfaceScale": "https://developer.mozilla.org/docs/Web/API/SVGFESpecularLightingElement/surfaceScale",
+			"width": "https://developer.mozilla.org/docs/Web/API/SVGFESpecularLightingElement/width",
+			"x": "https://developer.mozilla.org/docs/Web/API/SVGFESpecularLightingElement/x",
+			"y": "https://developer.mozilla.org/docs/Web/API/SVGFESpecularLightingElement/y"
 		}
 	},
-	"SVGFESpotLightElement": "https://developer.mozilla.org/docs/Web/API/SVGFESpotLightElement",
+	"SVGFESpotLightElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGFESpotLightElement",
+		"inst": {
+			"x": "https://developer.mozilla.org/docs/Web/API/SVGFESpotLightElement/x",
+			"y": "https://developer.mozilla.org/docs/Web/API/SVGFESpotLightElement/y",
+			"z": "https://developer.mozilla.org/docs/Web/API/SVGFESpotLightElement/z"
+		}
+	},
 	"SVGFETileElement": "https://developer.mozilla.org/docs/Web/API/SVGFETileElement",
 	"SVGFETurbulenceElement": "https://developer.mozilla.org/docs/Web/API/SVGFETurbulenceElement",
 	"SVGFilterElement": {
@@ -10617,6 +10677,7 @@
 			"toLocaleString": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString",
 			"toLocaleTimeString": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleTimeString",
 			"toString": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toString",
+			"toTemporalInstant": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toTemporalInstant",
 			"toTimeString": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toTimeString",
 			"toUTCString": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toUTCString",
 			"valueOf": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/valueOf"
@@ -11268,6 +11329,288 @@
 		"inst": {
 			"SyntaxError": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError/SyntaxError",
 			"serializable_object": "https://developer.mozilla.org/docs/Glossary/Serializable_object"
+		}
+	},
+	"Temporal": {
+		"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal",
+		"inst": {
+			"Duration": {
+				"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration",
+				"inst": {
+					"Duration": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/Duration",
+					"abs": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/abs",
+					"add": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/add",
+					"blank": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/blank",
+					"compare": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/compare",
+					"days": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/days",
+					"from": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/from",
+					"hours": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/hours",
+					"microseconds": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/microseconds",
+					"milliseconds": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/milliseconds",
+					"minutes": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/minutes",
+					"months": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/months",
+					"nanoseconds": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/nanoseconds",
+					"negated": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/negated",
+					"round": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/round",
+					"seconds": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/seconds",
+					"sign": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/sign",
+					"subtract": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/subtract",
+					"toJSON": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/toJSON",
+					"toLocaleString": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/toLocaleString",
+					"toString": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/toString",
+					"total": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/total",
+					"valueOf": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/valueOf",
+					"weeks": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/weeks",
+					"with": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/with",
+					"years": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration/years"
+				}
+			},
+			"Instant": {
+				"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant",
+				"inst": {
+					"Instant": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/Instant",
+					"add": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/add",
+					"compare": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/compare",
+					"epochMilliseconds": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/epochMilliseconds",
+					"epochNanoseconds": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/epochNanoseconds",
+					"equals": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/equals",
+					"from": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/from",
+					"fromEpochMilliseconds": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/fromEpochMilliseconds",
+					"fromEpochNanoseconds": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/fromEpochNanoseconds",
+					"round": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/round",
+					"since": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/since",
+					"subtract": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/subtract",
+					"toJSON": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/toJSON",
+					"toLocaleString": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/toLocaleString",
+					"toString": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/toString",
+					"toZonedDateTimeISO": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/toZonedDateTimeISO",
+					"until": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/until",
+					"valueOf": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant/valueOf"
+				}
+			},
+			"Now": {
+				"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Now",
+				"inst": {
+					"instant": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Now/instant",
+					"plainDateISO": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Now/plainDateISO",
+					"plainDateTimeISO": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Now/plainDateTimeISO",
+					"plainTimeISO": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Now/plainTimeISO",
+					"timeZoneId": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Now/timeZoneId",
+					"zonedDateTimeISO": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Now/zonedDateTimeISO"
+				}
+			},
+			"PlainDate": {
+				"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate",
+				"inst": {
+					"PlainDate": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/PlainDate",
+					"add": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/add",
+					"calendarId": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/calendarId",
+					"compare": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/compare",
+					"day": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/day",
+					"dayOfWeek": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/dayOfWeek",
+					"dayOfYear": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/dayOfYear",
+					"daysInMonth": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/daysInMonth",
+					"daysInWeek": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/daysInWeek",
+					"daysInYear": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/daysInYear",
+					"equals": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/equals",
+					"era": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/era",
+					"eraYear": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/eraYear",
+					"from": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/from",
+					"inLeapYear": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/inLeapYear",
+					"month": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/month",
+					"monthCode": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/monthCode",
+					"monthsInYear": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/monthsInYear",
+					"since": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/since",
+					"subtract": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/subtract",
+					"toJSON": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/toJSON",
+					"toLocaleString": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/toLocaleString",
+					"toPlainDateTime": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/toPlainDateTime",
+					"toPlainMonthDay": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/toPlainMonthDay",
+					"toPlainYearMonth": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/toPlainYearMonth",
+					"toString": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/toString",
+					"toZonedDateTime": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/toZonedDateTime",
+					"until": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/until",
+					"valueOf": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/valueOf",
+					"weekOfYear": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/weekOfYear",
+					"with": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/with",
+					"withCalendar": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/withCalendar",
+					"year": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/year",
+					"yearOfWeek": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate/yearOfWeek"
+				}
+			},
+			"PlainDateTime": {
+				"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime",
+				"inst": {
+					"PlainDateTime": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/PlainDateTime",
+					"add": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/add",
+					"calendarId": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/calendarId",
+					"compare": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/compare",
+					"day": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/day",
+					"dayOfWeek": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/dayOfWeek",
+					"dayOfYear": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/dayOfYear",
+					"daysInMonth": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/daysInMonth",
+					"daysInWeek": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/daysInWeek",
+					"daysInYear": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/daysInYear",
+					"equals": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/equals",
+					"era": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/era",
+					"eraYear": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/eraYear",
+					"from": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/from",
+					"hour": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/hour",
+					"inLeapYear": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/inLeapYear",
+					"microsecond": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/microsecond",
+					"millisecond": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/millisecond",
+					"minute": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/minute",
+					"month": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/month",
+					"monthCode": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/monthCode",
+					"monthsInYear": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/monthsInYear",
+					"nanosecond": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/nanosecond",
+					"round": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/round",
+					"second": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/second",
+					"since": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/since",
+					"subtract": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/subtract",
+					"toJSON": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/toJSON",
+					"toLocaleString": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/toLocaleString",
+					"toPlainDate": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/toPlainDate",
+					"toPlainTime": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/toPlainTime",
+					"toString": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/toString",
+					"toZonedDateTime": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/toZonedDateTime",
+					"until": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/until",
+					"valueOf": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/valueOf",
+					"weekOfYear": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/weekOfYear",
+					"with": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/with",
+					"withCalendar": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/withCalendar",
+					"withPlainTime": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/withPlainTime",
+					"year": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/year",
+					"yearOfWeek": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime/yearOfWeek"
+				}
+			},
+			"PlainMonthDay": {
+				"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainMonthDay",
+				"inst": {
+					"PlainMonthDay": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainMonthDay/PlainMonthDay",
+					"calendarId": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainMonthDay/calendarId",
+					"day": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainMonthDay/day",
+					"equals": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainMonthDay/equals",
+					"from": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainMonthDay/from",
+					"monthCode": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainMonthDay/monthCode",
+					"toJSON": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainMonthDay/toJSON",
+					"toLocaleString": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainMonthDay/toLocaleString",
+					"toPlainDate": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainMonthDay/toPlainDate",
+					"toString": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainMonthDay/toString",
+					"valueOf": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainMonthDay/valueOf",
+					"with": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainMonthDay/with"
+				}
+			},
+			"PlainTime": {
+				"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime",
+				"inst": {
+					"PlainTime": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/PlainTime",
+					"add": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/add",
+					"compare": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/compare",
+					"equals": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/equals",
+					"from": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/from",
+					"hour": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/hour",
+					"microsecond": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/microsecond",
+					"millisecond": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/millisecond",
+					"minute": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/minute",
+					"nanosecond": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/nanosecond",
+					"round": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/round",
+					"second": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/second",
+					"since": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/since",
+					"subtract": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/subtract",
+					"toJSON": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/toJSON",
+					"toLocaleString": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/toLocaleString",
+					"toString": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/toString",
+					"until": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/until",
+					"valueOf": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/valueOf",
+					"with": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime/with"
+				}
+			},
+			"PlainYearMonth": {
+				"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth",
+				"inst": {
+					"PlainYearMonth": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/PlainYearMonth",
+					"add": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/add",
+					"calendarId": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/calendarId",
+					"compare": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/compare",
+					"daysInMonth": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/daysInMonth",
+					"daysInYear": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/daysInYear",
+					"equals": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/equals",
+					"era": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/era",
+					"eraYear": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/eraYear",
+					"from": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/from",
+					"inLeapYear": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/inLeapYear",
+					"month": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/month",
+					"monthCode": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/monthCode",
+					"monthsInYear": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/monthsInYear",
+					"since": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/since",
+					"subtract": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/subtract",
+					"toJSON": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/toJSON",
+					"toLocaleString": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/toLocaleString",
+					"toPlainDate": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/toPlainDate",
+					"toString": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/toString",
+					"until": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/until",
+					"valueOf": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/valueOf",
+					"with": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/with",
+					"year": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth/year"
+				}
+			},
+			"ZonedDateTime": {
+				"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime",
+				"inst": {
+					"ZonedDateTime": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/ZonedDateTime",
+					"add": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/add",
+					"calendarId": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/calendarId",
+					"compare": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/compare",
+					"day": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/day",
+					"dayOfWeek": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/dayOfWeek",
+					"dayOfYear": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/dayOfYear",
+					"daysInMonth": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/daysInMonth",
+					"daysInWeek": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/daysInWeek",
+					"daysInYear": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/daysInYear",
+					"epochMilliseconds": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/epochMilliseconds",
+					"epochNanoseconds": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/epochNanoseconds",
+					"equals": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/equals",
+					"era": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/era",
+					"eraYear": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/eraYear",
+					"from": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/from",
+					"getTimeZoneTransition": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/getTimeZoneTransition",
+					"hour": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/hour",
+					"hoursInDay": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/hoursInDay",
+					"inLeapYear": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/inLeapYear",
+					"microsecond": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/microsecond",
+					"millisecond": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/millisecond",
+					"minute": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/minute",
+					"month": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/month",
+					"monthCode": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/monthCode",
+					"monthsInYear": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/monthsInYear",
+					"nanosecond": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/nanosecond",
+					"offset": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/offset",
+					"offsetNanoseconds": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/offsetNanoseconds",
+					"round": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/round",
+					"second": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/second",
+					"since": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/since",
+					"startOfDay": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/startOfDay",
+					"subtract": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/subtract",
+					"timeZoneId": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/timeZoneId",
+					"toInstant": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/toInstant",
+					"toJSON": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/toJSON",
+					"toLocaleString": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/toLocaleString",
+					"toPlainDate": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/toPlainDate",
+					"toPlainDateTime": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/toPlainDateTime",
+					"toPlainTime": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/toPlainTime",
+					"toString": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/toString",
+					"until": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/until",
+					"valueOf": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/valueOf",
+					"weekOfYear": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/weekOfYear",
+					"with": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/with",
+					"withCalendar": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/withCalendar",
+					"withPlainTime": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/withPlainTime",
+					"withTimeZone": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/withTimeZone",
+					"year": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/year",
+					"yearOfWeek": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime/yearOfWeek"
+				}
+			}
 		}
 	},
 	"TypeError": {
