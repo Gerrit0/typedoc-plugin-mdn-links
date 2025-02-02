@@ -1757,7 +1757,10 @@
 			"m44": "https://developer.mozilla.org/docs/Web/API/DOMMatrix#instance_properties",
 			"multiplySelf": "https://developer.mozilla.org/docs/Web/API/DOMMatrix/multiplySelf",
 			"preMultiplySelf": "https://developer.mozilla.org/docs/Web/API/DOMMatrix/preMultiplySelf",
+			"rotateAxisAngleSelf": "https://developer.mozilla.org/docs/Web/API/DOMMatrix/rotateAxisAngleSelf",
+			"rotateFromVectorSelf": "https://developer.mozilla.org/docs/Web/API/DOMMatrix/rotateFromVectorSelf",
 			"rotateSelf": "https://developer.mozilla.org/docs/Web/API/DOMMatrix/rotateSelf",
+			"scale3dSelf": "https://developer.mozilla.org/docs/Web/API/DOMMatrix/scale3dSelf",
 			"setMatrixValue": "https://developer.mozilla.org/docs/Web/API/DOMMatrix/setMatrixValue",
 			"skewXSelf": "https://developer.mozilla.org/docs/Web/API/DOMMatrix/skewXSelf",
 			"skewYSelf": "https://developer.mozilla.org/docs/Web/API/DOMMatrix/skewYSelf",
@@ -1796,7 +1799,13 @@
 			"m43": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
 			"m44": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
 			"multiply": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/multiply",
+			"rotate": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/rotate",
+			"rotateAxisAngle": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/rotateAxisAngle",
+			"rotateFromVector": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/rotateFromVector",
 			"scale": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/scale",
+			"scale3d": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/scale3d",
+			"skewX": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/skewX",
+			"skewY": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/skewY",
 			"toFloat32Array": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/toFloat32Array",
 			"toFloat64Array": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/toFloat64Array",
 			"toJSON": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/toJSON",
@@ -7082,12 +7091,7 @@
 	"Request": {
 		"url": "https://developer.mozilla.org/docs/Web/API/Request",
 		"inst": {
-			"Request": {
-				"url": "https://developer.mozilla.org/docs/Web/API/Request/Request",
-				"inst": {
-					"init_keepalive_parameter": "https://developer.mozilla.org/docs/Web/API/Request/keepalive"
-				}
-			},
+			"Request": "https://developer.mozilla.org/docs/Web/API/Request/Request",
 			"arrayBuffer": "https://developer.mozilla.org/docs/Web/API/Request/arrayBuffer",
 			"blob": "https://developer.mozilla.org/docs/Web/API/Request/blob",
 			"body": "https://developer.mozilla.org/docs/Web/API/Request/body",
@@ -7331,19 +7335,80 @@
 			"viewportElement": "https://developer.mozilla.org/docs/Web/API/SVGElement/viewportElement"
 		}
 	},
-	"SVGEllipseElement": "https://developer.mozilla.org/docs/Web/API/SVGEllipseElement",
-	"SVGFEBlendElement": "https://developer.mozilla.org/docs/Web/API/SVGFEBlendElement",
+	"SVGEllipseElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGEllipseElement",
+		"inst": {
+			"cx": "https://developer.mozilla.org/docs/Web/API/SVGEllipseElement/cx",
+			"cy": "https://developer.mozilla.org/docs/Web/API/SVGEllipseElement/cy",
+			"rx": "https://developer.mozilla.org/docs/Web/API/SVGEllipseElement/rx",
+			"ry": "https://developer.mozilla.org/docs/Web/API/SVGEllipseElement/ry"
+		}
+	},
+	"SVGFEBlendElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGFEBlendElement",
+		"inst": {
+			"height": "https://developer.mozilla.org/docs/Web/API/SVGFEBlendElement/height",
+			"result": "https://developer.mozilla.org/docs/Web/API/SVGFEBlendElement/result",
+			"width": "https://developer.mozilla.org/docs/Web/API/SVGFEBlendElement/width",
+			"x": "https://developer.mozilla.org/docs/Web/API/SVGFEBlendElement/x",
+			"y": "https://developer.mozilla.org/docs/Web/API/SVGFEBlendElement/y"
+		}
+	},
 	"SVGFEColorMatrixElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/SVGFEColorMatrixElement",
 		"inst": {
+			"height": "https://developer.mozilla.org/docs/Web/API/SVGFEColorMatrixElement/height",
 			"in1": "https://developer.mozilla.org/docs/Web/API/SVGFEColorMatrixElement/in1",
+			"result": "https://developer.mozilla.org/docs/Web/API/SVGFEColorMatrixElement/result",
 			"type": "https://developer.mozilla.org/docs/Web/API/SVGFEColorMatrixElement/type",
-			"values": "https://developer.mozilla.org/docs/Web/API/SVGFEColorMatrixElement/values"
+			"values": "https://developer.mozilla.org/docs/Web/API/SVGFEColorMatrixElement/values",
+			"width": "https://developer.mozilla.org/docs/Web/API/SVGFEColorMatrixElement/width",
+			"x": "https://developer.mozilla.org/docs/Web/API/SVGFEColorMatrixElement/x",
+			"y": "https://developer.mozilla.org/docs/Web/API/SVGFEColorMatrixElement/y"
 		}
 	},
-	"SVGFEComponentTransferElement": "https://developer.mozilla.org/docs/Web/API/SVGFEComponentTransferElement",
-	"SVGFECompositeElement": "https://developer.mozilla.org/docs/Web/API/SVGFECompositeElement",
-	"SVGFEConvolveMatrixElement": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement",
+	"SVGFEComponentTransferElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGFEComponentTransferElement",
+		"inst": {
+			"height": "https://developer.mozilla.org/docs/Web/API/SVGFEComponentTransferElement/height",
+			"result": "https://developer.mozilla.org/docs/Web/API/SVGFEComponentTransferElement/result",
+			"width": "https://developer.mozilla.org/docs/Web/API/SVGFEComponentTransferElement/width",
+			"x": "https://developer.mozilla.org/docs/Web/API/SVGFEComponentTransferElement/x",
+			"y": "https://developer.mozilla.org/docs/Web/API/SVGFEComponentTransferElement/y"
+		}
+	},
+	"SVGFECompositeElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGFECompositeElement",
+		"inst": {
+			"height": "https://developer.mozilla.org/docs/Web/API/SVGFECompositeElement/height",
+			"result": "https://developer.mozilla.org/docs/Web/API/SVGFECompositeElement/result",
+			"width": "https://developer.mozilla.org/docs/Web/API/SVGFECompositeElement/width",
+			"x": "https://developer.mozilla.org/docs/Web/API/SVGFECompositeElement/x",
+			"y": "https://developer.mozilla.org/docs/Web/API/SVGFECompositeElement/y"
+		}
+	},
+	"SVGFEConvolveMatrixElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement",
+		"inst": {
+			"bias": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement/bias",
+			"divisor": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement/divisor",
+			"edgeMode": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement/edgeMode",
+			"height": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement/height",
+			"in1": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement/in1",
+			"kernelMatrix": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement/kernelMatrix",
+			"kernelUnitLengthX": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement/kernelUnitLengthX",
+			"kernelUnitLengthY": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement/kernelUnitLengthY",
+			"orderX": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement/orderX",
+			"orderY": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement/orderY",
+			"preserveAlpha": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement/preserveAlpha",
+			"result": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement/result",
+			"targetX": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement/targetX",
+			"targetY": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement/targetY",
+			"width": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement/width",
+			"x": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement/x",
+			"y": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement/y"
+		}
+	},
 	"SVGFEDiffuseLightingElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/SVGFEDiffuseLightingElement",
 		"inst": {
@@ -7359,7 +7424,21 @@
 			"y": "https://developer.mozilla.org/docs/Web/API/SVGFEDiffuseLightingElement/y"
 		}
 	},
-	"SVGFEDisplacementMapElement": "https://developer.mozilla.org/docs/Web/API/SVGFEDisplacementMapElement",
+	"SVGFEDisplacementMapElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGFEDisplacementMapElement",
+		"inst": {
+			"height": "https://developer.mozilla.org/docs/Web/API/SVGFEDisplacementMapElement/height",
+			"in1": "https://developer.mozilla.org/docs/Web/API/SVGFEDisplacementMapElement/in1",
+			"in2": "https://developer.mozilla.org/docs/Web/API/SVGFEDisplacementMapElement/in2",
+			"result": "https://developer.mozilla.org/docs/Web/API/SVGFEDisplacementMapElement/result",
+			"scale": "https://developer.mozilla.org/docs/Web/API/SVGFEDisplacementMapElement/scale",
+			"width": "https://developer.mozilla.org/docs/Web/API/SVGFEDisplacementMapElement/width",
+			"x": "https://developer.mozilla.org/docs/Web/API/SVGFEDisplacementMapElement/x",
+			"xChannelSelector": "https://developer.mozilla.org/docs/Web/API/SVGFEDisplacementMapElement/xChannelSelector",
+			"y": "https://developer.mozilla.org/docs/Web/API/SVGFEDisplacementMapElement/y",
+			"yChannelSelector": "https://developer.mozilla.org/docs/Web/API/SVGFEDisplacementMapElement/yChannelSelector"
+		}
+	},
 	"SVGFEDistantLightElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/SVGFEDistantLightElement",
 		"inst": {
@@ -7435,13 +7514,25 @@
 	"SVGFEMorphologyElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/SVGFEMorphologyElement",
 		"inst": {
+			"height": "https://developer.mozilla.org/docs/Web/API/SVGFEMorphologyElement/height",
 			"in1": "https://developer.mozilla.org/docs/Web/API/SVGFEMorphologyElement/in1",
 			"operator": "https://developer.mozilla.org/docs/Web/API/SVGFEMorphologyElement/operator",
 			"radiusX": "https://developer.mozilla.org/docs/Web/API/SVGFEMorphologyElement/radiusX",
-			"radiusY": "https://developer.mozilla.org/docs/Web/API/SVGFEMorphologyElement/radiusY"
+			"radiusY": "https://developer.mozilla.org/docs/Web/API/SVGFEMorphologyElement/radiusY",
+			"result": "https://developer.mozilla.org/docs/Web/API/SVGFEMorphologyElement/result",
+			"width": "https://developer.mozilla.org/docs/Web/API/SVGFEMorphologyElement/width",
+			"x": "https://developer.mozilla.org/docs/Web/API/SVGFEMorphologyElement/x",
+			"y": "https://developer.mozilla.org/docs/Web/API/SVGFEMorphologyElement/y"
 		}
 	},
-	"SVGFEOffsetElement": "https://developer.mozilla.org/docs/Web/API/SVGFEOffsetElement",
+	"SVGFEOffsetElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGFEOffsetElement",
+		"inst": {
+			"dx": "https://developer.mozilla.org/docs/Web/API/SVGFEOffsetElement/dx",
+			"dy": "https://developer.mozilla.org/docs/Web/API/SVGFEOffsetElement/dy",
+			"in1": "https://developer.mozilla.org/docs/Web/API/SVGFEOffsetElement/in1"
+		}
+	},
 	"SVGFEPointLightElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/SVGFEPointLightElement",
 		"inst": {
@@ -7467,13 +7558,32 @@
 	"SVGFESpotLightElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/SVGFESpotLightElement",
 		"inst": {
+			"limitingConeAngle": "https://developer.mozilla.org/docs/Web/API/SVGFESpotLightElement/limitingConeAngle",
+			"pointsAtX": "https://developer.mozilla.org/docs/Web/API/SVGFESpotLightElement/pointsAtX",
+			"pointsAtY": "https://developer.mozilla.org/docs/Web/API/SVGFESpotLightElement/pointsAtY",
+			"pointsAtZ": "https://developer.mozilla.org/docs/Web/API/SVGFESpotLightElement/pointsAtZ",
+			"specularExponent": "https://developer.mozilla.org/docs/Web/API/SVGFESpotLightElement/specularExponent",
 			"x": "https://developer.mozilla.org/docs/Web/API/SVGFESpotLightElement/x",
 			"y": "https://developer.mozilla.org/docs/Web/API/SVGFESpotLightElement/y",
 			"z": "https://developer.mozilla.org/docs/Web/API/SVGFESpotLightElement/z"
 		}
 	},
-	"SVGFETileElement": "https://developer.mozilla.org/docs/Web/API/SVGFETileElement",
-	"SVGFETurbulenceElement": "https://developer.mozilla.org/docs/Web/API/SVGFETurbulenceElement",
+	"SVGFETileElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGFETileElement",
+		"inst": {
+			"in1": "https://developer.mozilla.org/docs/Web/API/SVGFETileElement/in1"
+		}
+	},
+	"SVGFETurbulenceElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGFETurbulenceElement",
+		"inst": {
+			"height": "https://developer.mozilla.org/docs/Web/API/SVGFETurbulenceElement/height",
+			"result": "https://developer.mozilla.org/docs/Web/API/SVGFETurbulenceElement/result",
+			"width": "https://developer.mozilla.org/docs/Web/API/SVGFETurbulenceElement/width",
+			"x": "https://developer.mozilla.org/docs/Web/API/SVGFETurbulenceElement/x",
+			"y": "https://developer.mozilla.org/docs/Web/API/SVGFETurbulenceElement/y"
+		}
+	},
 	"SVGFilterElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/SVGFilterElement",
 		"inst": {
@@ -7765,7 +7875,16 @@
 		}
 	},
 	"SVGUnitTypes": "https://developer.mozilla.org/docs/Web/API/SVGUnitTypes",
-	"SVGUseElement": "https://developer.mozilla.org/docs/Web/API/SVGUseElement",
+	"SVGUseElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/SVGUseElement",
+		"inst": {
+			"height": "https://developer.mozilla.org/docs/Web/API/SVGUseElement/height",
+			"href": "https://developer.mozilla.org/docs/Web/API/SVGUseElement/href",
+			"width": "https://developer.mozilla.org/docs/Web/API/SVGUseElement/width",
+			"x": "https://developer.mozilla.org/docs/Web/API/SVGUseElement/x",
+			"y": "https://developer.mozilla.org/docs/Web/API/SVGUseElement/y"
+		}
+	},
 	"SVGVKernElement": "https://developer.mozilla.org/docs/Web/API/SVGVKernElement",
 	"SVGViewElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/SVGViewElement",
@@ -7995,6 +8114,8 @@
 			"adoptedStyleSheets": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/adoptedStyleSheets",
 			"clonable": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/clonable",
 			"delegatesFocus": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/delegatesFocus",
+			"elementFromPoint": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/elementFromPoint",
+			"elementsFromPoint": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/elementsFromPoint",
 			"fullscreenElement": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/fullscreenElement",
 			"getAnimations": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/getAnimations",
 			"getHTML": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/getHTML",
