@@ -1,5 +1,9 @@
 # Changelog
 
+## v4.0.13 (2025-02-16)
+
+-   Updated MDN API index with @mdn/browser-compat-data version 5.6.39
+
 ## v4.0.12 (2025-02-09)
 
 -   Updated MDN API index with @mdn/browser-compat-data version 5.6.37
