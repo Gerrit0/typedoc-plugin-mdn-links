@@ -3554,6 +3554,7 @@
 		"inst": {
 			"close": "https://developer.mozilla.org/docs/Web/API/HTMLDialogElement/close",
 			"open": "https://developer.mozilla.org/docs/Web/API/HTMLDialogElement/open",
+			"requestClose": "https://developer.mozilla.org/docs/Web/API/HTMLDialogElement/requestClose",
 			"returnValue": "https://developer.mozilla.org/docs/Web/API/HTMLDialogElement/returnValue",
 			"show": "https://developer.mozilla.org/docs/Web/API/HTMLDialogElement/show",
 			"showModal": "https://developer.mozilla.org/docs/Web/API/HTMLDialogElement/showModal"
@@ -8006,10 +8007,15 @@
 			"deselectAll": "https://developer.mozilla.org/docs/Web/API/SVGSVGElement/deselectAll",
 			"getCurrentTime": "https://developer.mozilla.org/docs/Web/API/SVGSVGElement/getCurrentTime",
 			"getElementById": "https://developer.mozilla.org/docs/Web/API/SVGSVGElement/getElementById",
+			"height": "https://developer.mozilla.org/docs/Web/API/SVGSVGElement/height",
 			"pauseAnimations": "https://developer.mozilla.org/docs/Web/API/SVGSVGElement/pauseAnimations",
 			"preserveAspectRatio": "https://developer.mozilla.org/docs/Web/API/SVGSVGElement/preserveAspectRatio",
 			"setCurrentTime": "https://developer.mozilla.org/docs/Web/API/SVGSVGElement/setCurrentTime",
-			"unpauseAnimations": "https://developer.mozilla.org/docs/Web/API/SVGSVGElement/unpauseAnimations"
+			"unpauseAnimations": "https://developer.mozilla.org/docs/Web/API/SVGSVGElement/unpauseAnimations",
+			"viewBox": "https://developer.mozilla.org/docs/Web/API/SVGSVGElement/viewBox",
+			"width": "https://developer.mozilla.org/docs/Web/API/SVGSVGElement/width",
+			"x": "https://developer.mozilla.org/docs/Web/API/SVGSVGElement/x",
+			"y": "https://developer.mozilla.org/docs/Web/API/SVGSVGElement/y"
 		}
 	},
 	"SVGScriptElement": {
@@ -11059,6 +11065,7 @@
 		"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error",
 		"inst": {
 			"Error": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error/Error",
+			"captureStackTrace": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error/captureStackTrace",
 			"cause": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error/cause",
 			"columnNumber": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error/columnNumber",
 			"fileName": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error/fileName",
@@ -11067,6 +11074,7 @@
 			"name": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error/name",
 			"serializable_object": "https://developer.mozilla.org/docs/Glossary/Serializable_object",
 			"stack": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error/stack",
+			"stackTraceLimit": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error/stackTraceLimit",
 			"toString": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error/toString"
 		}
 	},
