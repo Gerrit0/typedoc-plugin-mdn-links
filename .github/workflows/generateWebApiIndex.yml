@@ -19,11 +19,16 @@ jobs:
               uses: actions/setup-node@v3
               with:
                   node-version: "16"
+                  cache: "pnpm"
+            - name: Install pnpm
+              run: npm install -g pnpm@10
             - name: Install
-              run: npm install --no-package-lock
+              run: pnpm install
+            - name: Update @mdn/browser-compat-data
+              run: pnpm update @mdn/browser-compat-data@5.x.x
             - name: Execute Generation Script
               run: |
-                  npm run generateWebApiIndex
+                  pnpm generateWebApiIndex
             - name: Commit and push changes
               run: |
                   git config --local user.email "github-actions@github.com"

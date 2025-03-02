@@ -1,17 +1,17 @@
 {
-    "compilerOptions": {
-        "target": "es2020",
-        "module": "NodeNext",
-        "lib": ["ESNext", "DOM"],
-        "rootDir": "src",
-        "strict": true,
-        "isolatedModules": true,
-        "esModuleInterop": true,
-        "resolveJsonModule": true,
-        "outDir": "dist",
-        "types": [],
-        "skipLibCheck": true,
-        "verbatimModuleSyntax": true
-    },
-    "include": ["."]
+	"compilerOptions": {
+		"target": "es2020",
+		"module": "NodeNext",
+		"lib": ["ESNext", "DOM"],
+		"rootDir": "src",
+		"strict": true,
+		"isolatedModules": true,
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+		"outDir": "dist",
+		"types": [],
+		"skipLibCheck": true,
+		"verbatimModuleSyntax": true
+	},
+	"include": ["."]
 }

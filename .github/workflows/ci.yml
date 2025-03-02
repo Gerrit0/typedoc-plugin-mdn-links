@@ -20,14 +20,17 @@ jobs:
               uses: actions/setup-node@v3
               with:
                   node-version: ${{ matrix.node }}
+                  cache: pnpm
+            - name: Install pnpm
+              run: npm install -g pnpm@10
             - name: Install
-              run: npm install
+              run: pnpm install
             - name: Build
-              run: npm run build
+              run: pnpm build
             - name: Test
-              run: npm run test
+              run: pnpm  test
             - name: Lint
-              run: npm run lint
+              run: pnpm lint
             - name: Circular dependency check
               uses: gerrit0/circular-dependency-check@v2
               with:

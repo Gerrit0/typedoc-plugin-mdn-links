@@ -11,7 +11,7 @@ extra=$"\
 \n\
 ## $version ($(date '+%Y-%m-%d'))\n\
 \n\
--   Updated MDN API index with @mdn/browser-compat-data version $compat_version\n\
+- Updated MDN API index with @mdn/browser-compat-data version $compat_version\n\
 "
 
     awk $"
