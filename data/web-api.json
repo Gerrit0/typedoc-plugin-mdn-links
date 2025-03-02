@@ -2781,6 +2781,14 @@
 			"requestPermission": "https://developer.mozilla.org/docs/Web/API/FileSystemHandle/requestPermission"
 		}
 	},
+	"FileSystemObserver": {
+		"url": "https://developer.mozilla.org/docs/Web/API/FileSystemObserver",
+		"inst": {
+			"FileSystemObserver": "https://developer.mozilla.org/docs/Web/API/FileSystemObserver/FileSystemObserver",
+			"disconnect": "https://developer.mozilla.org/docs/Web/API/FileSystemObserver/disconnect",
+			"observe": "https://developer.mozilla.org/docs/Web/API/FileSystemObserver/observe"
+		}
+	},
 	"FileSystemSync": "https://developer.mozilla.org/docs/Web/API/FileSystemSync",
 	"FileSystemSyncAccessHandle": {
 		"url": "https://developer.mozilla.org/docs/Web/API/FileSystemSyncAccessHandle",
@@ -11069,6 +11077,7 @@
 			"cause": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error/cause",
 			"columnNumber": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error/columnNumber",
 			"fileName": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error/fileName",
+			"isError": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error/isError",
 			"lineNumber": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error/lineNumber",
 			"message": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error/message",
 			"name": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error/name",
