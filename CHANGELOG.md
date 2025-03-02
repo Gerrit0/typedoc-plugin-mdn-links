@@ -1,5 +1,9 @@
 # Changelog
 
+## v5.0.1 (2025-03-02)
+
+- Correct documented TypeDoc support in README.
+
 ## v5.0.0 (2025-03-02)
 
 - Breaking: Drop support for TypeDoc 0.26.x
