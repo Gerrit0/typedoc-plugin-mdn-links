@@ -1,3 +1,4 @@
+// @ts-check
 import bcd from "@mdn/browser-compat-data/forLegacyNode";
 import { writeFileSync } from "node:fs";
 import { join, resolve } from "node:path";
@@ -24,28 +25,31 @@ function addResults(outResults, key, data) {
 	// No MDN page = no link
 	if (!data.__compat?.mdn_url) return;
 
+	/** @type {WebApiData["inst"]} */
+	const inst = {};
+	/** @type {WebApiData["stat"]} */
+	const stat = {};
+
 	/** @type {WebApiData} */
 	const result = {
 		url: data.__compat.mdn_url,
-		inst: {},
-		stat: {},
 	};
 
 	for (const key in data) {
 		if (key !== "__compat") {
 			addResults(
-				key.endsWith("_static") ? result.stat : result.inst,
+				key.endsWith("_static") ? stat : inst,
 				key.replace(/_static$/, ""),
 				data[key],
 			);
 		}
 	}
 
-	if (!Object.keys(result.inst).length) {
-		delete result.inst;
+	if (Object.keys(inst).length) {
+		result.inst = inst;
 	}
-	if (!Object.keys(result.stat).length) {
-		delete result.stat;
+	if (Object.keys(stat).length) {
+		result.stat = stat;
 	}
 
 	if (!result.inst && !result.stat) {
