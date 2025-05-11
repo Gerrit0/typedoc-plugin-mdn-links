@@ -26,7 +26,7 @@ extra=$"\
     " CHANGELOG.md > CHANGELOG2.md
     mv CHANGELOG2.md CHANGELOG.md
 
-    git add CHANGELOG.md ./package.json ./package-lock.json ./data/web-api.json
+    git add CHANGELOG.md ./package.json ./pnpm-lock.yaml ./data/web-api.json
     git commit -m "[github-actions] Update Web API Index";
     git push
 else
