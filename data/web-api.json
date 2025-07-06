@@ -1372,6 +1372,7 @@
 			"isContextLost": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/isContextLost",
 			"isPointInPath": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/isPointInPath",
 			"isPointInStroke": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/isPointInStroke",
+			"lang": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/lang",
 			"letterSpacing": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/letterSpacing",
 			"lineCap": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/lineCap",
 			"lineDashOffset": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/lineDashOffset",
@@ -1657,6 +1658,7 @@
 			"size": "https://developer.mozilla.org/docs/Web/API/CountQueuingStrategy/size"
 		}
 	},
+	"CreateMonitor": "https://developer.mozilla.org/docs/Web/API/CreateMonitor",
 	"Credential": {
 		"url": "https://developer.mozilla.org/docs/Web/API/Credential",
 		"inst": {
@@ -2203,7 +2205,8 @@
 			"xmlVersion": "https://developer.mozilla.org/docs/Web/API/Document/xmlVersion"
 		},
 		"stat": {
-			"parseHTMLUnsafe": "https://developer.mozilla.org/docs/Web/API/Document/parseHTMLUnsafe_static"
+			"parseHTMLUnsafe": "https://developer.mozilla.org/docs/Web/API/Document/parseHTMLUnsafe_static",
+			"parseHTML": "https://developer.mozilla.org/docs/Web/API/Document/parseHTML_static"
 		}
 	},
 	"DocumentFragment": {
@@ -2467,6 +2470,7 @@
 			"setAttributeNode": "https://developer.mozilla.org/docs/Web/API/Element/setAttributeNode",
 			"setAttributeNodeNS": "https://developer.mozilla.org/docs/Web/API/Element/setAttributeNodeNS",
 			"setCapture": "https://developer.mozilla.org/docs/Web/API/Element/setCapture",
+			"setHTML": "https://developer.mozilla.org/docs/Web/API/Element/setHTML",
 			"setHTMLUnsafe": "https://developer.mozilla.org/docs/Web/API/Element/setHTMLUnsafe",
 			"setPointerCapture": "https://developer.mozilla.org/docs/Web/API/Element/setPointerCapture",
 			"shadowRoot": "https://developer.mozilla.org/docs/Web/API/Element/shadowRoot",
@@ -3582,7 +3586,12 @@
 			"namedItem": "https://developer.mozilla.org/docs/Web/API/HTMLCollection/namedItem"
 		}
 	},
-	"HTMLDListElement": "https://developer.mozilla.org/docs/Web/API/HTMLDListElement",
+	"HTMLDListElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/HTMLDListElement",
+		"inst": {
+			"compact": "https://developer.mozilla.org/docs/Web/API/HTMLDListElement/compact"
+		}
+	},
 	"HTMLDataElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLDataElement",
 		"inst": {
@@ -3972,7 +3981,12 @@
 			"volume": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/volume"
 		}
 	},
-	"HTMLMenuElement": "https://developer.mozilla.org/docs/Web/API/HTMLMenuElement",
+	"HTMLMenuElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/HTMLMenuElement",
+		"inst": {
+			"compact": "https://developer.mozilla.org/docs/Web/API/HTMLMenuElement/compact"
+		}
+	},
 	"HTMLMetaElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLMetaElement",
 		"inst": {
@@ -4005,6 +4019,7 @@
 	"HTMLOListElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLOListElement",
 		"inst": {
+			"compact": "https://developer.mozilla.org/docs/Web/API/HTMLOListElement/compact",
 			"reversed": "https://developer.mozilla.org/docs/Web/API/HTMLOListElement/reversed",
 			"start": "https://developer.mozilla.org/docs/Web/API/HTMLOListElement/start",
 			"type": "https://developer.mozilla.org/docs/Web/API/HTMLOListElement/type"
@@ -4148,6 +4163,7 @@
 			"willValidate": "https://developer.mozilla.org/docs/Web/API/HTMLSelectElement/willValidate"
 		}
 	},
+	"HTMLSelectedContentElement": "https://developer.mozilla.org/docs/Web/API/HTMLSelectedContentElement",
 	"HTMLSlotElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLSlotElement",
 		"inst": {
@@ -4337,7 +4353,12 @@
 			"track": "https://developer.mozilla.org/docs/Web/API/HTMLTrackElement/track"
 		}
 	},
-	"HTMLUListElement": "https://developer.mozilla.org/docs/Web/API/HTMLUListElement",
+	"HTMLUListElement": {
+		"url": "https://developer.mozilla.org/docs/Web/API/HTMLUListElement",
+		"inst": {
+			"compact": "https://developer.mozilla.org/docs/Web/API/HTMLUListElement/compact"
+		}
+	},
 	"HTMLUnknownElement": "https://developer.mozilla.org/docs/Web/API/HTMLUnknownElement",
 	"HTMLVideoElement": {
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLVideoElement",
@@ -4629,6 +4650,7 @@
 			"colorSpace": "https://developer.mozilla.org/docs/Web/API/ImageData/colorSpace",
 			"data": "https://developer.mozilla.org/docs/Web/API/ImageData/data",
 			"height": "https://developer.mozilla.org/docs/Web/API/ImageData/height",
+			"pixelFormat": "https://developer.mozilla.org/docs/Web/API/ImageData/pixelFormat",
 			"width": "https://developer.mozilla.org/docs/Web/API/ImageData/width"
 		}
 	},
@@ -4790,6 +4812,20 @@
 			"pseudoElement": "https://developer.mozilla.org/docs/Web/API/KeyframeEffect/pseudoElement",
 			"setKeyframes": "https://developer.mozilla.org/docs/Web/API/KeyframeEffect/setKeyframes",
 			"target": "https://developer.mozilla.org/docs/Web/API/KeyframeEffect/target"
+		}
+	},
+	"LanguageDetector": {
+		"url": "https://developer.mozilla.org/docs/Web/API/LanguageDetector",
+		"inst": {
+			"destroy": "https://developer.mozilla.org/docs/Web/API/LanguageDetector/destroy",
+			"detect": "https://developer.mozilla.org/docs/Web/API/LanguageDetector/detect",
+			"expectedInputLanguages": "https://developer.mozilla.org/docs/Web/API/LanguageDetector/expectedInputLanguages",
+			"inputQuota": "https://developer.mozilla.org/docs/Web/API/LanguageDetector/inputQuota",
+			"measureInputUsage": "https://developer.mozilla.org/docs/Web/API/LanguageDetector/measureInputUsage"
+		},
+		"stat": {
+			"availability": "https://developer.mozilla.org/docs/Web/API/LanguageDetector/availability_static",
+			"create": "https://developer.mozilla.org/docs/Web/API/LanguageDetector/create_static"
 		}
 	},
 	"LargestContentfulPaint": {
@@ -5820,6 +5856,7 @@
 			"fontKerning": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/fontKerning",
 			"fontStretch": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/fontStretch",
 			"fontVariantCaps": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/fontVariantCaps",
+			"getContextAttributes": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/getContextAttributes",
 			"getImageData": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/getImageData",
 			"getLineDash": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/getLineDash",
 			"getTransform": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/getTransform",
@@ -5830,6 +5867,7 @@
 			"isContextLost": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/isContextLost",
 			"isPointInPath": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/isPointInPath",
 			"isPointInStroke": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/isPointInStroke",
+			"lang": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/lang",
 			"letterSpacing": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/letterSpacing",
 			"lineCap": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/lineCap",
 			"lineDashOffset": "https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/lineDashOffset",
@@ -6508,7 +6546,12 @@
 	"ProgressEvent": {
 		"url": "https://developer.mozilla.org/docs/Web/API/ProgressEvent",
 		"inst": {
-			"ProgressEvent": "https://developer.mozilla.org/docs/Web/API/ProgressEvent/ProgressEvent",
+			"ProgressEvent": {
+				"url": "https://developer.mozilla.org/docs/Web/API/ProgressEvent/ProgressEvent",
+				"inst": {
+					"loaded_total_options_accept_double": "https://developer.mozilla.org/docs/Web/API/ProgressEvent/ProgressEvent"
+				}
+			},
 			"lengthComputable": "https://developer.mozilla.org/docs/Web/API/ProgressEvent/lengthComputable",
 			"loaded": "https://developer.mozilla.org/docs/Web/API/ProgressEvent/loaded",
 			"total": "https://developer.mozilla.org/docs/Web/API/ProgressEvent/total"
@@ -8257,6 +8300,7 @@
 			"pictureInPictureElement": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/pictureInPictureElement",
 			"pointerLockElement": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/pointerLockElement",
 			"serializable": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/serializable",
+			"setHTML": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/setHTML",
 			"setHTMLUnsafe": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/setHTMLUnsafe",
 			"slotAssignment": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/slotAssignment",
 			"styleSheets": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/styleSheets"
@@ -9002,6 +9046,7 @@
 		"inst": {
 			"URLPattern": "https://developer.mozilla.org/docs/Web/API/URLPattern/URLPattern",
 			"exec": "https://developer.mozilla.org/docs/Web/API/URLPattern/exec",
+			"hasRegExpGroups": "https://developer.mozilla.org/docs/Web/API/URLPattern/hasRegExpGroups",
 			"hash": "https://developer.mozilla.org/docs/Web/API/URLPattern/hash",
 			"hostname": "https://developer.mozilla.org/docs/Web/API/URLPattern/hostname",
 			"password": "https://developer.mozilla.org/docs/Web/API/URLPattern/password",
@@ -9293,7 +9338,9 @@
 			"displayHeight": "https://developer.mozilla.org/docs/Web/API/VideoFrame/displayHeight",
 			"displayWidth": "https://developer.mozilla.org/docs/Web/API/VideoFrame/displayWidth",
 			"duration": "https://developer.mozilla.org/docs/Web/API/VideoFrame/duration",
+			"flip": "https://developer.mozilla.org/docs/Web/API/VideoFrame/flip",
 			"format": "https://developer.mozilla.org/docs/Web/API/VideoFrame/format",
+			"rotation": "https://developer.mozilla.org/docs/Web/API/VideoFrame/rotation",
 			"timestamp": "https://developer.mozilla.org/docs/Web/API/VideoFrame/timestamp",
 			"visibleRect": "https://developer.mozilla.org/docs/Web/API/VideoFrame/visibleRect"
 		}
@@ -10511,6 +10558,7 @@
 			"depthDataFormat": "https://developer.mozilla.org/docs/Web/API/XRSession/depthDataFormat",
 			"depthUsage": "https://developer.mozilla.org/docs/Web/API/XRSession/depthUsage",
 			"domOverlayState": "https://developer.mozilla.org/docs/Web/API/XRSession/domOverlayState",
+			"enabledFeatures": "https://developer.mozilla.org/docs/Web/API/XRSession/enabledFeatures",
 			"end": "https://developer.mozilla.org/docs/Web/API/XRSession/end",
 			"environmentBlendMode": "https://developer.mozilla.org/docs/Web/API/XRSession/environmentBlendMode",
 			"inputSources": "https://developer.mozilla.org/docs/Web/API/XRSession/inputSources",
@@ -11113,7 +11161,12 @@
 					"getNumberingSystems": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/getNumberingSystems",
 					"getTextInfo": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/getTextInfo",
 					"getTimeZones": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/getTimeZones",
-					"getWeekInfo": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/getWeekInfo",
+					"getWeekInfo": {
+						"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/getWeekInfo",
+						"inst": {
+							"returns_minimalDays_property": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/getWeekInfo#minimaldays"
+						}
+					},
 					"hourCycle": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/hourCycle",
 					"language": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/language",
 					"maximize": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/maximize",
@@ -11179,7 +11232,17 @@
 				}
 			},
 			"getCanonicalLocales": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/getCanonicalLocales",
-			"supportedValuesOf": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/supportedValuesOf"
+			"supportedValuesOf": {
+				"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/supportedValuesOf",
+				"inst": {
+					"key_parameter_calendar": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/supportedValuesOf#supported_calendar_types",
+					"key_parameter_collation": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/supportedValuesOf#supported_collation_types",
+					"key_parameter_currency": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/supportedValuesOf#supported_currency_identifiers",
+					"key_parameter_numberingSystem": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/supportedValuesOf#supported_numbering_system_types",
+					"key_parameter_timeZone": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/supportedValuesOf#supported_time_zone_identifiers",
+					"key_parameter_unit": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/supportedValuesOf#supported_unit_types"
+				}
+			}
 		}
 	},
 	"Iterator": {
