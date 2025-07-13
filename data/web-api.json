@@ -4729,12 +4729,15 @@
 		"url": "https://developer.mozilla.org/docs/Web/API/IntersectionObserver",
 		"inst": {
 			"IntersectionObserver": "https://developer.mozilla.org/docs/Web/API/IntersectionObserver/IntersectionObserver",
+			"delay": "https://developer.mozilla.org/docs/Web/API/IntersectionObserver/delay",
 			"disconnect": "https://developer.mozilla.org/docs/Web/API/IntersectionObserver/disconnect",
 			"observe": "https://developer.mozilla.org/docs/Web/API/IntersectionObserver/observe",
 			"root": "https://developer.mozilla.org/docs/Web/API/IntersectionObserver/root",
 			"rootMargin": "https://developer.mozilla.org/docs/Web/API/IntersectionObserver/rootMargin",
+			"scrollMargin": "https://developer.mozilla.org/docs/Web/API/IntersectionObserver/scrollMargin",
 			"takeRecords": "https://developer.mozilla.org/docs/Web/API/IntersectionObserver/takeRecords",
 			"thresholds": "https://developer.mozilla.org/docs/Web/API/IntersectionObserver/thresholds",
+			"trackVisibility": "https://developer.mozilla.org/docs/Web/API/IntersectionObserver/trackVisibility",
 			"unobserve": "https://developer.mozilla.org/docs/Web/API/IntersectionObserver/unobserve"
 		}
 	},
@@ -5166,7 +5169,8 @@
 			"setActionHandler": "https://developer.mozilla.org/docs/Web/API/MediaSession/setActionHandler",
 			"setCameraActive": "https://developer.mozilla.org/docs/Web/API/MediaSession/setCameraActive",
 			"setMicrophoneActive": "https://developer.mozilla.org/docs/Web/API/MediaSession/setMicrophoneActive",
-			"setPositionState": "https://developer.mozilla.org/docs/Web/API/MediaSession/setPositionState"
+			"setPositionState": "https://developer.mozilla.org/docs/Web/API/MediaSession/setPositionState",
+			"setScreenshareActive": "https://developer.mozilla.org/docs/Web/API/MediaSession/setScreenshareActive"
 		}
 	},
 	"MediaSource": {
@@ -5257,7 +5261,12 @@
 			"enabled": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/enabled",
 			"getCapabilities": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/getCapabilities",
 			"getConstraints": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/getConstraints",
-			"getSettings": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/getSettings",
+			"getSettings": {
+				"url": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/getSettings",
+				"inst": {
+					"return_object_property_screenPixelRatio": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/screenPixelRatio"
+				}
+			},
 			"id": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/id",
 			"kind": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/kind",
 			"label": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/label",
