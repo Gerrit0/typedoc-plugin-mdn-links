@@ -1414,7 +1414,13 @@
 		"url": "https://developer.mozilla.org/docs/Web/API/CaptureController",
 		"inst": {
 			"CaptureController": "https://developer.mozilla.org/docs/Web/API/CaptureController/CaptureController",
-			"setFocusBehavior": "https://developer.mozilla.org/docs/Web/API/CaptureController/setFocusBehavior"
+			"decreaseZoomLevel": "https://developer.mozilla.org/docs/Web/API/CaptureController/decreaseZoomLevel",
+			"forwardWheel": "https://developer.mozilla.org/docs/Web/API/CaptureController/forwardWheel",
+			"getSupportedZoomLevels": "https://developer.mozilla.org/docs/Web/API/CaptureController/getSupportedZoomLevels",
+			"increaseZoomLevel": "https://developer.mozilla.org/docs/Web/API/CaptureController/increaseZoomLevel",
+			"resetZoomLevel": "https://developer.mozilla.org/docs/Web/API/CaptureController/resetZoomLevel",
+			"setFocusBehavior": "https://developer.mozilla.org/docs/Web/API/CaptureController/setFocusBehavior",
+			"zoomLevel": "https://developer.mozilla.org/docs/Web/API/CaptureController/zoomLevel"
 		}
 	},
 	"CaretPosition": "https://developer.mozilla.org/docs/Web/API/CaretPosition",
