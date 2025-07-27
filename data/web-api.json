@@ -4431,6 +4431,7 @@
 			"forEach": "https://developer.mozilla.org/docs/Web/API/HighlightRegistry/forEach",
 			"get": "https://developer.mozilla.org/docs/Web/API/HighlightRegistry/get",
 			"has": "https://developer.mozilla.org/docs/Web/API/HighlightRegistry/has",
+			"highlightsFromPoint": "https://developer.mozilla.org/docs/Web/API/HighlightRegistry/highlightsFromPoint",
 			"keys": "https://developer.mozilla.org/docs/Web/API/HighlightRegistry/keys",
 			"set": "https://developer.mozilla.org/docs/Web/API/HighlightRegistry/set",
 			"size": "https://developer.mozilla.org/docs/Web/API/HighlightRegistry/size",
@@ -7217,6 +7218,8 @@
 		"url": "https://developer.mozilla.org/docs/Web/API/SVGAElement",
 		"inst": {
 			"href": "https://developer.mozilla.org/docs/Web/API/SVGAElement/href",
+			"rel": "https://developer.mozilla.org/docs/Web/API/SVGAElement/rel",
+			"relList": "https://developer.mozilla.org/docs/Web/API/SVGAElement/relList",
 			"target": "https://developer.mozilla.org/docs/Web/API/SVGAElement/target"
 		}
 	},
@@ -11190,7 +11193,8 @@
 					"numeric": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/numeric",
 					"region": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/region",
 					"script": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/script",
-					"toString": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/toString"
+					"toString": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/toString",
+					"variants": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/variants"
 				}
 			},
 			"NumberFormat": {
