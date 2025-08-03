@@ -80,7 +80,12 @@
 		"inst": {
 			"Animation": "https://developer.mozilla.org/docs/Web/API/Animation/Animation",
 			"cancel": "https://developer.mozilla.org/docs/Web/API/Animation/cancel",
-			"commitStyles": "https://developer.mozilla.org/docs/Web/API/Animation/commitStyles",
+			"commitStyles": {
+				"url": "https://developer.mozilla.org/docs/Web/API/Animation/commitStyles",
+				"inst": {
+					"endpoint_inclusive_commitStyles": "https://developer.mozilla.org/docs/Web/API/Animation/commitStyles"
+				}
+			},
 			"currentTime": "https://developer.mozilla.org/docs/Web/API/Animation/currentTime",
 			"effect": "https://developer.mozilla.org/docs/Web/API/Animation/effect",
 			"finish": "https://developer.mozilla.org/docs/Web/API/Animation/finish",
@@ -1423,7 +1428,14 @@
 			"zoomLevel": "https://developer.mozilla.org/docs/Web/API/CaptureController/zoomLevel"
 		}
 	},
-	"CaretPosition": "https://developer.mozilla.org/docs/Web/API/CaretPosition",
+	"CaretPosition": {
+		"url": "https://developer.mozilla.org/docs/Web/API/CaretPosition",
+		"inst": {
+			"getClientRect": "https://developer.mozilla.org/docs/Web/API/CaretPosition/getClientRect",
+			"offset": "https://developer.mozilla.org/docs/Web/API/CaretPosition/offset",
+			"offsetNode": "https://developer.mozilla.org/docs/Web/API/CaretPosition/offsetNode"
+		}
+	},
 	"ChannelMergerNode": {
 		"url": "https://developer.mozilla.org/docs/Web/API/ChannelMergerNode",
 		"inst": {
@@ -4594,8 +4606,12 @@
 	"IdentityCredential": {
 		"url": "https://developer.mozilla.org/docs/Web/API/IdentityCredential",
 		"inst": {
+			"configURL": "https://developer.mozilla.org/docs/Web/API/IdentityCredential/configURL",
 			"isAutoSelected": "https://developer.mozilla.org/docs/Web/API/IdentityCredential/isAutoSelected",
 			"token": "https://developer.mozilla.org/docs/Web/API/IdentityCredential/token"
+		},
+		"stat": {
+			"disconnect": "https://developer.mozilla.org/docs/Web/API/IdentityCredential/disconnect_static"
 		}
 	},
 	"IdentityProvider": {
@@ -10039,6 +10055,7 @@
 			"event": "https://developer.mozilla.org/docs/Web/API/Window/event",
 			"external": "https://developer.mozilla.org/docs/Web/API/Window/external",
 			"fence": "https://developer.mozilla.org/docs/Web/API/Window/fence",
+			"fetchLater": "https://developer.mozilla.org/docs/Web/API/Window/fetchLater",
 			"find": "https://developer.mozilla.org/docs/Web/API/Window/find",
 			"focus": "https://developer.mozilla.org/docs/Web/API/Window/focus",
 			"frameElement": "https://developer.mozilla.org/docs/Web/API/Window/frameElement",
@@ -10837,6 +10854,18 @@
 			"transferToFixedLength": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer/transferToFixedLength"
 		}
 	},
+	"AsyncDisposableStack": {
+		"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/AsyncDisposableStack",
+		"inst": {
+			"AsyncDisposableStack": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/AsyncDisposableStack/AsyncDisposableStack",
+			"adopt": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/AsyncDisposableStack/adopt",
+			"defer": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/AsyncDisposableStack/defer",
+			"disposeAsync": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/AsyncDisposableStack/disposeAsync",
+			"disposed": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/AsyncDisposableStack/disposed",
+			"move": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/AsyncDisposableStack/move",
+			"use": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/AsyncDisposableStack/use"
+		}
+	},
 	"AsyncFunction": {
 		"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/AsyncFunction",
 		"inst": {
@@ -10999,6 +11028,18 @@
 			"toTimeString": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toTimeString",
 			"toUTCString": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toUTCString",
 			"valueOf": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/valueOf"
+		}
+	},
+	"DisposableStack": {
+		"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DisposableStack",
+		"inst": {
+			"DisposableStack": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DisposableStack/DisposableStack",
+			"adopt": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DisposableStack/adopt",
+			"defer": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DisposableStack/defer",
+			"dispose": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DisposableStack/dispose",
+			"disposed": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DisposableStack/disposed",
+			"move": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DisposableStack/move",
+			"use": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DisposableStack/use"
 		}
 	},
 	"Error": {
@@ -11632,13 +11673,23 @@
 			"valueOf": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/valueOf"
 		}
 	},
+	"SuppressedError": {
+		"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/SuppressedError",
+		"inst": {
+			"SuppressedError": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/SuppressedError/SuppressedError",
+			"error": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/SuppressedError/error",
+			"suppressed": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/SuppressedError/suppressed"
+		}
+	},
 	"Symbol": {
 		"url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
 		"inst": {
 			"@@toPrimitive": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/Symbol.toPrimitive",
 			"Symbol": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/Symbol",
+			"asyncDispose": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/asyncDispose",
 			"asyncIterator": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/asyncIterator",
 			"description": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/description",
+			"dispose": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/dispose",
 			"for": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/for",
 			"hasInstance": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/hasInstance",
 			"isConcatSpreadable": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/isConcatSpreadable",
