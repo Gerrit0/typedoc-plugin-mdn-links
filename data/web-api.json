@@ -8903,7 +8903,8 @@
 		"inst": {
 			"ToggleEvent": "https://developer.mozilla.org/docs/Web/API/ToggleEvent/ToggleEvent",
 			"newState": "https://developer.mozilla.org/docs/Web/API/ToggleEvent/newState",
-			"oldState": "https://developer.mozilla.org/docs/Web/API/ToggleEvent/oldState"
+			"oldState": "https://developer.mozilla.org/docs/Web/API/ToggleEvent/oldState",
+			"source": "https://developer.mozilla.org/docs/Web/API/ToggleEvent/source"
 		}
 	},
 	"Touch": {
