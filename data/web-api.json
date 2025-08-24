@@ -3841,11 +3841,13 @@
 		"url": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement",
 		"inst": {
 			"accept": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/accept",
+			"alpha": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/alpha",
 			"alt": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/alt",
 			"autocomplete": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/autocomplete",
 			"capture": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/capture",
 			"checkValidity": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/checkValidity",
 			"checked": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/checked",
+			"colorSpace": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/colorSpace",
 			"defaultChecked": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/defaultChecked",
 			"defaultValue": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/defaultValue",
 			"dirName": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/dirName",
@@ -6668,6 +6670,14 @@
 			"userVisibleOnly": "https://developer.mozilla.org/docs/Web/API/PushSubscriptionOptions/userVisibleOnly"
 		}
 	},
+	"QuotaExceededError": {
+		"url": "https://developer.mozilla.org/docs/Web/API/QuotaExceededError",
+		"inst": {
+			"QuotaExceededError": "https://developer.mozilla.org/docs/Web/API/QuotaExceededError/QuotaExceededError",
+			"quota": "https://developer.mozilla.org/docs/Web/API/QuotaExceededError/quota",
+			"requested": "https://developer.mozilla.org/docs/Web/API/QuotaExceededError/requested"
+		}
+	},
 	"RTCCertificate": {
 		"url": "https://developer.mozilla.org/docs/Web/API/RTCCertificate",
 		"inst": {
@@ -7155,6 +7165,7 @@
 			"clone": "https://developer.mozilla.org/docs/Web/API/Request/clone",
 			"credentials": "https://developer.mozilla.org/docs/Web/API/Request/credentials",
 			"destination": "https://developer.mozilla.org/docs/Web/API/Request/destination",
+			"duplex": "https://developer.mozilla.org/docs/Web/API/Request/duplex",
 			"formData": "https://developer.mozilla.org/docs/Web/API/Request/formData",
 			"headers": "https://developer.mozilla.org/docs/Web/API/Request/headers",
 			"integrity": "https://developer.mozilla.org/docs/Web/API/Request/integrity",
