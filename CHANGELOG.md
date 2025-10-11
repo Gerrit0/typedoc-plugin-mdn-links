@@ -1,5 +1,9 @@
 # Changelog
 
+## v5.0.10 (2025-10-11)
+
+- No behavior changes, migrated release workflow to use trusted publishing.
+
 ## v5.0.9 (2025-08-24)
 
 - Updated MDN API index with @mdn/browser-compat-data version 6.1.5

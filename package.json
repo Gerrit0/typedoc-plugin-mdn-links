@@ -1,6 +1,6 @@
 {
 	"name": "typedoc-plugin-mdn-links",
-	"version": "5.0.9",
+	"version": "5.0.10",
 	"main": "dist/index.js",
 	"type": "module",
 	"license": "MIT",
