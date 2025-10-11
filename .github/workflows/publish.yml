@@ -6,6 +6,11 @@ on:
             - main
         types:
             - completed
+
+permissions:
+    id-token: write # Required for OIDC
+    contents: write # Required for git tag
+
 jobs:
     npm-publish:
         name: npm-publish
@@ -25,6 +30,9 @@ jobs:
               uses: actions/setup-node@v4
               with:
                   node-version: "20"
+            - name: Upgrade npm # Hack to deal with needing a new version for OIDC
+              if: steps.check.outputs.changed == 'true'
+              run: npm install -g npm@11
             - name: Install pnpm
               if: steps.check.outputs.changed == 'true'
               run: npm install -g pnpm@10
@@ -40,5 +48,3 @@ jobs:
                   pnpm publish
                   git tag v$(jq .version package.json -r)
                   git push --tags
-              env:
-                npm_config_//registry.npmjs.org/:_authToken: ${{ secrets.NPM_AUTH_TOKEN }}
