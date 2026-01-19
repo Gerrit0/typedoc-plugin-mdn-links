@@ -197,7 +197,7 @@ describe("Statically defined names", () => {
 		expect(ref.externalUrl).toBeUndefined();
 	});
 
-	test("Handles links to Iterator types", () => {
+	test("Handles links to Iterator types #22", () => {
 		const refl = project.getChildByName("GH22");
 		expect(refl).toBeInstanceOf(DeclarationReflection);
 		const tags = (
@@ -223,6 +223,27 @@ describe("Statically defined names", () => {
 			{
 				target: "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/entries",
 				text: "entries",
+			},
+		]);
+	});
+
+	test("Handles links to WebAssembly types #28", () => {
+		const refl = project.getChildByName("GH28");
+		expect(refl).toBeInstanceOf(DeclarationReflection);
+		const tags = (
+			refl?.comment?.summary.filter(
+				(f) => f.kind === "inline-tag",
+			) as InlineTagDisplayPart[]
+		).map((part) => ({ target: part.target, text: part.text }));
+
+		expect(tags).toEqual([
+			{
+				target: "https://developer.mozilla.org/docs/WebAssembly/Reference/JavaScript_interface/instantiateStreaming_static",
+				text: "stream",
+			},
+			{
+				target: "https://developer.mozilla.org/docs/WebAssembly/Reference/JavaScript_interface/Module",
+				text: "Module",
 			},
 		]);
 	});

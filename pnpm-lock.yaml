@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@mdn/browser-compat-data':
-        specifier: ^6.1.5
-        version: 6.1.5
+        specifier: 7.x.x
+        version: 7.2.4
       '@types/node':
         specifier: ^22.16.0
         version: 22.16.0
@@ -233,8 +233,8 @@ packages:
   '@jridgewell/sourcemap-codec@1.5.4':
     resolution: {integrity: sha512-VT2+G1VQs/9oz078bLrYbecdZKs912zQlkelYpuf+SXF+QvZDYJlbx/LSx+meSAwdDFnF8FVXW92AVjjkVmgFw==}
 
-  '@mdn/browser-compat-data@6.1.5':
-    resolution: {integrity: sha512-PzdZZzRhcXvKB0begee28n5lvwAcinGKYuLZOVxHAZm+n7y01ddEGfdS1ZXRuVcV+ndG6mSEAE8vgudom5UjYg==}
+  '@mdn/browser-compat-data@7.2.4':
+    resolution: {integrity: sha512-qlZKXL9qvrxn2UNnlgjupk1sjz0X59oRvGBBaPqYtIxiM0q4m2D5ZF9P/T0qWm0gZYzb5jMZ1TpUViZZVv7cMg==}
 
   '@rollup/rollup-android-arm-eabi@4.44.2':
     resolution: {integrity: sha512-g0dF8P1e2QYPOj1gu7s/3LVP6kze9A7m6x0BZ9iTdXK8N5c2V7cpBKHV3/9A4Zd8xxavdhK0t4PnqjkqVmUc9Q==}
@@ -789,7 +789,7 @@ snapshots:
 
   '@jridgewell/sourcemap-codec@1.5.4': {}
 
-  '@mdn/browser-compat-data@6.1.5': {}
+  '@mdn/browser-compat-data@7.2.4': {}
 
   '@rollup/rollup-android-arm-eabi@4.44.2':
     optional: true

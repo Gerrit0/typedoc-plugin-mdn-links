@@ -1,5 +1,6 @@
+#!/usr/bin/env node
 // @ts-check
-import bcd from "@mdn/browser-compat-data/forLegacyNode";
+import bcd from "@mdn/browser-compat-data" with { type: "json" };
 import { writeFileSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -65,6 +66,7 @@ for (const key in bcd.api) {
 for (const key in bcd.javascript.builtins) {
 	addResults(results, key, bcd.javascript.builtins[key]);
 }
+addResults(results, "WebAssembly", bcd.webassembly.api);
 
 console.log("There are", Object.keys(results).length, "root entries.");
 writeFileSync(

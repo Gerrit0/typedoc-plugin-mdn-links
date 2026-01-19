@@ -47,3 +47,9 @@ export const commentTsResolution = true;
  * {@link Object.entries | entries}
  */
 export const GH22 = 1;
+
+/**
+ * {@link WebAssembly.instantiateStreaming | stream}
+ * {@link WebAssembly.Module | Module}
+ */
+export const GH28 = 1
