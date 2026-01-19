@@ -12,6 +12,17 @@ import { load } from "../index.js";
 describe("Statically defined names", () => {
 	let project: ProjectReflection;
 
+	function getSummaryTags(name: string) {
+		const refl = project.getChildByName(name);
+		expect(refl).toBeInstanceOf(DeclarationReflection);
+		const tags = (
+			refl?.comment?.summary.filter(
+				(f) => f.kind === "inline-tag",
+			) as InlineTagDisplayPart[]
+		).map((part) => ({ target: part.target, text: part.text }));
+		return tags
+	}
+
 	beforeAll(async () => {
 		const app = await Application.bootstrap({
 			entryPoints: ["src/testdata/links.ts"],
@@ -106,13 +117,7 @@ describe("Statically defined names", () => {
 	});
 
 	test("Handles comment links", () => {
-		const refl = project.getChildByName("comment");
-		expect(refl).toBeInstanceOf(DeclarationReflection);
-		const tags = (
-			refl?.comment?.summary.filter(
-				(f) => f.kind === "inline-tag",
-			) as InlineTagDisplayPart[]
-		).map((part) => ({ target: part.target, text: part.text }));
+		const tags = getSummaryTags("comment");
 
 		expect(tags).toEqual([
 			{
@@ -155,13 +160,7 @@ describe("Statically defined names", () => {
 	});
 
 	test("Handles comment links with TS link resolution", () => {
-		const refl = project.getChildByName("commentTsResolution");
-		expect(refl).toBeInstanceOf(DeclarationReflection);
-		const tags = (
-			refl?.comment?.summary.filter(
-				(f) => f.kind === "inline-tag",
-			) as InlineTagDisplayPart[]
-		).map((part) => ({ target: part.target, text: part.text }));
+		const tags = getSummaryTags("commentTsResolution");
 
 		expect(tags).toEqual([
 			{
@@ -198,13 +197,7 @@ describe("Statically defined names", () => {
 	});
 
 	test("Handles links to Iterator types #22", () => {
-		const refl = project.getChildByName("GH22");
-		expect(refl).toBeInstanceOf(DeclarationReflection);
-		const tags = (
-			refl?.comment?.summary.filter(
-				(f) => f.kind === "inline-tag",
-			) as InlineTagDisplayPart[]
-		).map((part) => ({ target: part.target, text: part.text }));
+		const tags = getSummaryTags("GH22");
 
 		expect(tags).toEqual([
 			{
@@ -227,14 +220,19 @@ describe("Statically defined names", () => {
 		]);
 	});
 
+	test("Handles links to Promise types #27", () => {
+		const tags = getSummaryTags("GH27");
+
+		expect(tags).toEqual([
+			{
+				target: "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+				text: "Promise",
+			}
+		]);
+	});
+
 	test("Handles links to WebAssembly types #28", () => {
-		const refl = project.getChildByName("GH28");
-		expect(refl).toBeInstanceOf(DeclarationReflection);
-		const tags = (
-			refl?.comment?.summary.filter(
-				(f) => f.kind === "inline-tag",
-			) as InlineTagDisplayPart[]
-		).map((part) => ({ target: part.target, text: part.text }));
+		const tags = getSummaryTags("GH28");
 
 		expect(tags).toEqual([
 			{

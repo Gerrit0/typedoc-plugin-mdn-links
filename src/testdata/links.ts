@@ -49,6 +49,11 @@ export const commentTsResolution = true;
 export const GH22 = 1;
 
 /**
+ * {@linkcode Promise}
+ */
+export const GH27 = 1;
+
+/**
  * {@link WebAssembly.instantiateStreaming | stream}
  * {@link WebAssembly.Module | Module}
  */
