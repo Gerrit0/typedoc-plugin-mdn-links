@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## v5.1.0 (2026-01-18)
 
 - Updated MDN API index with @mdn/browser-compat-data version 7.2.4
 - Support links to the WebAssembly namespace, #28
