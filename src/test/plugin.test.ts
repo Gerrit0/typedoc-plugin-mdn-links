@@ -20,7 +20,7 @@ describe("Statically defined names", () => {
 				(f) => f.kind === "inline-tag",
 			) as InlineTagDisplayPart[]
 		).map((part) => ({ target: part.target, text: part.text }));
-		return tags
+		return tags;
 	}
 
 	beforeAll(async () => {
@@ -227,7 +227,7 @@ describe("Statically defined names", () => {
 			{
 				target: "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise",
 				text: "Promise",
-			}
+			},
 		]);
 	});
 
@@ -236,7 +236,8 @@ describe("Statically defined names", () => {
 
 		expect(tags).toEqual([
 			{
-				target: "https://developer.mozilla.org/docs/WebAssembly/Reference/JavaScript_interface/instantiateStreaming_static",
+				target:
+					"https://developer.mozilla.org/docs/WebAssembly/Reference/JavaScript_interface/instantiateStreaming_static",
 				text: "stream",
 			},
 			{

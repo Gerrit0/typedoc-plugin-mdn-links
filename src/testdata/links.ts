@@ -57,4 +57,4 @@ export const GH27 = 1;
  * {@link WebAssembly.instantiateStreaming | stream}
  * {@link WebAssembly.Module | Module}
  */
-export const GH28 = 1
+export const GH28 = 1;
