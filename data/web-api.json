@@ -8467,6 +8467,7 @@
 			"mode": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/mode",
 			"pictureInPictureElement": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/pictureInPictureElement",
 			"pointerLockElement": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/pointerLockElement",
+			"referenceTarget": "https://developer.mozilla.org/docs/Web/API/ShadowRoot#shadowroot.referencetarget",
 			"serializable": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/serializable",
 			"setHTML": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/setHTML",
 			"setHTMLUnsafe": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/setHTMLUnsafe",
